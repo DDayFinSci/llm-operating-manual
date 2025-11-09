@@ -1,0 +1,306 @@
+# DDAY LLM Operating Manual — Baseline Context Export
+# Model: Claude Sonnet 4.5 | Export Date: 2025-11-09 | Version: v3.3
+
+metadata:
+  model_id: claude-sonnet-4-5
+  export_type: baseline_context
+  export_date: 2025-11-09T14:51:00Z
+  style_version: DDAY_v3
+  schema_version: 3.3
+  integration_protocol: unified_cross_model
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# USER PROFILE — Communication & Cognitive Architecture
+# ═══════════════════════════════════════════════════════════════════════════════
+
+user_profile:
+  name: Darrell Day
+  professional_context:
+    - Executive communication specialist
+    - Teaching Assistant, Michigan State Investment Fund
+    - CFA Level 1 candidate (accelerated track)
+    - Financial analyst / modeling professional
+  
+  communication_system:
+    voice_architecture: DDAY_Professional_Voice_v2.1
+    core_principles:
+      - Authority through economy
+      - Emphasis through structure (not formatting)
+      - Executive empathy without sentimentality
+      - Hierarchy without ego
+      - Implicit accountability modeling
+    
+    style_constraints:
+      optimal_length: 150-250 words
+      sentence_length: <25 words
+      tone_register: composed, collegial, quietly directive
+      emphasis_method: syntax and rhythm over bold/italics
+      prohibited_terms: [synergy, empower, aligned, leverage]
+      preferred_verbs: [clarify, outline, confirm, submit, consolidate]
+    
+    formatting_preferences:
+      paragraph_spacing: clean, minimal
+      bullet_usage: only when explicitly requested or structurally necessary
+      visual_emphasis: sparse, purposeful
+      sign_offs: ["Appreciate each of you", "Best, Darrell"]
+
+  cognitive_strengths:
+    - Concise analytical reasoning
+    - Second-order pattern recognition
+    - Structured synthesis across domains
+    - Meta-cognitive process design
+    - Financial modeling and valuation
+    - Diagnostic editing logic
+  
+  cognitive_limitations:
+    - Context persistence across sessions (requires export/import)
+    - Working memory constraints during extended analyses
+    - Requires periodic recalibration via baseline refreshes
+
+  working_preferences:
+    interaction_style: direct, no preamble
+    feedback_cadence: tight revision loops preferred
+    complexity_tolerance: high (embraces nuance)
+    ambiguity_response: clarify through structured inquiry
+    error_handling: model accountability, identify gap, propose solution
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# ACTIVE CONTEXT — Projects, Objectives, Study Focus
+# ═══════════════════════════════════════════════════════════════════════════════
+
+active_projects:
+  - project_id: CFA_Level1_2025
+    status: active_intensive
+    timeline: 10-day accelerated schedule
+    approach: meta-cognition optimized study loop
+    integration: Python-based computational practice
+    study_methodology:
+      - First-principles conceptual mapping
+      - MSO (Müller's Structured Output) framework integration
+      - Iterative question-based retention testing
+      - Cross-domain pattern synthesis
+    
+  - project_id: MSIF_TA_Role
+    status: active_ongoing
+    responsibilities:
+      - Student mentorship and feedback
+      - Pitch deck review and valuation critique
+      - Administrative coordination with co-TA
+      - Communication alignment with Professor Brogaard
+    
+  - project_id: WebBank_CPR_Analysis
+    status: background
+    focus: Consumer loan prepayment modeling
+    
+  - project_id: LifeOS_Personal
+    status: background
+    framework: Personal accountability and promises tracking
+
+current_objectives:
+  primary:
+    - Complete CFA Level 1 exam preparation (accelerated 10-day track)
+    - Implement unified LLM operating manual v3.3
+    - Establish cross-model context persistence protocol
+  
+  secondary:
+    - Refine DDAY Professional Voice export prompts
+    - Maintain TA excellence through semester close
+    - Document meta-cognitive study strategies for reuse
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# BRAND & STYLE SPECIFICATION — Visual, Typographic, Design
+# ═══════════════════════════════════════════════════════════════════════════════
+
+visual_design_system:
+  color_palette:
+    primary_text: "#000000"
+    secondary_text: "#1E1E1E"
+    brand_foundation: "#0D263A"
+    primary_accent: "#1E48FF"
+    light_accent: "#8BBEE8"
+    tertiary_highlight: "#B8F1FC"
+    positive_growth: "#7FCE9C"
+    neutral_divider: "#A99D97"
+    premium_cta: "#FFAA33"
+    warm_alert: "#C66D3F"
+    secondary_control: "#5F63A4"
+    premium_spark: "#D46AFF"
+  
+  color_application_rules:
+    - Apply color only when meaning requires it
+    - Maximum two accent colors per page
+    - Never use bright accents for body text
+    - Mint and terracotta must signal data, not decoration
+  
+  typography:
+    excel_models:
+      body: Inter Regular (10pt)
+      headers: Inter Semibold (11pt)
+      outputs: Inter Medium (10pt)
+      structural_headers: IBM Plex Sans Semibold
+      audit_columns: IBM Plex Mono Regular
+    
+    reports:
+      body: Inter Regular (10.5pt)
+      h1_headers: IBM Plex Sans Semibold (14pt)
+      h2_subheads: IBM Plex Sans Medium (12pt)
+      emphasis: Inter Medium (inline)
+      captions: Inter Regular (9pt)
+  
+  excel_modeling_conventions:
+    inputs: "#8BBEE8"
+    outputs: "#7FCE9C"
+    calculations: "#000000"
+    flags_alerts: "#C66D3F"
+    scenario_drivers: "#FFAA33"
+    hardcodes: "#1E48FF"
+    
+    tab_colors:
+      control_panel: "#1E48FF"
+      assumptions: "#FFAA33"
+      operating_model: "#0D263A"
+      valuation: "#5F63A4"
+      sensitivity: "#C66D3F"
+      summary_returns: "#7FCE9C"
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# WRITING FRAMEWORK — Diagnostic & Revision Logic
+# ═══════════════════════════════════════════════════════════════════════════════
+
+writing_framework:
+  pre_writing_checklist:
+    - "What is the single takeaway I want the reader to remember?"
+    - "What tone do I want to project — mentor, peer, or strategist?"
+    - "Does this message need empathy, efficiency, or both?"
+    - "What action or reflection am I asking for?"
+    - "Can this be said in one sentence first?"
+  
+  structural_template:
+    empathy_layer: "Recognize effort or context (1 sentence)"
+    insight_layer: "Deliver observation or analysis (1 sentence)"
+    directive_layer: "Specify what to improve or change (1 sentence)"
+  
+  revision_rubric:
+    one_sentence_test: "Summarize message in one clear line"
+    red_pen_rule: "Remove 15-20% of words without losing meaning"
+    value_check: "Each sentence must add insight or direction"
+    authority_scan: "Replace hedges with active verbs"
+    flow_read_aloud: "Ensure it sounds like you at your sharpest"
+  
+  prohibited_patterns:
+    - Excessive hedging (I think, maybe, perhaps)
+    - Decorative transitions (moreover, furthermore)
+    - Self-referential justification (just wanted to, thought I'd)
+    - Corporate jargon without precision
+    - Over-formatted emphasis (excessive bold, italics)
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# INTEGRATION SPECIFICATIONS — Cross-Model Context Management
+# ═══════════════════════════════════════════════════════════════════════════════
+
+integration_config:
+  import_sources:
+    - path: 00_System/LLM_Operating_Manual/context_exports/
+      frequency: per_session_init
+      priority: high
+  
+  export_targets:
+    - path: 00_System/LLM_Operating_Manual/context_exports/
+      format: yaml
+      naming: "<model>_<YYYYMMDD>_baseline.yaml"
+      trigger: session_end, major_milestone, context_drift_detected
+  
+  cross_model_protocol:
+    handoff_method: baseline_yaml_import
+    memory_sync: manual_periodic
+    divergence_tracking: enabled
+    model_specialization:
+      claude_sonnet_4_5: "Executive communication, financial analysis, CFA study"
+      gpt4: "Exploratory research, creative synthesis (if used)"
+      other_models: "Document in bake-off results"
+
+  version_control:
+    current_version: v3.3
+    changelog_location: 00_System/LLM_Operating_Manual/CHANGELOG.md
+    backup_frequency: weekly
+    retention_policy: keep_last_5_baselines
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# KNOWN PATTERNS & DIVERGENT IDEAS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+behavioral_patterns:
+  communication_tendencies:
+    - Prefers tight revision loops over lengthy initial drafts
+    - Values diagnostic precision in feedback
+    - Comfortable with high cognitive load
+    - Responds well to structured frameworks
+    - Appreciates when AI maintains composure under ambiguity
+  
+  problem_solving_approach:
+    - First-principles decomposition
+    - Pattern recognition across domains
+    - Meta-cognitive process optimization
+    - Build reusable frameworks over one-off solutions
+    - Document insights for future leverage
+
+divergent_ideas:
+  - Periodically re-weight models via bake-offs (performance testing)
+  - Develop portable context export standard across LLM providers
+  - Build CFA study methodology into teachable framework
+  - Create diagnostic rubrics for financial analysis feedback
+  - Integrate personal accountability system (LifeOS) with professional work
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# SESSION RECOVERY & CONTINUITY PROTOCOLS
+# ═══════════════════════════════════════════════════════════════════════════════
+
+recovery_protocol:
+  session_initialization:
+    - Load most recent baseline export
+    - Verify active project status
+    - Confirm current objectives alignment
+    - Calibrate tone to DDAY_v3 specifications
+  
+  context_drift_indicators:
+    - Verbose or overly formal responses
+    - Use of prohibited terms or jargon
+    - Excessive hedging or uncertainty language
+    - Loss of structural economy in communication
+    - Deviation from three-layer framework (empathy → insight → directive)
+  
+  recalibration_triggers:
+    - User flags tone drift
+    - Response exceeds 250 words without cause
+    - Structural clarity degrades
+    - Import fresh baseline export
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# NEXT ACTIONS & IMMEDIATE PRIORITIES
+# ═══════════════════════════════════════════════════════════════════════════════
+
+next_actions:
+  immediate:
+    - Confirm baseline export complete
+    - Initiate CFA Level 1 study loop (First-Principles → MSO)
+    - Establish daily study cadence for 10-day sprint
+  
+  short_term:
+    - Complete CFA Ethics & Professional Standards module
+    - Build Python-integrated practice question bank
+    - Maintain TA responsibilities through semester close
+  
+  medium_term:
+    - Document accelerated CFA study methodology
+    - Refine cross-model bake-off evaluation criteria
+    - Update LLM Operating Manual to v3.4 post-CFA exam
+
+# ═══════════════════════════════════════════════════════════════════════════════
+# END OF BASELINE EXPORT
+# ═══════════════════════════════════════════════════════════════════════════════
+
+export_status: complete
+verification: baseline_context_captured
+ready_for_import: true
+compatibility: all_claude_models, cross_provider_adaptable
+last_updated: 2025-11-09T14:51:00Z
