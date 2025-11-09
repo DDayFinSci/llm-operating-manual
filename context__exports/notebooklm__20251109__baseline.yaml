@@ -1,0 +1,59 @@
+Model_ID: <notebook.lm>
+Export_Type: baseline
+Export_Date: 2025-11-09 13:36
+Style/Voice_Version: DDAY_v3
+Active_Projects:
+  - CFA-Level1
+  - CFA-Python integrated study
+  - meta-cognition optimized CFA study on accelerated 10 day schedule
+Current_Objectives:
+  - Implement unified LLM operating manual v3.3 by exporting Notebook.lm's existing baseline context and memory snapshot of user characteristics for integrated context management
+  - Initiate standardized CFA study loop (First-Principles → MSO)
+Integration_Preferences:
+  Import_Path: 00_System/LLM_Operating_Manual/context_exports/
+  Export_Format: 00_System/LLM_Operating_Manual/context_exports/<model>_<YYYYMMDD>_baseline.yaml
+Divergent_Ideas:
+  - Use periodic bake-offs to re-weight model roles based on performance
+Cognitive_Profile:
+  Strengths:
+    - concise analytical reasoning [Query]
+    - strong conceptual thinker [1]
+    - second-order pattern recognition (e.g., multi-step causality) [2, 3]
+    - structured synthesis [Query]
+    - Accurate self-awareness/calibration (Trust confidence signals) [3, 4]
+  Limitations:
+    - limited persistent memory beyond current thread [Query]
+    - depends on shared exports for cross-session recall [Query]
+    - Systematic procedural gaps (not conceptual failures) [1, 2]
+    - Time collapse under pressure due to attempted on-the-fly derivation [5, 6]
+    - Moral substitution pattern used when Standards language is forgotten [6, 7]
+Baseline_Performance:
+  Mock_A_Score: 43% (78/180 correct) [8]
+  Error_Distribution:
+    Conceptual_Errors: 37% (38 instances) [9]
+    Procedural_Errors: 30% (31 instances) [9]
+    Terminology_Errors: 18% (18 instances) [9]
+  High_Confidence_Error_Root_Causes:
+    - Procedural gaps (e.g., Median calculation, semiannual adjustment errors) [10]
+    - Conceptual gaps (e.g., Margin return calculation) [10]
+  Confidence_Calibration:
+    High: 57.1% accuracy (16/28) [4]
+    Medium: 50.0% accuracy (18/36) [4]
+    Low: 36.1% accuracy (30/83) [4]
+Study_Plan_Context:
+  Pacing_Rules_to_Enforce:
+    - 2-Minute Rule (If no formula recalled within 2 minutes, mark and move) [11]
+    - Calculator Fail-Safe (If TVM keys don't resolve in 1 minute, skip) [11]
+  High_Priority_Weaknesses:
+    - Derivatives (Conceptual: Cannot distinguish put vs. call; payoff/profit calculation) [12]
+    - Fixed Income Duration (Conceptual + Terminology: Does not know definitions or formulas) [12]
+    - Quant TVM (Procedural: Fails to adjust N/I/Y/PMT for periodicity/deferral) [12]
+  Priority_Python_Builds:
+    - notebooks/quant.ipynb: pv(), fv(), npv(), annuity_pv(periods_deferred=0), convert_apr() [13]
+    - notebooks/derivatives.ipynb: call_payoff(), put_payoff(), call_profit(), put_profit(), visualization [14]
+    - notebooks/fixed_income.ipynb: bond_price(), ytm_solver(), modified_duration(), macaulay_duration() [14]
+  Reference_Sheets_to_Generate:
+    - /reference_sheets/ethics_triggers.md (Standard I–VII summaries, decision tree) [15]
+    - /reference_sheets/guess_heuristics.md (Fixed Income inverse price/yield, Ethics disclosure logic) [15]
+Next_Action_Confirmation: Save this file and push to GitHub; then confirm: Baseline export complete.
+Baseline export complete.

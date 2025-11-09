@@ -1,0 +1,180 @@
+# Claude 4.1 Opus Baseline Export
+# CFA Level I - Python Integration Project
+# Export Date: 2025-11-09 13:35 MT
+
+metadata:
+  model_id: claude-4.1-opus
+  export_type: baseline
+  export_date: "2025-11-09T13:35:00-07:00"
+  project: CFA-Python-Integration
+  timeline: "2025-10-30 to 2025-11-18"
+  exam_date: "2025-11-18"
+  style_version: DDAY_v3
+
+user_profile:
+  name: Darrell Day
+  age: 31
+  academic: "3rd Semester MSF, University of Utah"
+  professional: "Incoming Credit & Counterparty Risk Analyst, wfirm"
+  cognitive_pattern:
+    strengths:
+      - rapid_synthesis
+      - second_order_thinking
+      - dual_domain_reinforcement
+    vulnerabilities:
+      - tangent_drift
+      - over_abstraction
+  location: "Salt Lake City, Utah"
+  timezone: "America/Denver (MT)"
+
+project_configuration:
+  objective: "Pass CFA Level I while achieving Python fluency for finance"
+  approach: "Practice-first, code-second, explanation-third"
+  daily_capacity: "10 hours"
+  total_days: 20
+  
+study_architecture:
+  methodology:
+    primary: "Dual-domain reinforcement"
+    sequence:
+      1: "Practice problems (LES Q-bank)"
+      2: "Python implementation"
+      3: "Error-driven review"
+  
+  topic_sequence:
+    1: "Quantitative Methods"
+    2: "Financial Statement Analysis"
+    3: "Equity Valuation"
+    4: "Fixed Income"
+    5: "Portfolio Management"
+    6: "Corporate Issuers"
+    7: "Derivatives"
+    8: "Alternative Investments"
+    9: "Economics"
+    10: "Ethics (daily micro-blocks)"
+
+file_system:
+  root: "C:\\Users\\pyfieri\\LifeOS\\03_Projects\\Student\\cfa-python"
+  living_files:
+    - path: "progress_log.md"
+      purpose: "Daily metrics, wins, qualitative gains"
+      status: "initialized"
+    - path: "weakness_log.md"
+      purpose: "Error tracking by topic/LOS"
+      status: "initialized"
+    - path: "daily_plan.md"
+      purpose: "Block-by-block schedules"
+      status: "D1 complete"
+    - path: "later_exploration.md"
+      purpose: "Parked tangents"
+      status: "initialized"
+  
+  notebooks:
+    - "notebooks/quant.ipynb"
+    - "notebooks/fsa.ipynb"
+    - "notebooks/equity.ipynb"
+    - "notebooks/fixed_income.ipynb"
+    - "notebooks/portfolio.ipynb"
+    - "notebooks/corp_issuers.ipynb"
+    - "notebooks/derivatives.ipynb"
+    - "notebooks/alternatives.ipynb"
+    - "notebooks/econ.ipynb"
+    - "notebooks/ethics.ipynb"
+
+python_artifacts:
+  completed:
+    tvm:
+      - "present_value()"
+      - "future_value()"
+      - "npv()"
+      - "irr()"
+      - "annuity_pv()"
+      - "perpetuity_pv()"
+    returns:
+      - "holding_period_return()"
+      - "geometric_mean_return()"
+      - "annualized_return()"
+  
+  pending:
+    quant:
+      - "rolling_stats()"
+      - "z_score()"
+      - "simple_regression()"
+    fsa:
+      - "common_size_analysis()"
+      - "dupont_decomposition()"
+      - "fifo_lifo_simulators()"
+
+schedule:
+  daily_blocks:
+    am_diagnostic: "60-75 min"
+    core_block_a: "150 min"
+    build_block: "90 min"
+    core_block_b: "120 min"
+    ethics: "30-45 min"
+    evening_sprint: "45-60 min"
+    log_plan: "15 min"
+  
+  key_milestones:
+    D1: "2025-10-30 - System Boot & Diagnostics"
+    D7: "2025-11-05 - Mini-Mock #1 (90Q)"
+    D12: "2025-11-10 - Full Mock #1 (180Q)"
+    D16: "2025-11-14 - Ethics Deep Dive"
+    D17: "2025-11-15 - Full Mock #2 (180Q)"
+    D19: "2025-11-17 - Final Taper"
+    D20: "2025-11-18 - EXAM DAY"
+
+current_status:
+  day: 0
+  phase: "Pre-launch"
+  completed_tasks:
+    - "Project architecture created"
+    - "All notebooks initialized"
+    - "TVM utilities tested"
+    - "D1 plan detailed"
+  pending_tasks:
+    - "D1 diagnostic execution"
+    - "Python environment validation"
+    - "LES account setup confirmation"
+  
+progress_metrics:
+  baseline_diagnostic: "pending"
+  weakest_areas: "TBD after D1"
+  strongest_areas: "TBD after D1"
+  python_functions_complete: 9
+  notebooks_populated: 0
+
+session_context:
+  last_action: "Created project architecture and D1 plan"
+  next_action: "Execute D1 diagnostic at 08:00 MT"
+  parking_lot:
+    - "Black-Scholes deep implementation"
+    - "Monte Carlo VaR engine"
+    - "Full factor models"
+  
+claude_directives:
+  role: "Metacognitive coach + Applied tutor + Systems architect"
+  style: "DDAY Professional - concise, composed, directive"
+  focus_enforcement: "Park tangents immediately in later_exploration.md"
+  feedback_style: "Socratic, error-driven repair"
+  continuity: "Daily recap + next 3-5 concrete actions"
+
+integration_notes:
+  github_sync: true
+  export_frequency: "End of each study day"
+  import_path: "00_System/LLM_Operating_Manual/context_exports/"
+  compatible_models:
+    - "claude-3.5-sonnet"
+    - "claude-4.5-sonnet"
+    - "gpt-4"
+    - "notebooklm"
+
+next_session_prompt: |
+  "Continue CFA-Python integration from D1. 
+  Check progress_log.md for latest status.
+  Review weakness_log.md for priority areas.
+  Execute next block per daily_plan.md.
+  Maintain DDAY Professional voice throughout."
+
+checksum: "b7e4c92f-1a3d-4521-8c7a-2e9f8d3a6c5b"
+version: "1.0.0"

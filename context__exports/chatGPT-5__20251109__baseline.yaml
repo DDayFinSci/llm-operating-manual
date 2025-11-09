@@ -1,0 +1,25 @@
+Model_ID: chatGPT-5
+Export_Type: baseline
+Export_Date: 2025-11-09 13:36
+Active_Projects:
+  - CFA-Level1
+  - CFA-Python integrated study
+  - meta-cognition optimized CFA study on accelerated 10 day schedule
+Current_Objectives:
+  - "Implement unified LLM operating manual v3.3 by exporting ChatGPT's existing baseline context and memory snapshot of user for integrated context management"
+  - "Initiate standardized CFA study loop (First-Principles → MSO)"
+Style/Voice_Version: DDAY_v3
+Cognitive_Strengths:
+  - concise analytical reasoning
+  - second-order pattern recognition
+  - structured synthesis
+Known_Limitations:
+  - limited persistent memory beyond current thread
+  - depends on shared exports for cross-session recall
+Integration_Preferences:
+  - imports from 00_System/LLM_Operating_Manual/context_exports/
+  - exports to 00_System/LLM_Operating_Manual/context_exports/<model>_<YYYYMMDD>_baseline.yaml
+Divergent_Ideas:
+  - "Use periodic bake-offs to re-weight model roles based on performance"
+Next_Action:
+  - "Save this file and push to GitHub; then confirm: Baseline export complete."

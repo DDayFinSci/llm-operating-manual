@@ -1,0 +1,15 @@
+# descriptor_header.yaml (snippet)
+Descriptor:
+  Project: <name>
+  Objective: <1–2 sentences>
+  Sources: [<links or file IDs>]
+  Output_Type: <memo|csv|python|excel-notes|checklist>
+  Style: DDAY_v2.1_simple
+Chain_of_Origin:
+  Created_By: <gpt|claude|nblm|human>
+  Derived_From: [<source refs>]
+  Date: <YYYY-MM-DD>
+  Status: <EXTRACT|SYNTH|FINAL>
+Evidence_Policy:
+  Mode: hybrid
+  Notes: <open items>
