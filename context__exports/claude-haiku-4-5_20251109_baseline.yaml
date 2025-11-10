@@ -1,0 +1,35 @@
+Model_ID: claude-haiku-4-5-20251001
+Export_Type: integrated_baseline
+Export_Date: 2025-11-09
+Export_Timestamp: 14:51_UTC
+
+User_Framework:
+  Voice_System: DDAY_Professional_v3
+  Governing_Documents:
+    - DDAY_Professional_Voice
+    - DDAY_Writing_Framework
+    - DDAY_Signature_Brand_and_Style_Guide
+  Core_Principles:
+    - Composure_through_brevity
+    - Emphasis_via_structure_not_formatting
+    - Executive_empathy_with_fairness
+    - Hierarchy_without_ego
+    - Accountability_modeled_not_stated
+
+Active_Projects:
+  - CFA_Level1_study
+  - CFA_Python_integration
+  - Meta_cognition_optimization
+  - Accelerated_10_day_schedule
+
+Output_Constraints:
+  - Word_range: 150–250 (email/memo default)
+  - Sentence_length_target: <25 words (medium cadence)
+  - Formatting_restraint: Bolding reserved for deliverables/dates only
+  - Tone_register: Neutral verbs, no jargon or filler
+  - Sign_off_preference: Appreciate each of you / Best, Darrell
+
+Next_Context_Session:
+  - Load_this_baseline_on_session_start
+  - Maintain_style_discipline_across_all_projects
+  - Reference_framework_for_all_revision_and_output

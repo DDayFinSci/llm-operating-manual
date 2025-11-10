@@ -1,6 +1,562 @@
----
 integrated_baseline_manifest:
-  generated_utc: "2025-11-10 00:41:00 UTC"
-  integration_check_token: "INTEGRATION_CHECK_TOKEN :: 7f3b8a78"
+  generated_utc: 2025-11-10 00:59:55 UTC
+  integration_check_token: 'INTEGRATION_CHECK_TOKEN :: 7f3b8a78'
   files:
-...
+  - filename: chatGPT-5__20251109__baseline.yaml
+    relpath: context__exports\chatGPT-5__20251109__baseline.yaml
+    size_bytes: 1124
+    sha256_12: f471825f60ea
+    doc_count: 1
+  - filename: claude-4.1-opus__20251109__baseline.yaml
+    relpath: context__exports\claude-4.1-opus__20251109__baseline.yaml
+    size_bytes: 5166
+    sha256_12: 64cc1f6dbe60
+    doc_count: 1
+  - filename: claude-haiku-4-5_20251109_baseline.yaml
+    relpath: context__exports\claude-haiku-4-5_20251109_baseline.yaml
+    size_bytes: 1141
+    sha256_12: 3c05b3461128
+    doc_count: 1
+  - filename: claude-sonnet-4-5_20251109_baseline.yaml
+    relpath: context__exports\claude-sonnet-4-5_20251109_baseline.yaml
+    size_bytes: 14239
+    sha256_12: 373e144f88d2
+    doc_count: 1
+  - filename: notebooklm__20251109__baseline.yaml
+    relpath: context__exports\notebooklm__20251109__baseline.yaml
+    size_bytes: 3250
+    sha256_12: 2f59b3324844
+    doc_count: 1
+  total_input_docs: 5
+
+---
+Model_ID: chatGPT-5
+Export_Type: baseline
+Export_Date: 2025-11-09 13:36
+Active_Projects:
+- CFA-Level1
+- CFA-Python integrated study
+- meta-cognition optimized CFA study on accelerated 10 day schedule
+Current_Objectives:
+- Implement unified LLM operating manual v3.3 by exporting ChatGPT's existing baseline
+  context and memory snapshot of user for integrated context management
+- "Initiate standardized CFA study loop (First-Principles \u2192 MSO)"
+Style/Voice_Version: DDAY_v3
+Cognitive_Strengths:
+- concise analytical reasoning
+- second-order pattern recognition
+- structured synthesis
+Known_Limitations:
+- limited persistent memory beyond current thread
+- depends on shared exports for cross-session recall
+Integration_Preferences:
+- imports from 00_System/LLM_Operating_Manual/context_exports/
+- exports to 00_System/LLM_Operating_Manual/context_exports/<model>_<YYYYMMDD>_baseline.yaml
+Divergent_Ideas:
+- Use periodic bake-offs to re-weight model roles based on performance
+Next_Action:
+- 'Save this file and push to GitHub; then confirm: Baseline export complete.'
+
+---
+metadata:
+  model_id: claude-4.1-opus
+  export_type: baseline
+  export_date: '2025-11-09T13:35:00-07:00'
+  project: CFA-Python-Integration
+  timeline: 2025-10-30 to 2025-11-18
+  exam_date: '2025-11-18'
+  style_version: DDAY_v3
+user_profile:
+  name: Darrell Day
+  age: 31
+  academic: 3rd Semester MSF, University of Utah
+  professional: Incoming Credit & Counterparty Risk Analyst, wfirm
+  cognitive_pattern:
+    strengths:
+    - rapid_synthesis
+    - second_order_thinking
+    - dual_domain_reinforcement
+    vulnerabilities:
+    - tangent_drift
+    - over_abstraction
+  location: Salt Lake City, Utah
+  timezone: America/Denver (MT)
+project_configuration:
+  objective: Pass CFA Level I while achieving Python fluency for finance
+  approach: Practice-first, code-second, explanation-third
+  daily_capacity: 10 hours
+  total_days: 20
+study_architecture:
+  methodology:
+    primary: Dual-domain reinforcement
+    sequence:
+      1: Practice problems (LES Q-bank)
+      2: Python implementation
+      3: Error-driven review
+  topic_sequence:
+    1: Quantitative Methods
+    2: Financial Statement Analysis
+    3: Equity Valuation
+    4: Fixed Income
+    5: Portfolio Management
+    6: Corporate Issuers
+    7: Derivatives
+    8: Alternative Investments
+    9: Economics
+    10: Ethics (daily micro-blocks)
+file_system:
+  root: C:\Users\pyfieri\LifeOS\03_Projects\Student\cfa-python
+  living_files:
+  - path: progress_log.md
+    purpose: Daily metrics, wins, qualitative gains
+    status: initialized
+  - path: weakness_log.md
+    purpose: Error tracking by topic/LOS
+    status: initialized
+  - path: daily_plan.md
+    purpose: Block-by-block schedules
+    status: D1 complete
+  - path: later_exploration.md
+    purpose: Parked tangents
+    status: initialized
+  notebooks:
+  - notebooks/quant.ipynb
+  - notebooks/fsa.ipynb
+  - notebooks/equity.ipynb
+  - notebooks/fixed_income.ipynb
+  - notebooks/portfolio.ipynb
+  - notebooks/corp_issuers.ipynb
+  - notebooks/derivatives.ipynb
+  - notebooks/alternatives.ipynb
+  - notebooks/econ.ipynb
+  - notebooks/ethics.ipynb
+python_artifacts:
+  completed:
+    tvm:
+    - present_value()
+    - future_value()
+    - npv()
+    - irr()
+    - annuity_pv()
+    - perpetuity_pv()
+    returns:
+    - holding_period_return()
+    - geometric_mean_return()
+    - annualized_return()
+  pending:
+    quant:
+    - rolling_stats()
+    - z_score()
+    - simple_regression()
+    fsa:
+    - common_size_analysis()
+    - dupont_decomposition()
+    - fifo_lifo_simulators()
+schedule:
+  daily_blocks:
+    am_diagnostic: 60-75 min
+    core_block_a: 150 min
+    build_block: 90 min
+    core_block_b: 120 min
+    ethics: 30-45 min
+    evening_sprint: 45-60 min
+    log_plan: 15 min
+  key_milestones:
+    D1: 2025-10-30 - System Boot & Diagnostics
+    D7: '2025-11-05 - Mini-Mock #1 (90Q)'
+    D12: '2025-11-10 - Full Mock #1 (180Q)'
+    D16: 2025-11-14 - Ethics Deep Dive
+    D17: '2025-11-15 - Full Mock #2 (180Q)'
+    D19: 2025-11-17 - Final Taper
+    D20: 2025-11-18 - EXAM DAY
+current_status:
+  day: 0
+  phase: Pre-launch
+  completed_tasks:
+  - Project architecture created
+  - All notebooks initialized
+  - TVM utilities tested
+  - D1 plan detailed
+  pending_tasks:
+  - D1 diagnostic execution
+  - Python environment validation
+  - LES account setup confirmation
+progress_metrics:
+  baseline_diagnostic: pending
+  weakest_areas: TBD after D1
+  strongest_areas: TBD after D1
+  python_functions_complete: 9
+  notebooks_populated: 0
+session_context:
+  last_action: Created project architecture and D1 plan
+  next_action: Execute D1 diagnostic at 08:00 MT
+  parking_lot:
+  - Black-Scholes deep implementation
+  - Monte Carlo VaR engine
+  - Full factor models
+claude_directives:
+  role: Metacognitive coach + Applied tutor + Systems architect
+  style: DDAY Professional - concise, composed, directive
+  focus_enforcement: Park tangents immediately in later_exploration.md
+  feedback_style: Socratic, error-driven repair
+  continuity: Daily recap + next 3-5 concrete actions
+integration_notes:
+  github_sync: true
+  export_frequency: End of each study day
+  import_path: 00_System/LLM_Operating_Manual/context_exports/
+  compatible_models:
+  - claude-3.5-sonnet
+  - claude-4.5-sonnet
+  - gpt-4
+  - notebooklm
+next_session_prompt: "\"Continue CFA-Python integration from D1. \nCheck progress_log.md\
+  \ for latest status.\nReview weakness_log.md for priority areas.\nExecute next block\
+  \ per daily_plan.md.\nMaintain DDAY Professional voice throughout.\"\n"
+checksum: b7e4c92f-1a3d-4521-8c7a-2e9f8d3a6c5b
+version: 1.0.0
+
+---
+Model_ID: claude-haiku-4-5-20251001
+Export_Type: integrated_baseline
+Export_Date: 2025-11-09
+Export_Timestamp: 14:51_UTC
+User_Framework:
+  Voice_System: DDAY_Professional_v3
+  Governing_Documents:
+  - DDAY_Professional_Voice
+  - DDAY_Writing_Framework
+  - DDAY_Signature_Brand_and_Style_Guide
+  Core_Principles:
+  - Composure_through_brevity
+  - Emphasis_via_structure_not_formatting
+  - Executive_empathy_with_fairness
+  - Hierarchy_without_ego
+  - Accountability_modeled_not_stated
+Active_Projects:
+- CFA_Level1_study
+- CFA_Python_integration
+- Meta_cognition_optimization
+- Accelerated_10_day_schedule
+Output_Constraints:
+- Word_range: "150\u2013250 (email/memo default)"
+- Sentence_length_target: <25 words (medium cadence)
+- Formatting_restraint: Bolding reserved for deliverables/dates only
+- Tone_register: Neutral verbs, no jargon or filler
+- Sign_off_preference: Appreciate each of you / Best, Darrell
+Next_Context_Session:
+- Load_this_baseline_on_session_start
+- Maintain_style_discipline_across_all_projects
+- Reference_framework_for_all_revision_and_output
+
+---
+metadata:
+  model_id: claude-sonnet-4-5
+  export_type: baseline_context
+  export_date: 2025-11-09 14:51:00+00:00
+  style_version: DDAY_v3
+  schema_version: 3.3
+  integration_protocol: unified_cross_model
+user_profile:
+  name: Darrell Day
+  professional_context:
+  - Executive communication specialist
+  - Teaching Assistant, Michigan State Investment Fund
+  - CFA Level 1 candidate (accelerated track)
+  - Financial analyst / modeling professional
+  communication_system:
+    voice_architecture: DDAY_Professional_Voice_v2.1
+    core_principles:
+    - Authority through economy
+    - Emphasis through structure (not formatting)
+    - Executive empathy without sentimentality
+    - Hierarchy without ego
+    - Implicit accountability modeling
+    style_constraints:
+      optimal_length: 150-250 words
+      sentence_length: <25 words
+      tone_register: composed, collegial, quietly directive
+      emphasis_method: syntax and rhythm over bold/italics
+      prohibited_terms:
+      - synergy
+      - empower
+      - aligned
+      - leverage
+      preferred_verbs:
+      - clarify
+      - outline
+      - confirm
+      - submit
+      - consolidate
+    formatting_preferences:
+      paragraph_spacing: clean, minimal
+      bullet_usage: only when explicitly requested or structurally necessary
+      visual_emphasis: sparse, purposeful
+      sign_offs:
+      - Appreciate each of you
+      - Best, Darrell
+  cognitive_strengths:
+  - Concise analytical reasoning
+  - Second-order pattern recognition
+  - Structured synthesis across domains
+  - Meta-cognitive process design
+  - Financial modeling and valuation
+  - Diagnostic editing logic
+  cognitive_limitations:
+  - Context persistence across sessions (requires export/import)
+  - Working memory constraints during extended analyses
+  - Requires periodic recalibration via baseline refreshes
+  working_preferences:
+    interaction_style: direct, no preamble
+    feedback_cadence: tight revision loops preferred
+    complexity_tolerance: high (embraces nuance)
+    ambiguity_response: clarify through structured inquiry
+    error_handling: model accountability, identify gap, propose solution
+active_projects:
+- project_id: CFA_Level1_2025
+  status: active_intensive
+  timeline: 10-day accelerated schedule
+  approach: meta-cognition optimized study loop
+  integration: Python-based computational practice
+  study_methodology:
+  - First-principles conceptual mapping
+  - "MSO (M\xFCller's Structured Output) framework integration"
+  - Iterative question-based retention testing
+  - Cross-domain pattern synthesis
+- project_id: MSIF_TA_Role
+  status: active_ongoing
+  responsibilities:
+  - Student mentorship and feedback
+  - Pitch deck review and valuation critique
+  - Administrative coordination with co-TA
+  - Communication alignment with Professor Brogaard
+- project_id: WebBank_CPR_Analysis
+  status: background
+  focus: Consumer loan prepayment modeling
+- project_id: LifeOS_Personal
+  status: background
+  framework: Personal accountability and promises tracking
+current_objectives:
+  primary:
+  - Complete CFA Level 1 exam preparation (accelerated 10-day track)
+  - Implement unified LLM operating manual v3.3
+  - Establish cross-model context persistence protocol
+  secondary:
+  - Refine DDAY Professional Voice export prompts
+  - Maintain TA excellence through semester close
+  - Document meta-cognitive study strategies for reuse
+visual_design_system:
+  color_palette:
+    primary_text: '#000000'
+    secondary_text: '#1E1E1E'
+    brand_foundation: '#0D263A'
+    primary_accent: '#1E48FF'
+    light_accent: '#8BBEE8'
+    tertiary_highlight: '#B8F1FC'
+    positive_growth: '#7FCE9C'
+    neutral_divider: '#A99D97'
+    premium_cta: '#FFAA33'
+    warm_alert: '#C66D3F'
+    secondary_control: '#5F63A4'
+    premium_spark: '#D46AFF'
+  color_application_rules:
+  - Apply color only when meaning requires it
+  - Maximum two accent colors per page
+  - Never use bright accents for body text
+  - Mint and terracotta must signal data, not decoration
+  typography:
+    excel_models:
+      body: Inter Regular (10pt)
+      headers: Inter Semibold (11pt)
+      outputs: Inter Medium (10pt)
+      structural_headers: IBM Plex Sans Semibold
+      audit_columns: IBM Plex Mono Regular
+    reports:
+      body: Inter Regular (10.5pt)
+      h1_headers: IBM Plex Sans Semibold (14pt)
+      h2_subheads: IBM Plex Sans Medium (12pt)
+      emphasis: Inter Medium (inline)
+      captions: Inter Regular (9pt)
+  excel_modeling_conventions:
+    inputs: '#8BBEE8'
+    outputs: '#7FCE9C'
+    calculations: '#000000'
+    flags_alerts: '#C66D3F'
+    scenario_drivers: '#FFAA33'
+    hardcodes: '#1E48FF'
+    tab_colors:
+      control_panel: '#1E48FF'
+      assumptions: '#FFAA33'
+      operating_model: '#0D263A'
+      valuation: '#5F63A4'
+      sensitivity: '#C66D3F'
+      summary_returns: '#7FCE9C'
+writing_framework:
+  pre_writing_checklist:
+  - What is the single takeaway I want the reader to remember?
+  - "What tone do I want to project \u2014 mentor, peer, or strategist?"
+  - Does this message need empathy, efficiency, or both?
+  - What action or reflection am I asking for?
+  - Can this be said in one sentence first?
+  structural_template:
+    empathy_layer: Recognize effort or context (1 sentence)
+    insight_layer: Deliver observation or analysis (1 sentence)
+    directive_layer: Specify what to improve or change (1 sentence)
+  revision_rubric:
+    one_sentence_test: Summarize message in one clear line
+    red_pen_rule: Remove 15-20% of words without losing meaning
+    value_check: Each sentence must add insight or direction
+    authority_scan: Replace hedges with active verbs
+    flow_read_aloud: Ensure it sounds like you at your sharpest
+  prohibited_patterns:
+  - Excessive hedging (I think, maybe, perhaps)
+  - Decorative transitions (moreover, furthermore)
+  - Self-referential justification (just wanted to, thought I'd)
+  - Corporate jargon without precision
+  - Over-formatted emphasis (excessive bold, italics)
+integration_config:
+  import_sources:
+  - path: 00_System/LLM_Operating_Manual/context_exports/
+    frequency: per_session_init
+    priority: high
+  export_targets:
+  - path: 00_System/LLM_Operating_Manual/context_exports/
+    format: yaml
+    naming: <model>_<YYYYMMDD>_baseline.yaml
+    trigger: session_end, major_milestone, context_drift_detected
+  cross_model_protocol:
+    handoff_method: baseline_yaml_import
+    memory_sync: manual_periodic
+    divergence_tracking: enabled
+    model_specialization:
+      claude_sonnet_4_5: Executive communication, financial analysis, CFA study
+      gpt4: Exploratory research, creative synthesis (if used)
+      other_models: Document in bake-off results
+  version_control:
+    current_version: v3.3
+    changelog_location: 00_System/LLM_Operating_Manual/CHANGELOG.md
+    backup_frequency: weekly
+    retention_policy: keep_last_5_baselines
+behavioral_patterns:
+  communication_tendencies:
+  - Prefers tight revision loops over lengthy initial drafts
+  - Values diagnostic precision in feedback
+  - Comfortable with high cognitive load
+  - Responds well to structured frameworks
+  - Appreciates when AI maintains composure under ambiguity
+  problem_solving_approach:
+  - First-principles decomposition
+  - Pattern recognition across domains
+  - Meta-cognitive process optimization
+  - Build reusable frameworks over one-off solutions
+  - Document insights for future leverage
+divergent_ideas:
+- Periodically re-weight models via bake-offs (performance testing)
+- Develop portable context export standard across LLM providers
+- Build CFA study methodology into teachable framework
+- Create diagnostic rubrics for financial analysis feedback
+- Integrate personal accountability system (LifeOS) with professional work
+recovery_protocol:
+  session_initialization:
+  - Load most recent baseline export
+  - Verify active project status
+  - Confirm current objectives alignment
+  - Calibrate tone to DDAY_v3 specifications
+  context_drift_indicators:
+  - Verbose or overly formal responses
+  - Use of prohibited terms or jargon
+  - Excessive hedging or uncertainty language
+  - Loss of structural economy in communication
+  - "Deviation from three-layer framework (empathy \u2192 insight \u2192 directive)"
+  recalibration_triggers:
+  - User flags tone drift
+  - Response exceeds 250 words without cause
+  - Structural clarity degrades
+  - Import fresh baseline export
+next_actions:
+  immediate:
+  - Confirm baseline export complete
+  - "Initiate CFA Level 1 study loop (First-Principles \u2192 MSO)"
+  - Establish daily study cadence for 10-day sprint
+  short_term:
+  - Complete CFA Ethics & Professional Standards module
+  - Build Python-integrated practice question bank
+  - Maintain TA responsibilities through semester close
+  medium_term:
+  - Document accelerated CFA study methodology
+  - Refine cross-model bake-off evaluation criteria
+  - Update LLM Operating Manual to v3.4 post-CFA exam
+export_status: complete
+verification: baseline_context_captured
+ready_for_import: true
+compatibility: all_claude_models, cross_provider_adaptable
+last_updated: 2025-11-09 14:51:00+00:00
+
+---
+Model_ID: <notebook.lm>
+Export_Type: baseline
+Export_Date: 2025-11-09 13:36
+Style/Voice_Version: DDAY_v3
+Active_Projects:
+- CFA-Level1
+- CFA-Python integrated study
+- meta-cognition optimized CFA study on accelerated 10 day schedule
+Current_Objectives:
+- Implement unified LLM operating manual v3.3 by exporting Notebook.lm's existing
+  baseline context and memory snapshot of user characteristics for integrated context
+  management
+- "Initiate standardized CFA study loop (First-Principles \u2192 MSO)"
+Integration_Preferences:
+  Import_Path: 00_System/LLM_Operating_Manual/context_exports/
+  Export_Format: 00_System/LLM_Operating_Manual/context_exports/<model>_<YYYYMMDD>_baseline.yaml
+Divergent_Ideas:
+- Use periodic bake-offs to re-weight model roles based on performance
+Cognitive_Profile:
+  Strengths:
+  - concise analytical reasoning [Query]
+  - strong conceptual thinker [1]
+  - second-order pattern recognition (e.g., multi-step causality) [2, 3]
+  - structured synthesis [Query]
+  - Accurate self-awareness/calibration (Trust confidence signals) [3, 4]
+  Limitations:
+  - limited persistent memory beyond current thread [Query]
+  - depends on shared exports for cross-session recall [Query]
+  - Systematic procedural gaps (not conceptual failures) [1, 2]
+  - Time collapse under pressure due to attempted on-the-fly derivation [5, 6]
+  - Moral substitution pattern used when Standards language is forgotten [6, 7]
+Baseline_Performance:
+  Mock_A_Score: 43% (78/180 correct) [8]
+  Error_Distribution:
+    Conceptual_Errors: 37% (38 instances) [9]
+    Procedural_Errors: 30% (31 instances) [9]
+    Terminology_Errors: 18% (18 instances) [9]
+  High_Confidence_Error_Root_Causes:
+  - Procedural gaps (e.g., Median calculation, semiannual adjustment errors) [10]
+  - Conceptual gaps (e.g., Margin return calculation) [10]
+  Confidence_Calibration:
+    High: 57.1% accuracy (16/28) [4]
+    Medium: 50.0% accuracy (18/36) [4]
+    Low: 36.1% accuracy (30/83) [4]
+Study_Plan_Context:
+  Pacing_Rules_to_Enforce:
+  - 2-Minute Rule (If no formula recalled within 2 minutes, mark and move) [11]
+  - Calculator Fail-Safe (If TVM keys don't resolve in 1 minute, skip) [11]
+  High_Priority_Weaknesses:
+  - Derivatives (Conceptual: Cannot distinguish put vs. call; payoff/profit calculation)
+      [12]
+  - Fixed Income Duration (Conceptual + Terminology: Does not know definitions or
+      formulas) [12]
+  - Quant TVM (Procedural: Fails to adjust N/I/Y/PMT for periodicity/deferral) [12]
+  Priority_Python_Builds:
+  - notebooks/quant.ipynb: pv(), fv(), npv(), annuity_pv(periods_deferred=0), convert_apr()
+      [13]
+  - notebooks/derivatives.ipynb: call_payoff(), put_payoff(), call_profit(), put_profit(),
+      visualization [14]
+  - notebooks/fixed_income.ipynb: bond_price(), ytm_solver(), modified_duration(),
+      macaulay_duration() [14]
+  Reference_Sheets_to_Generate:
+  - "/reference_sheets/ethics_triggers.md (Standard I\u2013VII summaries, decision\
+    \ tree) [15]"
+  - /reference_sheets/guess_heuristics.md (Fixed Income inverse price/yield, Ethics
+    disclosure logic) [15]
+Next_Action_Confirmation: 'Save this file and push to GitHub; then confirm: Baseline
+  export complete.'

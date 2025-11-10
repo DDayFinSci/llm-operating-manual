@@ -1,67 +1,72 @@
-import hashlib, pathlib, datetime
+import os, sys, glob, hashlib, datetime, yaml, re
+from pathlib import Path
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
-RAW = ROOT / "context__exports"
-OUTDIR = ROOT / "context" / "merged"
-OUTDIR.mkdir(parents=True, exist_ok=True)
-OUT = OUTDIR / "merged_context.yaml"
+REPO_ROOT = Path(__file__).resolve().parents[1]
+EXPORTS_DIR = REPO_ROOT / "context__exports"  # <-- matches your real folder
+MERGED_DIR = REPO_ROOT / "context" / "merged"
+MERGED_DIR.mkdir(parents=True, exist_ok=True)
+MERGED_PATH = MERGED_DIR / "merged_context.yaml"
 
-SOURCES = ["claude", "chatgpt", "notebooklm"]  # folders under context__exports
-TOKEN = "INTEGRATION_CHECK_TOKEN :: 7f3b8a78"
+def slurp_yaml(path: Path):
+    with path.open("r", encoding="utf-8") as f:
+        return list(yaml.safe_load_all(f))
 
-def sha256_bytes(b: bytes) -> str:
-    return hashlib.sha256(b).hexdigest()
+def file_fingerprint(path: Path) -> str:
+    h = hashlib.sha256()
+    with path.open("rb") as f:
+        for chunk in iter(lambda: f.read(65536), b""):
+            h.update(chunk)
+    return h.hexdigest()[:12]
 
 def main():
-    files = []
-    seen_hashes = set()
-    for src in SOURCES:
-        base = RAW / src
-        if not base.exists():
+    # pick up ONLY .yaml files in context__exports (not the merged file)
+    candidates = sorted(EXPORTS_DIR.glob("*.yaml"))
+    docs = []
+    files_meta = []
+    for p in candidates:
+        # extra guard: never read our merged output if someone placed it here
+        if p.name == MERGED_PATH.name:
             continue
-        for p in sorted(base.rglob("*.yaml")):
-            data = p.read_bytes()
-            h = sha256_bytes(data)
-            if h in seen_hashes:
-                continue   # skip exact duplicate YAML docs
-            seen_hashes.add(h)
-            rel = p.relative_to(RAW).as_posix()
-            files.append({
-                "source": src,
-                "rel_path": rel,
-                "sha256": h,
-                "bytes": len(data),
-                "path": p,
-                "text": data.decode("utf-8", errors="ignore")
+        try:
+            loaded = slurp_yaml(p)
+            if not loaded:
+                # If a baseline is a single YAML doc, yaml.safe_load_all returns [None] if empty
+                loaded = []
+            docs.extend(loaded)
+            files_meta.append({
+                "filename": p.name,
+                "relpath": str(p.relative_to(REPO_ROOT)),
+                "size_bytes": p.stat().st_size,
+                "sha256_12": file_fingerprint(p),
+                "doc_count": len(loaded),
+            })
+        except Exception as e:
+            files_meta.append({
+                "filename": p.name,
+                "relpath": str(p.relative_to(REPO_ROOT)),
+                "error": str(e),
             })
 
-    stamp = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+    manifest = {
+        "integrated_baseline_manifest": {
+            "generated_utc": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC"),
+            "integration_check_token": "INTEGRATION_CHECK_TOKEN :: 7f3b8a78",
+            "files": files_meta,
+            "total_input_docs": sum(f.get("doc_count", 0) for f in files_meta),
+        }
+    }
 
-    # --- Write a multi-document YAML stream ---
-    with OUT.open("w", encoding="utf-8", newline="\n") as f:
-        # Doc 1: manifest (machine-readable and tiny)
-        f.write("---\n")
-        f.write("integrated_baseline_manifest:\n")
-        f.write(f"  generated_utc: \"{stamp}\"\n")
-        f.write(f"  integration_check_token: \"{TOKEN}\"\n")
-        f.write("  files:\n")
-        for i, meta in enumerate(files, 1):
-            f.write("    - index: {}\n".format(i))
-            f.write("      source: {}\n".format(meta["source"]))
-            f.write("      rel_path: {}\n".format(meta["rel_path"]))
-            f.write("      sha256: {}\n".format(meta["sha256"]))
-            f.write("      bytes: {}\n".format(meta["bytes"]))
-        f.write("...\n")
+    with MERGED_PATH.open("w", encoding="utf-8", newline="\n") as f:
+        yaml.safe_dump(manifest, f, sort_keys=False)
+        for d in docs:
+            f.write("\n---\n")
+            yaml.safe_dump(d, f, sort_keys=False)
 
-        # Subsequent docs: the originals, unchanged
-        for i, meta in enumerate(files, 1):
-            f.write("---\n")
-            f.write("# Source: {}\n".format(meta["rel_path"]))
-            f.write("# SHA256: {}\n".format(meta["sha256"]))
-            f.write(meta["text"].rstrip() + "\n")
-            f.write("...\n")
-
-    print(f"Wrote {OUT} with {len(files)} YAML documents (+1 manifest).")
+    print(f"Wrote {MERGED_PATH} with {len(docs)} YAML documents (+1 manifest).")
+    print(f"Merged from {len([m for m in files_meta if 'error' not in m])} files.")
+    errs = [m for m in files_meta if 'error' in m]
+    if errs:
+        print("Errors:", errs, file=sys.stderr)
 
 if __name__ == "__main__":
     main()

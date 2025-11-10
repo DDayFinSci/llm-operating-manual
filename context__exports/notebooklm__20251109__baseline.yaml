@@ -55,5 +55,4 @@ Study_Plan_Context:
   Reference_Sheets_to_Generate:
     - /reference_sheets/ethics_triggers.md (Standard I–VII summaries, decision tree) [15]
     - /reference_sheets/guess_heuristics.md (Fixed Income inverse price/yield, Ethics disclosure logic) [15]
-Next_Action_Confirmation: Save this file and push to GitHub; then confirm: Baseline export complete.
-Baseline export complete.
+Next_Action_Confirmation: "Save this file and push to GitHub; then confirm: Baseline export complete."
