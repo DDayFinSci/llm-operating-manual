@@ -6,3 +6,11 @@ Thumbs.db
 .vscode/
 .obsidian/workspace
 .obsidian/workspace.json
+
+# Sensitive local projects and resources (never push)
+
+03_Projects/Work/
+03_Projects/Student/MSF/
+03_Projects/Hobby/
+04_Areas/
+05_Resources/
