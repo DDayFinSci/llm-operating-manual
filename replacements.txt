@@ -1,0 +1,14 @@
+# --- WebBank: any case -> wfirm ---
+regex:(?i)\bWebBank\b==>wfirm
+
+# --- Windows paths with backslashes ---
+# Single-escaped (appears in most plain-text)
+regex:(?i)C:\\Users\\Darrell\\==>C:\\Users\\pyfieri\\
+# Double-escaped (appears inside JSON/YAML/strings like "C:\\Users\\Darrell\\...")
+regex:(?i)C:\\\\Users\\\\Darrell\\\\==>C:\\\\Users\\\\pyfieri\\\\
+
+# --- Windows paths written with forward slashes ---
+regex:(?i)C:/Users/Darrell/==>C:/Users/pyfieri/
+
+# --- Unix-style paths (just in case you referenced them in docs) ---
+regex:(?i)/Users/Darrell/==>/Users/pyfieri/
