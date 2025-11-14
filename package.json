@@ -1,0 +1,35 @@
+{
+  "name": "llm-operating-manual",
+  "version": "2.0.0",
+  "description": "MCP Cross-Device Context System for AI Browser Integration",
+  "main": "api/context.js",
+  "scripts": {
+    "sync": "powershell -ExecutionPolicy Bypass -File scripts/browser_sync.ps1",
+    "github": "powershell -ExecutionPolicy Bypass -File scripts/github_setup.ps1",
+    "verify": "powershell -ExecutionPolicy Bypass -File scripts/verify_integration.ps1",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DDayFinSci/llm-operating-manual.git"
+  },
+  "keywords": [
+    "MCP",
+    "Claude",
+    "Arc",
+    "Comet",
+    "Perplexity",
+    "AI",
+    "Context Management"
+  ],
+  "author": "Darrell Day",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

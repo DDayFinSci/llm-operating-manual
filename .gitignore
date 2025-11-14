@@ -11,9 +11,37 @@ Thumbs.db
 .obsidian/workspace.json
 
 # Sensitive local projects and resources (never push)
-
 03_Projects/Work/
 03_Projects/Student/MSF/
 03_Projects/Hobby/
 04_Areas/
 05_Resources/
+
+# Logs (contain system paths)
+Logs/*.log
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Checkpoint backups (large and temporary)
+MCP_CrossDevice_Checkpoints/checkpoint_*/
+
+# Keep checkpoint system but not individual checkpoints
+!MCP_CrossDevice_Checkpoints/
+!MCP_CrossDevice_Checkpoints/checkpoint_manager.ps1
+!MCP_CrossDevice_Checkpoints/installation_log.md
+
+# Credentials (if any get created)
+*.key
+*.pem
+*_token.txt
+secrets.json
+
+# Keep browser sync configs (they're meant to be shared)
+!browser_sync/
+!browser_sync/**/*.json
+!browser_sync/**/*.md

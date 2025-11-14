@@ -347,21 +347,21 @@ try {
         Write-Log "Synchronization completed successfully"
         
         if (-not $Silent) {
-            Write-Host "✓ Sync complete (5-min interval)" -ForegroundColor Green
+            Write-Host "[OK] Sync complete (5-min interval)" -ForegroundColor Green
             Write-Host "  Hash: $contextHash" -ForegroundColor Cyan
             Write-Host "  Next: $(Get-Date (Get-Date).AddMinutes(5) -Format 'HH:mm:ss')" -ForegroundColor Gray
         }
     } else {
         Write-Log "Synchronization completed with errors" -Level "WARN"
         if (-not $Silent) {
-            Write-Host "⚠ Sync completed with warnings" -ForegroundColor Yellow
+            Write-Host "[WARNING] Sync completed with warnings" -ForegroundColor Yellow
         }
     }
     
 } catch {
     Write-Log "Fatal error during synchronization: $_" -Level "ERROR"
     if (-not $Silent) {
-        Write-Host "✗ Synchronization failed: $_" -ForegroundColor Red
+        Write-Host "[ERROR] Synchronization failed: $_" -ForegroundColor Red
     }
     exit 1
 }

@@ -1,0 +1,29 @@
+# MSIF Pitch Feedback - FINAL VERSION (Pedagogical Refinement)
+
+## Pitch A: Quantum Returns - Defensive Sector Systematic Strategy
+
+Your presentation demonstrated strong conceptual grounding in defensive equity literature, particularly in recognizing that Novy-Marx reframes defensive outperformance as deriving from embedded profitability and value factors rather than low beta itself. The screening criteria - ROIC ≥ 9%, P/E ≤ 20, Market Cap ≥ $10B - appropriately operationalize this insight by targeting quality and value, not just volatility.
+
+Your backtest on Slide 6 yielded a 9.58% annual return with a 0.43 Sharpe and -3.68% alpha against the S&P 500, which achieved a 0.92 Sharpe over the same period. A fellow fund manager noted this in Q&A, suggesting your defensive strategy underperformed the market. There's partial truth to that, but the reasoning is incomplete. The apparent underperformance stems from benchmark mismatch, not strategic failure. Defensive strategies require defensive benchmarks. Comparing your low-volatility cohort to the S&P 500 mismatches risk profiles fundamentally.
+
+There are other benchmarks that would provide a more appropriate comparison. Instead of me naming them, take time to research and identify one or two that best align with your design. When you think you've found strong candidates, share them with us in class next week. You'll find that reframing against a proper benchmark may reveal stronger risk-adjusted performance - and more importantly, you'll understand why the distinction matters. Failing to anchor the analysis correctly made the results seem less compelling than they should have been.
+
+Moving forward, review how the systematic framework interacts with thesis development. Ask yourself: are you rejecting because (1) the strategy fails against a suitable defensive benchmark, (2) current market conditions don't favor positioning, or (3) the fund already holds sufficient low-volatility exposure?
+
+If you're uncertain about your screening criteria, run a factor regression to quantify attribution across market beta, quality, and value tilts. That additional level of rigor, while not required, would validate whether your screens successfully captured the "unprofitable small growth exclusion" that Novy-Marx identifies as the true driver of defensive outperformance.
+
+Finally, remember to ground your analysis in the context of MSIF's current portfolio. Suppose a correlation analysis showed redundancy above 0.70 - what would that mean in practical terms? Think through both first- and second-order consequences. If you can explain that clearly to Darrell after class next week, in your own words and with confidence, we'll reflect that growth in your final evaluation.
+
+## Pitch B: 4 Risketeers - Quality Minus Junk (QMJ) Strategy
+
+Your selection of Asness, Frazzini & Pedersen's QMJ framework demonstrates strong theoretical grounding, and your 10-year backtest results - 426% return vs. 314% for the S&P 500, with 0.94 Sharpe vs. 0.72 - validate the quality premium convincingly. The 2.90% annual alpha confirms your screens captured genuine factor exposure beyond market beta. Your recommendation to allocate $50,000 follows logically from these metrics.
+
+However, there's something curious about your implementation on Slide 5. You mentioned screening for "Bottom 50% Debt to Assets" - take a moment to think about what that phrase actually selects. If you're looking for high-quality firms, do you want companies with high debt or low debt? The phrasing suggests you may have inverted the filter. This is worth double-checking, as it fundamentally changes what your portfolio contains.
+
+The class discussion touched on your use of Free Cash Flow as the final ranking variable. While FCF is certainly important to quality, the academic QMJ framework traditionally composites profitability, growth, safety, and payout metrics with equal weights. Your FCF concentration might tilt the portfolio toward mature cash generators rather than balanced quality. That's not necessarily wrong - but understanding the deviation helps explain your specific results versus theoretical QMJ.
+
+Your 28.85% quarterly turnover deserves deeper examination. At roughly 115% annual turnover, transaction costs become material. Here's a challenge: model what happens to your 2.90% alpha if trading costs reach 50 basis points per rebalance. Then consider whether the surviving alpha justifies the operational complexity. Bring those calculations to office hours next week - we'll work through the implications together.
+
+The funding decision - selling ultra-short bonds to buy equities - fundamentally reshapes portfolio risk. You're exchanging a 0% beta asset for 0.97 beta exposure. The class noticed you presented this as purely additive to returns without acknowledging the volatility trade-off. Before our next meeting, calculate how this shift affects portfolio-level drawdown risk and Sharpe ratio. Not just the strategy in isolation, but the holistic fund impact.
+
+Quality investing works, and you've demonstrated that. The question is whether you've structured the implementation to capture those premiums efficiently. If you can walk me through the turnover cost analysis and portfolio risk recalibration after class next week, showing you understand both the mechanics and the implications, we'll reflect that deeper understanding in your final assessment. The systematic framework isn't just about finding good strategies - it's about implementing them in ways that survive real-world frictions.

@@ -1,0 +1,52 @@
+name: Deploy Mobile Access API
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'api/**'
+      - 'browser_sync/**'
+  workflow_dispatch:
+
+env:
+  VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+  VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+      
+      - name: Install Vercel CLI
+        run: npm install --global vercel@latest
+      
+      - name: Pull Vercel Environment
+        run: vercel pull --yes --environment=production --token=${{ secrets.VERCEL_TOKEN }}
+      
+      - name: Build Project
+        run: vercel build --prod --token=${{ secrets.VERCEL_TOKEN }}
+      
+      - name: Deploy to Vercel
+        run: |
+          vercel deploy --prebuilt --prod --token=${{ secrets.VERCEL_TOKEN }} > deployment-url.txt
+          echo "Deployed to: $(cat deployment-url.txt)"
+      
+      - name: Update deployment status
+        run: |
+          echo "## Deployment Status" > deployment_status.md
+          echo "- **URL:** $(cat deployment-url.txt)" >> deployment_status.md
+          echo "- **Time:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> deployment_status.md
+          echo "- **Branch:** main" >> deployment_status.md
+          
+      - name: Upload deployment info
+        uses: actions/upload-artifact@v3
+        with:
+          name: deployment-info
+          path: deployment_status.md
+          retention-days: 30

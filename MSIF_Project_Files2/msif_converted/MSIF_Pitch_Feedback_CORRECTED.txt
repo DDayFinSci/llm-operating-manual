@@ -1,0 +1,32 @@
+# MSIF Pitch Feedback — CORRECTED VERSION
+
+## Pitch A: Quantum Returns — Defensive Sector Systematic Strategy
+
+Your presentation demonstrated strong conceptual grounding in defensive equity literature, particularly in recognizing that Novy-Marx reframes defensive outperformance as deriving from embedded profitability and value factors rather than low beta itself. The screening criteria — ROIC ≥ 9%, P/E ≤ 20, Market Cap ≥ $10B — appropriately operationalize this insight by targeting quality and value, not just volatility.
+
+Your backtest (Slide 6) yielded 9.58% annual return with 0.43 Sharpe and -3.68% alpha against the S&P 500, which achieved 0.92 Sharpe over the same period. This apparent underperformance stems from benchmark mismatch, not strategy failure. Defensive strategies require defensive benchmarks — comparing your low-volatility portfolio to the S&P 500 mismatches risk profiles fundamentally. The MSCI USA Minimum Volatility Index would provide appropriate comparison, likely revealing positive risk-adjusted performance. Your "not compelling vs. benchmark" conclusion needs precision within the systematic framework: are you rejecting because (1) the strategy fails against an appropriate defensive benchmark, (2) current market conditions don't favor defensive positioning, or (3) the fund already holds sufficient low-volatility exposure?
+
+Moving forward, run factor regression to quantify return attribution across market beta, quality, and value tilts. This validates whether your screens captured Novy-Marx's "unprofitable small growth exclusion" — the true driver of defensive outperformance. Additionally, present correlation analysis with existing systematic positions. If correlation exceeds 0.70, the strategy adds redundancy regardless of standalone merit. The systematic framework rewards discipline over discretion; ensure your recommendation reflects rules-based logic rather than performance disappointment against an inappropriate benchmark.
+
+## Pitch B: 4 Risketeers — Quality Minus Junk (QMJ) Strategy
+
+[FEEDBACK CANNOT BE COMPLETED - WRONG STRATEGY ANALYZED]
+
+NotebookLM erroneously analyzed a "Betting Against Beta" strategy from Ute Capital instead of your Quality Minus Junk pitch. To provide accurate feedback on your QMJ strategy, I need access to:
+
+1. Your actual screening criteria for quality factors (profitability, growth, safety metrics)
+2. Backtest performance metrics (returns, Sharpe, alpha, benchmark used)
+3. Portfolio integration analysis presented
+4. Final recommendation and rationale
+
+The QMJ framework from Asness, Frazzini & Pedersen focuses on identifying high-quality firms through profitability (ROE, ROA), growth (earnings stability), safety (low leverage, low volatility), and payout (dividends, buybacks). Your feedback should address:
+- Whether your screens appropriately capture these quality dimensions
+- How your long-only implementation affects expected returns versus the academic long-short version
+- What benchmark you selected (MSCI Quality Index would be appropriate)
+- Whether your recommendation properly classifies within the systematic framework's three-part logic
+
+Please provide your QMJ pitch materials for accurate feedback generation.
+
+## Note on Process Error
+
+The citation pattern reveals NotebookLM pulled from incorrect source documents (Ute Capital's Low Beta presentation rather than 4 Risketeers' QMJ deck). This highlights the importance of verifying source-output alignment when using AI tools for document analysis. The excessive citation numbering also disrupts readability — future iterations should integrate source verification more naturally within the prose.

@@ -1,0 +1,14 @@
+# NotebookLM Prompt for MSIF Feedback Enhancement
+
+**Improved Prompt (more explicit):**
+
+Read NotebookLM_Enhancement_Instructions.md. Enhance the two paragraphs in MSIF_Pitch_Feedback_Paragraphs.txt using:
+1. "quantum returns 11-10 systematic strategy - slide deck.pdf" for Pitch A
+2. "4 risketeers 11-10 systematic strategy slide deck.pdf" for Pitch B
+3. Faculty patterns from FINAL_Grade_Feedback PDFs
+
+Extract actual backtest metrics, slide-specific errors, and benchmark choices from both pitch decks. Replace generic observations with quantitative specifics (returns, Sharpe, correlations). Maintain Darrell Professional Voice v3. Output two refined paragraphs with concrete slide references.
+
+**Alternative Ultra-Short:**
+
+Enhance MSIF_Pitch_Feedback_Paragraphs.txt per NotebookLM_Enhancement_Instructions.md. Focus on quantum returns and 4 risketeers slide decks + faculty feedback PDFs.

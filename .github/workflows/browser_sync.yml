@@ -1,0 +1,167 @@
+name: Browser Context Auto-Sync
+
+on:
+  push:
+    paths:
+      - 'browser_sync/**'
+      - 'context/**'
+      - 'scripts/browser_sync.ps1'
+  schedule:
+    # Run every 6 hours (cloud backup verification)
+    # Note: Local sync runs every 5 minutes via Task Scheduler
+    - cron: '0 */6 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  sync-contexts:
+    runs-on: ubuntu-latest
+    
+    # Limit workflow to 5 minutes to save Actions minutes
+    timeout-minutes: 5
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # Full history for proper sync
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+    
+    - name: Generate unified context
+      run: |
+        # Create unified context from all sources
+        python3 << 'EOF'
+        import json
+        import hashlib
+        from datetime import datetime
+        from pathlib import Path
+        
+        def generate_unified_context():
+            base_dir = Path('.')
+            browser_sync = base_dir / 'browser_sync'
+            context_dir = base_dir / 'context'
+            
+            # Read voice protocols if available
+            voice_protocol = context_dir / 'raw' / 'DDAY_VoiceProtocols_Corrected_v2025-11.md'
+            
+            unified = f"""# Unified Browser Context
+        # Version: 2.0 | Updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+        # This file is the single source of truth for all browser AI integrations
+        # Local sync: Every 5 minutes | Cloud verify: Every 6 hours
+        
+        ## Core Identity
+        
+        **Name:** Darrell Day  
+        **Role:** MSIF Teaching Assistant  
+        **Voice:** DDAY Professional Voice v3.3
+        
+        """
+            
+            if voice_protocol.exists():
+                with open(voice_protocol, 'r', encoding='utf-8') as f:
+                    content = f.read()[:5000]  # First 5000 chars
+                    unified += f"\n## Professional Voice Protocol\n\n{content}\n"
+            
+            # Calculate hash
+            hash_obj = hashlib.sha256(unified.encode())
+            hash_str = hash_obj.hexdigest()[:16]
+            
+            unified += f"""
+        ## Sync Metadata
+        - **Hash:** {hash_str}
+        - **Updated:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+        - **Source:** GitHub Actions (6-hour cloud verify)
+        - **Local Sync:** Every 5 minutes via Task Scheduler
+        - **Repository:** DDayFinSci/llm-operating-manual
+        """
+            
+            # Save unified context
+            shared_dir = browser_sync / 'shared'
+            shared_dir.mkdir(parents=True, exist_ok=True)
+            
+            with open(shared_dir / 'unified_context.md', 'w', encoding='utf-8') as f:
+                f.write(unified)
+            
+            return hash_str
+        
+        # Generate and update all browser configs
+        hash_value = generate_unified_context()
+        
+        # Update browser configurations with new hash
+        for config_path in [
+            'browser_sync/arc/arc_ai_context.json',
+            'browser_sync/comet/comet_ai_context.json',
+            'browser_sync/perplexity/perplexity_voice_context.json'
+        ]:
+            if Path(config_path).exists():
+                with open(config_path, 'r') as f:
+                    config = json.load(f)
+                
+                config['timestamp'] = datetime.now().isoformat()
+                
+                if 'sync_metadata' in config:
+                    config['sync_metadata']['hash'] = hash_value
+                    config['sync_metadata']['last_sync'] = config['timestamp']
+                elif 'sync_hash' in config:
+                    config['sync_hash'] = hash_value
+                    config['last_update'] = config['timestamp']
+                elif 'integration_token' in config:
+                    config['integration_token'] = hash_value[:8]
+                
+                with open(config_path, 'w') as f:
+                    json.dump(config, f, indent=2)
+        
+        print(f"✓ Cloud verification complete. Hash: {hash_value}")
+        print(f"  Note: Local sync runs every 5 minutes")
+        EOF
+    
+    - name: Check for conflicts
+      run: |
+        # Check if local 5-minute syncs have created conflicts
+        git fetch origin main
+        LOCAL=$(git rev-parse HEAD)
+        REMOTE=$(git rev-parse origin/main)
+        
+        if [ "$LOCAL" != "$REMOTE" ]; then
+          echo "Local changes detected from 5-minute sync"
+          git pull --rebase origin main
+        fi
+    
+    - name: Commit changes (if any)
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add browser_sync/ context/
+        git diff --staged --quiet || git commit -m "Cloud verify: Browser contexts validated [skip ci]"
+    
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: main
+    
+    - name: Create sync report
+      run: |
+        echo "## Sync Report (6-Hour Cloud Verification)" > sync_report.md
+        echo "- **Time:** $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> sync_report.md
+        echo "- **Type:** Cloud verification (local runs every 5 min)" >> sync_report.md
+        echo "- **Branch:** main" >> sync_report.md
+        echo "- **Next Local Sync:** ~5 minutes" >> sync_report.md
+        echo "- **Next Cloud Verify:** ~6 hours" >> sync_report.md
+        
+        cat sync_report.md
+    
+    - name: Upload sync report
+      uses: actions/upload-artifact@v3
+      with:
+        name: sync-report
+        path: sync_report.md
+        retention-days: 7

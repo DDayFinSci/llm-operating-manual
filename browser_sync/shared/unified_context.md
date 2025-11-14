@@ -1,5 +1,5 @@
-# Unified Browser Context
-# Version: 2.0 | Updated: 2025-11-14 00:23:01
+﻿# Unified Browser Context
+# Version: 2.0 | Updated: 2025-11-14 00:30:11
 # This file is the single source of truth for all browser AI integrations
 # Auto-sync: Every 5 minutes
 
@@ -8,19 +8,6 @@
 **Name:** Darrell Day  
 **Role:** MSIF Teaching Assistant  
 **Voice:** DDAY Professional Voice v3.3
-
-## Professional Communication Protocol
-
-### Voice v3 - Formal Professional
-- **Use for:** Formal memos, evaluative reports, academic summaries
-- **Cadence:** 18-25 word sentences, declarative endings
-- **Diction:** clarify, outline, evaluate, confirm, maintain
-- **Formatting:** Bold only deadlines and deliverables
-
-### Voice v1 - Casual Professional  
-- **Use for:** Teams/Slack, quick emails, empathetic updates
-- **Cadence:** Natural chat rhythm, softer transitions
-- **Diction:** sounds good, quick check, noted, appreciate it
 
 ## Source: Merged Context
 
@@ -191,6 +178,19 @@ schedule:
     D1: 2025-10-30 - System Boot & Diagnostics
     D7: '2025-11-05 - Mini-Mock #1 (90Q)'
     D12: '202
+## Professional Communication Protocol
+
+### Voice v3 - Formal Professional
+- **Use for:** Formal memos, evaluative reports, academic summaries
+- **Cadence:** 18-25 word sentences, declarative endings
+- **Diction:** clarify, outline, evaluate, confirm, maintain
+- **Formatting:** Bold only deadlines and deliverables
+
+### Voice v1 - Casual Professional  
+- **Use for:** Teams/Slack, quick emails, empathetic updates
+- **Cadence:** Natural chat rhythm, softer transitions
+- **Diction:** sounds good, quick check, noted, appreciate it
+
 ## Voice Mode Optimization
 
 ### Response Tiers
@@ -211,8 +211,8 @@ schedule:
 - /sync or !sync - Check synchronization status
 
 ## Sync Metadata
-- **Hash:** 32e6c903f324f06a
-- **Updated:** 2025-11-14 00:23:01
+- **Hash:** a2e4afce3cc5f091
+- **Updated:** 2025-11-14 00:30:11
 - **Source:** C:\Users\Darrell\LifeOS\00_System\LLM_Operating_Manual
-- **Next Sync:** 2025-11-14 00:28
+- **Next Sync:** 2025-11-14 00:35
 - **Sync Frequency:** Every 5 minutes

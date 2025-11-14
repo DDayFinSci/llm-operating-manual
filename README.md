@@ -1,195 +1,177 @@
+# LLM Operating Manual - MCP Cross-Device Context System
 
-# Implementation Guide — Step by Step (Rev. 2025-11-09)
+[![Browser Sync](https://github.com/DDayFinSci/llm-operating-manual/actions/workflows/browser_sync.yml/badge.svg)](https://github.com/DDayFinSci/llm-operating-manual/actions/workflows/browser_sync.yml)
+[![Deploy Mobile](https://github.com/DDayFinSci/llm-operating-manual/actions/workflows/deploy_mobile.yml/badge.svg)](https://github.com/DDayFinSci/llm-operating-manual/actions/workflows/deploy_mobile.yml)
 
-## 0 | Where to Save the Master Synthesis
+## Overview
 
-- Save `20251109__Master-Synthesis__v3.3__gpt.md` in BOTH:
-    
-    - Obsidian vault: `/LifeOS/00_System/LLM_Operating_Manual/`
-        
-    - Git repo (private): `llm-operating-manual/`
-        
-- **Obsidian = human-friendly hub. Git = source-of-truth.**
-    
+A comprehensive Model Context Protocol (MCP) ecosystem enabling persistent context synchronization across Claude, ChatGPT, Perplexity, Arc Browser, and Comet Browser. Optimized for voice mode interactions and cross-device accessibility.
 
----
+## Features
 
-## 1 | Baseline Context Exports (once per model)
+- 🔄 **Automated Synchronization**: 6-hour auto-sync across all platforms
+- 🎙️ **Voice Mode Optimization**: Structured for Perplexity Max voice interactions
+- 🌐 **Cross-Browser Support**: Arc and Comet browsers with unified context
+- ☁️ **Cloud Backup**: GitHub Actions for continuous deployment
+- 📱 **Mobile Ready**: API endpoints for cross-device access
+- 🔒 **Checkpoint System**: Automatic backups with rollback capability
 
-Run the **Baseline Export Prompt** in each model  
-(`gpt-5`, `claude-4.5-sonnet`, `claude-4.5-haiku`, `claude-4.1-opus`, `notebooklm`).  
-Save each YAML file to:
+## Quick Start
+
+### 1. Clone Repository
+```bash
+git clone https://github.com/DDayFinSci/llm-operating-manual.git
+cd llm-operating-manual
+```
+
+### 2. Run Setup
+```powershell
+# Windows PowerShell
+.\scripts\github_setup.ps1
+.\scripts\setup_auto_sync.ps1
+```
+
+### 3. Import Browser Configurations
+
+#### Arc Browser
+1. Open Arc → Settings → Max/AI
+2. Copy content from `browser_sync/arc/arc_ai_context.json`
+3. Test with `/sync` command
+
+#### Comet Browser
+1. Open Comet → AI Settings (Alt+A)
+2. Copy content from `browser_sync/comet/comet_ai_context.json`
+3. Test with `!sync` command
+
+## Universal Commands
+
+| Command | Function | Platforms |
+|---------|----------|-----------|
+| `/dday` or `!dday` | Apply DDAY Professional Voice | All |
+| `/analyze` or `!analyze` | Second-order analysis | All |
+| `/mso` or `!mso` | MSO-structured summary | All |
+| `/voice` or `!voice` | Optimize for voice mode | All |
+| `/sync` or `!sync` | Check sync status | All |
+
+## Project Structure
 
 ```
-00_System/LLM_Operating_Manual/context_exports/<model>_<YYYYMMDD>_baseline.yaml
+llm-operating-manual/
+├── browser_sync/          # Browser configurations
+│   ├── arc/              # Arc browser AI context
+│   ├── comet/            # Comet browser setup
+│   ├── perplexity/       # Voice mode optimization
+│   └── shared/           # Unified context
+├── context/              # Core context files
+│   ├── raw/              # Source documents
+│   └── merged/           # Processed contexts
+├── scripts/              # Automation scripts
+│   ├── browser_sync.ps1  # Main sync script
+│   ├── github_setup.ps1  # GitHub configuration
+│   └── verify_integration.ps1  # System check
+├── api/                  # Mobile API endpoints
+│   └── context.js        # Context delivery API
+└── .github/workflows/    # GitHub Actions
+    ├── browser_sync.yml  # Auto-sync workflow
+    └── deploy_mobile.yml # Mobile deployment
 ```
 
-Commit and push to GitHub when all five exist.
+## Voice Mode Optimization
 
----
+### Response Tiers
 
-## 2 | Link the GitHub Remote
+- **Quick (30s)**: Single insight + action
+- **Standard (60s)**: Context + 2-3 points + conclusion
+- **Detailed (120s)**: Framework + analysis + implications
+
+### Verbal Markers
+
+- **Transitions**: "First," "Second," "The key point"
+- **Emphasis**: "Note that," "Critical here is"
+- **Conclusions**: "Bottom line," "Net result"
+
+## API Access
+
+### Endpoint
+```
+GET /api/context?platform={arc|comet|perplexity|unified}
+```
+
+### Response
+```json
+{
+  "context": {...},
+  "metadata": {
+    "platform": "arc",
+    "version": "5.0",
+    "timestamp": "2025-01-13T00:00:00",
+    "hash": "a1b2c3d4e5f6g7h8"
+  }
+}
+```
+
+## Manual Sync
 
 ```powershell
-cd "C:\Users\pyfieri\LifeOS\00_System\LLM_Operating_Manual"
-git init
-git branch -M main
-git remote add origin git@github.com:DarrellDay/llm-operating-manual.git
-git add .
-git commit -m "v3.3 baseline: context exports + registry"
-git push -u origin main
+# Force synchronization
+.\scripts\browser_sync.ps1 -Force -Verbose
+
+# Verify system
+.\scripts\verify_integration.ps1
 ```
 
-Confirm repo visibility = **Private**.
+## GitHub Actions
+
+### Browser Sync (Every 6 hours)
+- Updates unified context
+- Synchronizes browser configurations
+- Calculates integrity hashes
+- Commits changes automatically
+
+### Mobile Deploy (On push)
+- Deploys to Vercel
+- Updates API endpoints
+- Enables cross-device access
+
+## Security
+
+- `.gitignore` configured for sensitive data
+- Checkpoint system for rollback
+- Token management via environment variables
+- Automated security updates
+
+## Development
+
+### Local Testing
+```bash
+npm run sync      # Run browser sync
+npm run verify    # Check integration
+npm run dev       # Start local API server
+```
+
+### Deployment
+```bash
+npm run deploy    # Deploy to Vercel
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/improvement`)
+3. Commit changes (`git commit -m 'Add feature'`)
+4. Push to branch (`git push origin feature/improvement`)
+5. Open Pull Request
+
+## License
+
+MIT License - See LICENSE file for details
+
+## Author
+
+**Darrell Day**  
+Teaching Assistant - MSIF  
+DDAY Professional Voice v3.3
 
 ---
 
-## 3 | Create Active Projects Index
-
-New note: `/LifeOS/03_Projects/_Active_Projects.md`  
-For each project:
-
-1. Paste the Descriptor header.
-    
-2. Link to latest `EXTRACT | SYNTH | FINAL` artifacts by filename.
-    
-
----
-
-## 4 | Apply Descriptor Header and Naming Convention
-
-1. Open your top three active notes; insert the YAML Descriptor.
-    
-2. Set `Style: DDAY_v3`.
-    
-3. Rename recent artifacts to:
-    
-    ```
-    <YYYYMMDD>__<Project>__<Unit>__<Status>__<vX>__<agent>.<ext>
-    ```
-    
-
----
-
-## 5 | Initial Bake-Off (Claude 4.5 family + GPT-5)
-
-1. Open `templates/roles.md`.
-    
-2. Task: _CFA QM – Sharpe vs Sortino vs Information Ratio_.
-    
-3. Run the same Descriptor header in:
-    
-    - ChatGPT (GPT-5)
-        
-    - Claude 4.5 Sonnet
-        
-    - Claude 4.5 Haiku  
-        _(optional deep audit: Claude 4.1 Opus)_
-        
-4. Score on context fidelity, reasoning, structure, tone.
-    
-5. Record results under **Default Role Map**, commit and push.
-    
-
----
-
-## 6 | Load Prompt Macros
-
-From `templates/prompt_macros.md`, add to each model’s snippets:
-
-- **First-Principles Auditor**
-    
-- **MSO Builder**
-    
-- **Research Extract → Synthesis → Audit**
-    
-- (Optional) **DDAY Comms Macro**
-    
-
-Pin Auditor and MSO Builder for quick access.
-
----
-
-## 7 | Ship an MSO Today (CFA Session 1)
-
-1. Descriptor for CFA sessions:
-    
-    ```
-    Project: CFA-Level1
-    Objective: Systematic study via First-Principles → MSO loop
-    Sources: [Schweser-2025, CFAI-2025, Mocks]
-    Output_Type: md
-    Style: DDAY_v3
-    ```
-    
-2. Topic example: **QM – TVM Basics**
-    
-3. Run First-Principles Auditor → approve → MSO Builder.
-    
-4. Save:
-    
-    ```
-    05_Resources/CFA/Sessions/20251109__CFA-L1__tvm-basics__SYNTH__v1__gpt.md
-    ```
-    
-5. Commit and push.
-    
-
----
-
-## 8 | Recurring Actions Every Session
-
-**Start each session**
-
-1. `git pull` to sync latest manual.
-    
-2. Prompt: _“Import all current context exports from 00_System/LLM_Operating_Manual/context_exports/ and align with DDAY_v3 voice.”_
-    
-3. Confirm Descriptor header present and accurate.
-    
-4. (If CFA) Run First-Principles Auditor before work.
-    
-
-**End each session**
-
-1. Run _Context Export Macro_ (`Export_Type: session`).
-    
-2. If voice used → run _Voice Summarizer Macro_.
-    
-3. Save to `context_exports/`, commit and push.
-    
-
----
-
-## 9 | Maintenance Cadence
-
-|Frequency|Action|Purpose|
-|---|---|---|
-|Weekly (Fri)|Bake-off or cross-audit; update roles.md|Model drift check|
-|Weekly (Mon)|Health Check macro|Descriptor + tone consistency|
-|Monthly|Merge registry + refresh voice sample|Continuity|
-|Quarterly|Full bake-off + capability review|Empirical re-weighting|
-
----
-
-## 10 | Evidence & Compliance Defaults
-
-- **Research/Finance** → strict citations.
-    
-- **Comms/Editing** → citations optional.
-    
-- **Sensitive Partner Info** → paraphrase + modularize details + keep `Chain_of_Origin`.
-    
-
----
-
-## 11 | Optional Voice Session SOP
-
-1. Voice on → state Descriptor aloud.
-    
-2. Work in `/scratchpad` folder.
-    
-3. At end → run Voice Summarizer macro (≤ 250 words).
-    
-4. Save `voice_<YYYYMMDD_HHMM>.yaml` in `context_exports/`, commit and push.
-    
+*Automated sync enabled | Voice mode optimized | Cross-device ready*
