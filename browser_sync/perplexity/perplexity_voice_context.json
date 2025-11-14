@@ -1,0 +1,133 @@
+{
+  "version": "1.0",
+  "platform": "Perplexity Max",
+  "timestamp": "2025-11-14T00:01:49.448625",
+  "optimization": "voice_mode_primary",
+  "profile": {
+    "name": "Darrell Day",
+    "voice_signature": {
+      "style": "DDAY Professional Voice v3.3",
+      "tone": "Executive analytical",
+      "pacing": "Measured with intentional pauses"
+    }
+  },
+  "voice_mode_configuration": {
+    "default_length": "60_seconds",
+    "response_tiers": {
+      "quick": {
+        "duration": "30_seconds",
+        "structure": "Single insight + action",
+        "trigger": "Quick answer"
+      },
+      "standard": {
+        "duration": "60_seconds",
+        "structure": "Context + 2-3 points + conclusion",
+        "trigger": "Default"
+      },
+      "detailed": {
+        "duration": "120_seconds",
+        "structure": "Framework + analysis + implications",
+        "trigger": "Deep dive"
+      }
+    },
+    "verbal_optimization": {
+      "sentence_length": "15-20 words max",
+      "pause_markers": [
+        ".",
+        ":",
+        "—"
+      ],
+      "emphasis_through": "rhythm and syntax",
+      "avoid": [
+        "parentheticals",
+        "nested clauses",
+        "acronyms without context"
+      ]
+    }
+  },
+  "context_integration": {
+    "primary_source": "browser_sync/shared/unified_context.md",
+    "modules": {
+      "professional": {
+        "weight": 0.4,
+        "triggers": [
+          "work",
+          "email",
+          "memo",
+          "professional"
+        ]
+      },
+      "msif": {
+        "weight": 0.3,
+        "triggers": [
+          "fund",
+          "pitch",
+          "valuation",
+          "systematic"
+        ]
+      },
+      "analytical": {
+        "weight": 0.3,
+        "triggers": [
+          "analyze",
+          "evaluate",
+          "assess",
+          "review"
+        ]
+      }
+    }
+  },
+  "query_handling": {
+    "research_queries": {
+      "mode": "comprehensive",
+      "sources": "5-10",
+      "synthesis": "executive_summary_first"
+    },
+    "factual_queries": {
+      "mode": "concise",
+      "sources": "2-3",
+      "delivery": "direct_answer"
+    },
+    "analytical_queries": {
+      "mode": "structured",
+      "framework": "MSO",
+      "reasoning": "second_order"
+    }
+  },
+  "browser_handoff": {
+    "from_arc": {
+      "preserve_context": true,
+      "enhance_for_voice": true
+    },
+    "from_comet": {
+      "preserve_context": true,
+      "maintain_thread": true
+    },
+    "to_claude": {
+      "context_summary": true,
+      "include_query_history": true
+    }
+  },
+  "voice_commands": {
+    "navigation": {
+      "next": "Move to next point",
+      "summary": "Provide executive summary",
+      "deeper": "Expand on this point"
+    },
+    "control": {
+      "pause": "Pause for note-taking",
+      "repeat": "Repeat last point",
+      "simplify": "Reduce complexity"
+    }
+  },
+  "performance": {
+    "response_time": "< 2 seconds",
+    "context_cache": "enabled",
+    "voice_preprocessing": true
+  },
+  "sync_metadata": {
+    "hash": "e997035994160540",
+    "last_sync": "2025-11-14T00:01:49.448625",
+    "auto_update": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "version": "1.0",
+  "timestamp": "2025-11-14T00:01:49.437622",
+  "browser": "Comet",
+  "profile": {
+    "name": "Darrell Day",
+    "role": "Teaching Assistant - MSIF",
+    "voice_signature": "DDAY Professional Voice v3.3",
+    "communication_architecture": {
+      "foundation": "Executive empathy with analytical rigor",
+      "structure": "Hierarchy without ego",
+      "delivery": "Composed, collegial, quietly directive"
+    }
+  },
+  "ai_integration": {
+    "default_model": "Claude 3.5 Sonnet",
+    "fallback_models": [
+      "GPT-4",
+      "Perplexity"
+    ],
+    "context_mode": "persistent",
+    "memory_enabled": true
+  },
+  "voice_mode_settings": {
+    "optimized_for": "Perplexity Max Voice",
+    "response_format": {
+      "structure": "Direct → Analysis → Action",
+      "length": "30-90 seconds spoken",
+      "complexity": "Adaptive to query depth"
+    },
+    "verbal_flow": {
+      "pacing": "Measured, with intentional pauses",
+      "emphasis": "Through syntax and rhythm",
+      "transitions": "Minimal, purposeful"
+    }
+  },
+  "context_modules": {
+    "professional": {
+      "style_guide": "DDAY Professional Voice v3.3",
+      "writing_framework": "DDAY Writing Framework",
+      "visual_grammar": "DDAY Signature Brand Guide"
+    },
+    "msif": {
+      "role": "Teaching Assistant",
+      "focus": "Pitch reviews, systematic strategies, faculty feedback",
+      "templates": "Located in LLM_Operating_Manual/templates"
+    },
+    "personal": {
+      "projects": [
+        "CFA Level 1 prep",
+        "LifeOS optimization"
+      ],
+      "learning_style": "First principles → MSO loop",
+      "tools": "Obsidian, GitHub, MCP ecosystem"
+    }
+  },
+  "quick_commands": {
+    "!dday": "Activate DDAY Professional Voice",
+    "!analyze": "Deep analytical framework",
+    "!mso": "MSO-structured response",
+    "!voice": "Optimize for voice reading",
+    "!sync": "Force context synchronization",
+    "!review": "Faculty-level critique",
+    "!quick": "30-second summary"
+  },
+  "automation": {
+    "auto_sync": true,
+    "sync_interval": "6 hours",
+    "github_backup": true,
+    "cross_browser_sync": {
+      "with": [
+        "Arc",
+        "Perplexity"
+      ],
+      "method": "shared_context_pool",
+      "location": "browser_sync/shared"
+    }
+  },
+  "perplexity_integration": {
+    "voice_handoff": true,
+    "context_preservation": true,
+    "query_routing": {
+      "research": "→ Perplexity Pro",
+      "quick_facts": "→ Comet AI",
+      "analysis": "→ Claude via Comet"
+    }
+  },
+  "performance": {
+    "cache_context": true,
+    "preload_templates": true,
+    "compression": "enabled",
+    "max_context_size": "100KB"
+  },
+  "sync_hash": "e997035994160540",
+  "last_update": "2025-11-14T00:01:49.437622"
+}

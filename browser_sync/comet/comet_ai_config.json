@@ -1,0 +1,97 @@
+{
+  "version": "1.0",
+  "timestamp": "2025-01-13T06:00:00.000000",
+  "browser": "Comet",
+  "profile": {
+    "name": "Darrell Day",
+    "role": "Teaching Assistant - MSIF",
+    "voice": "DDAY Professional Voice v3.3",
+    "style": {
+      "tone": "Executive empathy with analytical rigor",
+      "structure": "Hierarchy without ego",
+      "cadence": "Clean, neutral register"
+    }
+  },
+  "ai_features": {
+    "enabled": true,
+    "model_preference": "claude-3-opus",
+    "context_window": "extended",
+    "voice_mode": {
+      "enabled": true,
+      "optimization": "professional_concise",
+      "response_timing": "30-45 seconds max",
+      "structure": "conclusion_first"
+    }
+  },
+  "context_sync": {
+    "source": "../arc/arc_ai_context.json",
+    "sync_method": "bidirectional",
+    "update_frequency": "on_change",
+    "shared_context": true
+  },
+  "active_projects": {
+    "MSIF": {
+      "focus": "Systematic strategy audits and faculty feedback",
+      "current_tasks": "Teaching assistant responsibilities, pitch reviews",
+      "key_frameworks": "Factor models, risk-adjusted performance metrics"
+    },
+    "CFA_Level_1": {
+      "focus": "Accelerated preparation schedule",
+      "methodology": "First-Principles → MSO loop",
+      "timeline": "February 2025 exam"
+    },
+    "LifeOS": {
+      "focus": "Knowledge management system optimization",
+      "integration": "GitHub cross-platform sync",
+      "tools": "Obsidian, MCP servers, automated context management"
+    }
+  },
+  "communication_preferences": {
+    "brevity": "150-250 words ideal",
+    "emphasis": "Through structure, not formatting",
+    "citations": "Required for research/finance",
+    "voice_optimized": {
+      "sentence_length": "15-20 words maximum",
+      "paragraph_structure": "Single point per paragraph",
+      "transitions": "Minimal, rely on logical flow"
+    }
+  },
+  "comet_specific_features": {
+    "workspace_switching": {
+      "msif_workspace": {
+        "name": "MSIF Analysis",
+        "context_priority": ["finance", "systematic_strategies", "risk_metrics"],
+        "auto_load": ["msif_audit_files", "pitch_templates"]
+      },
+      "cfa_workspace": {
+        "name": "CFA Study",
+        "context_priority": ["exam_prep", "formula_sheets", "practice_problems"],
+        "auto_load": ["study_schedule", "progress_tracker"]
+      },
+      "personal_workspace": {
+        "name": "LifeOS",
+        "context_priority": ["productivity", "knowledge_management", "automation"],
+        "auto_load": ["daily_notes", "project_status"]
+      }
+    },
+    "ai_sidebar": {
+      "default_prompts": [
+        "Analyze this with MSIF systematic framework",
+        "Apply DDAY Professional Voice to this draft",
+        "Extract key risks and mitigations",
+        "Summarize for executive presentation"
+      ],
+      "context_awareness": "automatic",
+      "history_retention": "session"
+    }
+  },
+  "integration_tokens": {
+    "comet": "comet_2025_unified",
+    "shared_token": "mcp_unified_2025"
+  },
+  "sync_endpoints": {
+    "primary": "file:///C:/Users/Darrell/LifeOS/00_System/LLM_Operating_Manual/context",
+    "backup": "https://api.github.com/repos/darrell-day/professional-context-system",
+    "mobile": "pending_deployment"
+  }
+}
