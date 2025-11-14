@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "platform": "Perplexity Max",
-  "timestamp": "2025-11-14T00:01:49.448625",
+  "timestamp": "2025-11-14T00:23:01.692647",
   "optimization": "voice_mode_primary",
   "profile": {
     "name": "Darrell Day",
@@ -126,8 +126,8 @@
     "voice_preprocessing": true
   },
   "sync_metadata": {
-    "hash": "e997035994160540",
-    "last_sync": "2025-11-14T00:01:49.448625",
+    "hash": "32e6c903f324f06a",
+    "last_sync": "2025-11-14T00:23:01.692647",
     "auto_update": true
   }
 }
