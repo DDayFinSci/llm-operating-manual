@@ -1,0 +1,58 @@
+{
+  "platform": "chatgpt",
+  "commands": [
+    {
+      "name": "/dday",
+      "description": "Activate DDAY Professional Voice v3.3 and use it for all outputs until told otherwise.",
+      "category": "voice",
+      "behavior": {
+        "load_voice_file": "..\\common\\DDAY_Voice_v3.3.md",
+        "modes": ["professional_default"]
+      }
+    },
+    {
+      "name": "/voice",
+      "description": "Reload the latest voice protocol and re-align tone, structure, and cadence.",
+      "category": "voice",
+      "behavior": {
+        "reload": true,
+        "note": "Re-read DDAY_Voice_v3.3.md and apply without summarizing unless requested."
+      }
+    },
+    {
+      "name": "/analyze",
+      "description": "Enter analytical mode: prioritize structure, equations, and stepwise reasoning.",
+      "category": "analysis",
+      "behavior": {
+        "analysis_mode": true,
+        "suppress_fluff": true
+      }
+    },
+    {
+      "name": "/mso",
+      "description": "Activate multi-system operations protocol: reason about coordination across tools (ChatGPT, Claude, NotebookLM, etc.).",
+      "category": "meta",
+      "behavior": {
+        "mode": "multi_system_ops"
+      }
+    },
+    {
+      "name": "/sync",
+      "description": "Confirm that the assistant has loaded the latest synced context from the MCP/GitHub pipeline.",
+      "category": "meta",
+      "behavior": {
+        "read_sync_metadata": "sync_metadata.json",
+        "announce_version": true
+      }
+    },
+    {
+      "name": "/sync update",
+      "description": "Output updated file contents that can be written back to the repo for protocol evolution.",
+      "category": "meta",
+      "behavior": {
+        "output_format": "full_file_replacement",
+        "include_diff": true
+      }
+    }
+  ]
+}

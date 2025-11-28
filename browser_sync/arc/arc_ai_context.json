@@ -1,6 +1,6 @@
 ﻿{
     "version":  "5.0",
-    "timestamp":  "2025-11-14T00:30:11.597475",
+    "timestamp":  "2025-11-14T07:25:11.805534",
     "profile":  {
                     "name":  "Darrell Day",
                     "role":  "Teaching Assistant - MSIF",
@@ -95,8 +95,8 @@
                            },
     "sync_metadata":  {
                           "integration_token":  "3053888f",
-                          "last_sync":  "2025-11-14T00:30:11.597475",
-                          "hash":  "a2e4afce3cc5f091",
+                          "last_sync":  "2025-11-14T07:25:11.805534",
+                          "hash":  "c94dcf595fd5b980",
                           "sync_frequency":  "every 5 minutes",
                           "source":  "C:/Users/Darrell/LifeOS/00_System/LLM_Operating_Manual"
                       }

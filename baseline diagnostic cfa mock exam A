@@ -1,0 +1,2257 @@
+# CFAI provided official mock exam A (first mock exam), Session 2 out of 2. 
+## THIS FILE IS A CONTINUATION OF BASELINE-cfa-official-MockExamA-Session-1.md. This file contains Session 2 of that exam, which combined with the session-1 file, collectively represents a close replica of the standard CFA Level 1 exam. The contents, format, and question patterns exhibited by both files are high integrity replicas of the real test. CFA's official mock exams, like this one, are widely renowed for their fidelity. The scores that the majority of students receive in their final attempts taking official CFA mock exams consistently match, with an almost non-existant margin of error, the score that those students end up achieving in the real exam.
+## THIS FILE CONTAINS ONLY THE INFORMATION FROM SESSION 2. THE PREVIOUS, FIRST PART OF THE EXAM (SESSION 1), IS STORED IN THE FILE <BASELINE-cfa-official-MockExamA-Session-1.md>, saved in the same folder as the file you are currently viewing.
+## Exam Length: 90 questions
+## Time limit: 2:15:00
+## CATEGORY SCORE BREAKDOWN: Found at the bottom of the file after question 90
+## Question Display Structure: The first line of each question is labeled with the question number and whether or not darrell answered correctly, the next group of lines (up to but not including the line that starts with "Darrell's) contains the question and possible answers. Below that is Darrell's explanation of his thought process and general impressions  related to each respective question. The final component of each question begins with the line which starts with !-- Solution. As you can see, that section and any related subsequent lines have been separated using specific syntax. These solution sections are pasted directly from the CFA's website, and detail why each of the three possible options was either correct or incorrect, as well as labeling the CFA volume/topic that corresponds to the question. The solution section ends with the characters -->
+## Darrell's preparation: ZERO STUDY OF CFA MATERIAL, this is meant to serve as a baseline and was completed only with my prior (limited) knowledge from the MSF alongside my personal intuition.
+
+## CLAUDE MUST READ - supplementary instructions for and context for claude: I have added a confidence level next to each answer I selected. More importantly, under each question I added a "Darrell's Reasoning" section, intended to illustrate my thought process and inform Claude as to what assumptions or misconceptions I hold that require attention and correction. Claude should analyze these, cross-reference them with the CFA provided solutions pasted at the bottom of each question as well as the official CFA volumes to identify knowledge and understanding gaps. Identify if, for questions I answered correctly, my correct answer was the product of sufficient conceptual understanding or luck. Similarly, identify if the questions I answered incorrectly were not necessarily because my approach, assumptions, or intuition was wrong, but because of a easily corrected misunderstanding. Claude must incorporate its analysis and insights into the live weakness_log.md file and any other files Claude deems appropriate. Claude must take any additional steps it deems appropriate and necessary based on the insights gained from this mock test file to optimize and accelerate learning and ensure that knowledge gaps are filled. Claude is allowed the freedom to implement any new solutions for me, so long as they serve the project's goal of preparing me to pass the CFA in less than 3 weeks.
+
+
+
+## EXAM SESSION 1 SCORE: 43% (39/90)
+### Question 1 CORRECT
+Which section of an IPS most likely provides information on the permissible use of leverage?
+
+A.Procedures
+B.Investment Objectives
+C.Investment Guidelines (MY INITIAL ANSWER, CONFIDENCE LEVEL: Medium)
+
+Darrell's Reasoning: I can't remember what IPS stands for - Investment Policy Summary maybe? I believe C makes the most sense, as permissable use of leverage implies specific policies guiding the behavior, aka guidelines. Plus, leverage represents risk, magnifying both returns and losses. It is the kind of thing that requires clear guidelines.
+
+<!-- Solution
+Incorrect because the Procedures section explains the steps to take to keep the IPS current and the procedures to follow to respond to various contingencies. It does not provide information about how policy should be executed.
+
+Incorrect because the Investment Objectives section explains the client’s objectives in investing. It does not provide information on how policy should be executed.
+
+Correct because the Investment Guidelines section provides information about how policy should be executed (e.g., on the permissible use of leverage and derivatives) and on specific types of assets excluded from investment, if any.
+
+Basics of Portfolio Planning and Construction
+describe the major components of an IPS -->
+
+### Question 2 INCORRECT
+Investing in an existing solar power plant is best categorized as a:
+
+A.greenfield investment and a social infrastructure asset.
+B.greenfield investment and an economic infrastructure asset. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.brownfield investment and an economic infrastructure asset.
+
+Darrell's Reasoning: I don't know what greenfield or brownfield investing is, but greenfield evokes green energy, pro-environment missions. I don't know the technical definition of economic vs social infrastructure, but my guess is that a power plan would be classified as economic given the broader utility it provides to the economy via energy supply. If I had to guess what social infrastructure is... I'm not sure, maybe things like public libraries and parks. I'd guess it might be similar to public ammenities whose primary purpose is to provide social utility, where as economic infrastructure is probably linked to broader productivity.
+
+<!-- Solution
+Incorrect because an existing solar power plant is a brownfield investment and an economic infrastructure asset. By contrast, a greenfield investment involves developing new assets and new infrastructure. Also, economic infrastructure investments (not social infrastructure) include utility and energy assets that generate power (such as a solar power plant) and produce potable water; transmit, store, and distribute gas, water, and electricity; and treat solid waste.
+
+Incorrect because an existing solar power plant is a brownfield investment and an economic infrastructure asset. Investing in infrastructure assets that are to be constructed is generally referred to as greenfield investment. Investing in existing infrastructure assets may be referred to as brownfield investment. Economic infrastructure assets support economic activity and include three broad types of assets: transportation assets, information and communication technology (ICT) assets, and utility and energy asset. Utility and energy assets generate power and produce potable water; they transmit, store, and distribute gas, water, and electricity; and they treat solid waste.
+
+Correct because brownfield investments expand existing facilities. Also, economic infrastructure investments include utility and energy assets that generate power (such as a solar power plant) and produce potable water; transmit, store, and distribute gas, water, and electricity; and treat solid waste.
+
+Real Estate Infrastructure
+explain features and characteristics of infrastructure -->
+
+### Question 3 CORRECT
+The replacement of existing trades on a swap execution facility by the central counterparty is best described as:
+
+A.novation. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.market making.
+C.marking to market.
+
+Darrell's Reasoning: I am entirely unfamiliar with most of the terminology used here. I have a general knowledge of things like Limit Books. I have previously been taught about market making, but my recall is poor. Something to do with specialists assigned to specific asset desks in more traditional exchanges that are individually functioning as the exchange's primary authority on a given space. The type of professional and desk that the NYSE would have, but that more modern and dynamic exchanges like the NASDAQ do not. I seem to remember market making describing a particular task the desk specialist does, or perhaps a specific aspect of their job description unique to the consolidated, traditional system that NYSE adheres to. It is important to note that I really don't KNOW the definition of market making, or novation, or marking to market, and I have no idea what a swap execution facility is, or what central counterparty is. My only exposure to counterparty is in the context of banking institutions whose counterparty teams manage the ongoing monitoring of the bank's partners, including financial analysis and general due diligence, in order to ensure things like the partners compliance with financial covenants, catch early warning signs of distress which may necessitate adjusting the existing exposure levels approved to the partnering business, etc. Given how foreign this specific question is, I'm just going to guess A.
+
+<!-- Solution
+Correct because, under central clearing, a derivatives trade is executed in Step 1 on a swap execution facility (SEF), a swap trading platform accessed by multiple dealers. The original SEF transaction details are shared with the CCP (central counterparty) in Step 2, and the CCP replaces the existing trade in Step 3. This novation process substitutes the initial SEF contract with identical trades facing the CCP.
+
+Incorrect because market making is the function performed by market makers, not the central counterparty. Exchange memberships are held by market makers (or dealers) that stand ready to buy at one price and sell at a higher price. With standard terms and an active market, they are often able to buy and sell simultaneously, earning a small bid–offer spread.
+
+Incorrect because, at the end of each day, the clearinghouse engages in a practice called mark to market (MTM), also known as the daily settlement. The clearinghouse determines an average of the final futures trading price of the day and designates that price as the end-of-day settlement price. All contracts are then said to be marked to the end-of-day settlement price. Thus, the replacement of trades by a central counterparty in a swap execution facility is not best described as marking to market.
+
+Derivative Instrument and Derivative Market Features
+describe the basic features of derivative markets, and contrast over-the-counter and exchange-traded derivative markets -->
+
+### Question 4 INCORRECT
+An analyst gathers the following information about a portfolio:
+
+Portfolio Weight	Standard Deviation
+Asset 1	25%	12%
+Asset 2	75%	16%
+If the correlation coefficient between the two assets is 0.75, the standard deviation of the portfolio is closest to:
+
+A.12.37%. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.14.39%.
+C.15.00%.
+
+Darrell's Reasoning: This is a very familiar question that I remember struggling with in a previous class, and but forgot to follow up and review. Calculating the weighted average standard deviation of the portfolio is fairly straightforward, but I keep forgetting how to apply the correlation coefficient in order to account for the bilater influence of each asset on one another. I feel like this is part of the equation where some sort of expression similar to 2xy is included, maybe the correlation coefficient goes in there. I'm not sure, I'll have to just take the weighted average and make a rough adjustment as a guess for this. The weighted average of the standard deviations is 15%, but I doubt that C is correct. With such a high correlation coefficient, the combined standard deviation probably overstates mixed portfolio's volatility, since there is substantial predictive influence shared between the behaviors of each asset. This probably significantly reduces the potential spectrum of randomness... I'm going to guess its the lowest value, A.  
+
+<!-- Solution
+Incorrect because it omits the third term in the formula in calculating the standard deviation: [(0.252 × 0.122) + (0.752 × 0.162)]0.5 ≈ 0.1237 = 12.37%.
+
+Correct because the formula for calculating the standard deviation of a two stock portfolio, σp, is:
+
+σp = [w12σ12 + w22σ22 + 2w1w2ρ12σ1σ2]1/2
+
+where:
+
+w = weight of each stock
+
+σ = standard deviation
+
+ρ12 = the correlation of returns between Stock 1 and Stock 2
+
+Plugging in the numbers, σp =
+
+[(0.252 × 0.122) + (0.752 × 0.162) + (2 × 0.25 × 0.75 × 0.12 × 0.16 × 0.75)]0.5 ≈ 0.1439 = 14.39%
+
+Incorrect because it omits the correlation coefficient in calculating the standard deviation: [(0.252 × 0.122) + (0.752 × 0.162) + (2 × 0.25 × 0.75 × 0.12 × 0.16)]0.5 = 0.15 = 15%, which is the weighted average standard deviation.
+
+Portfolio Risk and Return: Part I
+calculate and interpret the mean, variance, and covariance (or correlation) of asset returns based on historical data -->
+
+### Question 5 INCORRECT
+The value of a European call option at expiration is:
+
+A.zero at minimum.
+B.inversely related to the risk-free rate.
+C.the greater of zero or the exercise price minus the value of the underlying. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Medium)
+
+Darrell's Reasoning: I really need to brush up on derivatives and their terminology... I know that a call option represents the guaranteed OPTION of buying or selling an asset at a predetermined price, and I think that the value derived from such a transaction is dependent on the differential between the predetermined price point and the current/most recent market price of the asset (as options are only exercised when flipping the underlying asset, mostly at market value, will generate a profit). What I'm not sure of is how important of a factor "expiration" is here. At first I thought it could be referring to market close, but now I'm thinking it most likely refers to when the right to execute the trade at the predetermined price expires. Assuming that the exact point of expiration can still represent a "final chance" to exercise the option, I think C is the best answer. If the option is exercised, depending on if you are the buyer or seller, the value of the option is either or the difference between the exercise price and market order price. Since it is perfectly possible for that difference to be negative, and A seems to require a value or return that is greater than or equal to zero, I'm choosing C. The value of an option (as far as I know) has nothing to do with the risk-free rate.
+<!-- Solution
+Correct because the value of a European call at expiration is the exercise value, which is the greater of zero or the value of the underlying minus the exercise price.
+
+Incorrect because the value of a European call at expiration is the exercise value, which is the greater of zero or the value of the underlying minus the exercise price. The value at expiration is not dependent upon the risk-free rate. Prior to expiration, the value of a European call is directly related to the risk-free interest rate.
+
+Incorrect because the value of a European call at expiration is the exercise value, which is the greater of zero or the value of the underlying minus the exercise price not the exercise price minus the value of the underlying, which defines the value of a put option.
+
+Pricing and Valuation of Options
+explain the exercise value, moneyness, and time value of an option -->
+
+### Question 6 CORRECT
+In an efficient market, asset prices most likely react to the release of:
+
+A.expected information only.
+B.unexpected information only. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Medium)
+C.both expected information and unexpected information.
+
+Darrell's Reasoning: I think B is the most correct choice. My understanding is that an efficient market immediately adjusts prices to reflect all known information. If information is expected, the implication is that it is known, in which case the market will have already priced in the consensus value of that information. Since the question asks about "reacting", I think B is best. My expectation would be that an efficient market would - without lag - instantly and accurately react to unexpected information with price adjustment
+<!-- Solution
+Incorrect because an efficient market is thus a market in which asset prices reflect all past and present information and present information includes expectations. Thus, in an efficient market, prices should be expected to react only to the elements of information releases that are not anticipated fully by investors – that is, to the ‘unexpected' or ‘surprise' element of such releases.
+
+Correct because in an efficient market, prices should be expected to react only to the elements of information releases that are not anticipated fully by investors – that is, to the ‘unexpected' or ‘surprise' element of such releases.
+
+Incorrect because an efficient market is thus a market in which asset prices reflect all past and present information and present information includes expectations. Thus, in an efficient market, prices should be expected to react only to the elements of information releases that are not anticipated fully by investors – that is, to the ‘unexpected' or ‘surprise' element of such releases.
+
+Market Efficiency
+describe market efficiency and related concepts, including their importance to investment practitioners -->
+
+### Question 7 CORRECT
+An analyst gathers the following information about a company (in $ millions):
+
+Year 1
+Net sales	1,000
+Depreciation expense	36
+Net PP&E – beginning of year	480
+Net PP&E – end of year	530
+Forecast assumptions for Year 2:
+
+net sales growth: 10%
+(depreciation expense / net PP&E beginning of year) ratio to remain constant
+maintenance capital expenditures equal depreciation expense
+growth capital expenditure: 5% of net sales
+The forecast total capital expenditure for Year 2 is closest to:
+
+A.$55 million.
+B.$86 million.
+C.$95 million. (MY INITIAL ANSWER, CONFIDENCE LEVEL: High)
+
+Darrell's Reasoning: My guess is that growth capital expenditure is meant to be added to the maintenance amount, then added to the beginning of year Net PP&E. (NOTE: I ALMOST OVERLOOKED THIS AND SIMPLY ASSUMED THERE WERE NO MAINTENANCE CAPITAL EXPENDITURES. THIS MISTAKE WAS DUE TO MY NEVER HAVING SEEN A PROBLEM LIKE THIS BEFORE, AS WELL AS MY GENERAL UNFAMILIARITY WITH CAPITAL EXPENDITURE'S VARIOUS REPRESENTATIONS ON FINANCIALS). THis means we must calculate the dollar amount of capital expenditure growth and the dollar amount of maintenance capital expenditure. 10% topline growth results in total net sales of 1,100M. Capital expenditure growth is equal to 5% of net sales, aka 5% of $1100M, which equals $55M (dollar figure, not percentage). Maintenance capital expenditure is equal to depreciation expense. While depreciation expense is not given to me directly, I do know that the ratio of that expense and the period's beginning PP&E value is constant. For the prior period, that ratio is 36/480 = 0.075. For the new period, I would solve for depreciation (I'll call it x) by evaluating: x/530 = 0.075. This suggests the current periods depreciation value is $39.75M. Adding growth and maintenance together, 39.75 + 55 = a total capital expenditure of $94.75M, which appears to be closest to option C. I feel like I haven't ever really spent the time to learn what the relationship between capital expenditure and PP&E even is, so I could be wrong, but this feels like the correct order of operations, even if I'm not super firm on definitions.
+
+<!-- Solution
+Incorrect because this is only the forecast growth capital expenditure, not the total capital expenditure. Capital expenditures can be broken down into maintenance capital expenditures necessary to sustain the current business and growth capital expenditures needed to expand the business.
+
+Year 2:
+
+net sales = 1,000 × (1 + 10%) = 1,100
+
+growth capital expenditure = 5% × 1,100 = 55.
+
+Incorrect because this is the estimated total capital expenditure for Year 1, not the forecast for Year 2.
+
+growth capital expenditure = 5% × 1,000 = 50
+
+maintenance capital expenditure = depreciation expense = 36
+
+total capital expenditure = growth capital expenditure + maintenance capital expenditure = 50 + 36 = 86.
+
+Correct because capital expenditures can be broken down into maintenance capital expenditures necessary to sustain the current business and growth capital expenditures needed to expand the business. Maintenance capital expenditure forecasts are often based on historical depreciation and amortization expenses, usually with a small adjustment upward to account for inflation in capital goods. Growth capital expenditure forecasts are more discretionary and are tied to management’s expansion plans and revenue growth. Depreciation and amortization forecasts are based on net PP&E and intangibles on the balance sheet (which increase due to capital expenditures) and their useful lives as assumed by management’s accounting policies, which can be approximated by the ratio of gross fixed assets to depreciation and amortization expenses. Information may also be found in the notes to the financial statements.
+
+Year 1:
+
+(depreciation expense/net PP&E beginning of year) = 36/480 = 0.075
+
+Year 2:
+
+net sales = 1,000 × (1+10%) = 1,100
+
+growth capital expenditure = 5% × 1,100 = 55
+
+maintenance capital expenditure = depreciation expense = 530 × 0.075= 39.75
+
+total capital expenditure = growth capital expenditure + maintenance capital expenditure = 55 + 39.75 = 94.75 ≈ 95.
+
+Company Analysis: Forecasting
+explain approaches to forecasting a company’s capital investments and capital structure -->
+
+### Question 8 INCORRECT
+Regarding hedge fund fee calculations, a high-water mark:
+
+A.represents the return on gains that are not yet fully realized.
+B.protects the client from paying twice for the same performance.
+C.is the rate of return that the general partner must exceed in order to earn a performance fee. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+
+Darrell's Reasoning: I don't know what a water mark is in the finance world. I'll have to guess. "High" could denote some sort of threshold, which makes option C seem the most appropriate.
+<!-- Solution
+Incorrect because this distractor pertains to the clawback provision, not high water mark. A clawback provision reflects the right of LPs to reclaim part of the GP’s performance fee. Along either waterfall path, if a GP ever accrues (or actually pays itself) an incentive fee on gains that are not yet fully realized and then subsequently gives back these gains, an investor is typically able to claw back prior incentive fee accruals and payments.
+
+Correct because in hedge funds, fee calculations also take into account a high-water mark, which reflects the highest value used to calculate an incentive fee. A high-water mark is the highest value of the fund investment ever achieved at a performance fee crystallization date, net of fees, by the individual LP. The use of high-water marks protects clients from paying twice for the same performance.
+
+Incorrect because rate of the return that must be achieved before incentive fees are earned is the hurdle rate. The partnership agreement usually specifies that the performance fee is earned only after the fund achieves a return known as a hurdle rate. The hurdle rate is a minimum rate of return, typically 8%, that the GP must exceed in order to earn the performance fee.
+
+Alternative Investment Features, Methods, and Structures
+describe investment ownership and compensation structures commonly used in alternative investments -->
+
+### Question 9 CORRECT
+The security market line applies:
+
+A.to all securities. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Medium)
+B.only to efficient securities.
+C.only to securities that have idiosyncratic risk.
+
+Darrell's Reasoning: I've studied the SML before but I don't remember what it represents. All I remember is that the point of tangency between the SML and Efficient frontier was important (though I don't remember what the significance was). From this my best guess is that the SML's scope exceeds the finite universe of efficient securities, likely encompassing the entire universe of securities priced into the market. I'm not sure if that universe is for a specific asset class, sector, or some sort of commonality, but either way I think A seems to have the highest probability of being correct. 
+<!-- Solution
+Correct because the security market line applies to any security, efficient or not. The security market line (SML) is a graphical representation of the capital asset pricing model with beta, reflecting systematic risk, on the x-axis and expected return on the y-axis.
+
+Incorrect because the security market line applies to any security, efficient or not, as opposed to the capital market line, which does not apply to all securities or assets but only to portfolios on the efficient frontier.
+
+Incorrect because the security market line applies to any security, efficient or not. Total risk and systematic risk are equal only for efficient portfolios because those portfolios have no diversifiable risk remaining. The latter risk is also called idiosyncratic risk.
+
+Portfolio Risk and Return: Part II
+describe and demonstrate applications of the CAPM and the SML -->
+
+### Question 10 INCORRECT
+A hedge fund with $98 million of initial capital charges a management fee of 2% and an incentive fee of 20%. The management fee is based on assets under management at year end and the incentive fee is calculated independently from the management fee. The fee structure has a high-water mark provision. The fund value is $112 million at the end of Year 1, $100 million at the end of Year 2, and $116 million at the end of Year 3. The net-of-fees return earned by the fund in Year 3 is closest to:
+
+A.11.87%.
+B.12.33%. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.14.15%.
+
+Darrell's Reasoning: This is difficult. As stated I don't know what a water-mark is. I also don't know what an incentive fee is, though it sounds like it might be a 20% fee weighted to the size of returns. Given my earlier guess that the water mark might be some sort of performance threshold, maybe positive returns are the contingency required to activate all fees (since the question stated that the "fee structure", not a specific fee, is subject to provision). My best guess is that I should assume that both fees only activate if positive year over year returns are realized, so I can probably assume no fees were charged in year 2. For years 1 and 3, my guess is that the management fee will be 2% of the year end total value, and the incentive fee will be 20% of the annual return %. The comment about the incentive fee being calculated independent of the management fee makes me fairly confident that I don't need to adjust each period's positive return before assessing the 20%. So: Year 1 EoY Value: 112M, Management Fee = 112Mx0.02 = 2,240,000. Year 3 EoY Value: 116M, Management Fee = Management Fee = 116Mx0.02 = 2,320,000. Year 1 Discrete Annual Return = (112-98)/98 = 14.285714%. Year 3 Discrete Annual Return = (116-100)/100 = 16%. Year 1 Weighted Incentive Fee = .14285714x0.2 = 0.0285714, 0.0285714x112M = 3,199,999.936. Year 3 Weighted Incentive Fee = 0.16x0.2 = 0.032, 0.032x116M = 3,712,000. Hmmm, you know what, on second thought I think it's probably inappropriate to calculate 20% of the period's rate of return and then apply it to the total end value of the fund in a given period. I could be mistaken since I'm unfamiliar with calculating fees and this problem type in general, but I think doing it that way rewards management for both returns and contributed capital, when in reality their incentive should be entirely performance based. If that's true then the math is easier, and the dollar value of the incentive fee will be reduced which seems appropriate. Year 1 incentive fee (USD) would be 20% of 14M, so 2.8M. Year 3 incentive fee (USD) would be 20% of 16M, so 3.2M. If I add these values to the management fee dollar value for each respective year, the total dollar fee burdens are 5,040,000 and 5,520,000 for years 1 and 3 respectively. If I just look at year 3: the total return value of 16M, less the total fee burden, divided by the starting fund value, results in a net of fees return of 10.48%... this is definitely off. Summing the total fee burden for both year 1 and year 3 and calculating the net value less of fees with a starting value of $98M and ending net of fee value at Y3 end of 105.44M, the net of fee return is only 7.5%... I'm missing something. Either my math is messed up because of typo(s), or my guess re: how to calculate these fees is off. Either way, if this was a real test, the amount of time I took experimenting on this question would have caused me to completely flunk the exam. I'll have to stop here and move on. I'll have to just guess option B. I definitely don't think its C, since the total return for year 3 is 16%, and we already know management fees are at least 2%. It could be option A, but I'll stick with the middle option and guess B.
+<!-- Solution
+Incorrect because 11.87% results from calculating the return based on a Year 2 ending capital position (i.e., Year 3 beginning capital position) of $100 million. Instead, the return should be calculated based on the Year 2 ending capital position of $98 million, which is net of fees ($100 million – $2 million).
+
+Management fee = Year-end value × Management fee % = $116 million × 2% = $2.32 million
+
+Incentive fee = (Year-end value – High water mark) × Incentive fee %
+
+= ($116 million – $106.96 million) × 20% = $1.81 million.
+
+Total fees = Management fee + Incentive fee = $2.32 million + $1.81 million = $4.13 million
+
+Net-of-fees return = (Year-end value – Total fees – Beginning capital position)/Beginning capital position
+
+= ($116 million – $4.13 million – $100 million)/$100 million = 11.87%.
+
+Incorrect because 12.33% results from calculating the incentive fee using the net capital position at the end of Year 2 instead of the high-water mark value established at the end of Year 1.
+
+Management fee = Year-end value × Management fee % = $116 million × 2% = $2.32 million
+
+Incentive fee = (Year-end value – Year 2 Ending capital position) × Incentive fee %
+
+= ($116 million – $98 million) × 20% = $3.60 million.
+
+Total fees = Management fee + Incentive fee = $2.32 million + $3.60 million = $5.92 million
+
+Net-of-fees return = (Year-end value – Total fees – Beginning capital position)/Beginning capital position
+
+= ($116 million – $5.92 million – $98 million)/$98 million = 12.33%.
+
+Correct because the net-of-fees return to the fund in Year 3 is closest to 14.15%, calculated as follows:
+
+Year 1:
+
+Portfolio gain = Year-end value – Beginning value = $112 million − $98 million = $14 million
+
+Management fee = Year-end value × Management fee % = $112 million × 2% = $2.24 million
+
+Incentive fee = Portfolio gain × Incentive fee % = $14 million × 20% = $2.8 million
+
+Total fees = Management fee + Incentive fee = $2.24 million + $2.8 million = $5.04 million
+
+Ending Capital Position = Year-end value – Total fees
+
+= $112 million − $5.04 million = $106.96 million
+
+High water mark = Ending capital position = $106.96 million
+
+Year 2:
+
+No incentive fee is earned as the fund declines in value; the high water mark established in Year 1 is not exceeded.
+
+Management fee = Year-end value × Management fee % = $100 million × 2% = $2 million
+
+Ending Capital Position = Year-end value – Management fee
+
+= $100 million − $2 million = $98 million
+
+High water mark = Highest ending capital position = $106.96 million
+
+Year 3:
+
+Net-of-fee returns are affected by the Year 1 high water mark and the Year 2 net capital position (i.e. Year 3 beginning capital position).
+
+Management fee = Year-end value × Management fee % = $116 million × 2% = $2.32 million
+
+Incentive fee = (Year-end value – High water mark) × Incentive fee %
+
+= ($116 million – $106.96 million) × 20% = $1.81 million.
+
+Total fees = Management fee + Incentive fee = $2.32 million + $1.81 million = $4.13 million
+
+Net-of-fees return = (Year-end value – Total fees – Beginning capital position)/Beginning capital position
+
+= ($116 million – $4.13 million – $98 million)/$98 million = 14.15%
+
+Alternative Investment Performance and Returns
+calculate and interpret alternative investment returns both before and after fees -->
+
+### Question 11 CORRECT
+An investment portfolio consists of equal weights in two government bonds of different nations. What correlation level will most likely result in the lowest portfolio standard deviation?
+
+A.–0.2 (MY INITIAL ANSWER, CONFIDENCE LEVEL: Medium)
+B.0.0
+C.0.5
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are mostly unknown to me.
+<!-- Solution
+Correct because, all else being equal, the lower the correlation, the lower the portfolio risk (standard deviation).
+
+Incorrect because a 0% correlation portfolio will reduce the risks but not as much as the negative correlated portfolio.
+
+Incorrect because a 50% correlation portfolio will reduce the risks but not as much as the negative correlated portfolio.
+
+Portfolio Risk and Return: Part I
+describe the effect on a portfolio’s risk of investing in assets that are less than perfectly correlated -->
+
+### Question 12 CORRECT
+A US investor purchases an American depository receipt of a company based in Japan. If the total return of the company's stock in Japan is 3% and the Japanese yen appreciates by 3% against the US dollar, the investor's total return is closest to:
+
+A.0%.
+B.3%. 
+C.6%. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Medium)
+
+Darrell's Reasoning: Guessing its C here. I don't know what a depository receipt is. But if I purchase a foreign asset based on a discrete exchange rate, and that asset increased by 3% in foreign currency terms, and the foreign currency additional increases in value relative to my domestic currency by 3%, then I suppose adding the two yields together for 6% total return makes sense.
+<!-- Solution
+Incorrect because the Japanese company returns 3% and the currency appreciates by 3% against the USD, so the total return is approximately 6%, not 0%.
+
+Incorrect because the Japanese company returns 3% and the currency appreciates by 3% against the USD, so the total return is approximately 6%, not 3%.
+
+Correct because for investors who purchase depository receipts, foreign exchange gains arise because of the change in the exchange rate between the investor’s currency and the currency that the foreign shares are denominated in. For example, US investors who purchase the ADRs of a Japanese company will earn an additional return if the yen appreciates relative to the US dollar. If the total return for a Japanese company was 10 percent in Japan and the yen depreciated by 10 percent against the US dollar, the total return of the ADR would be (approximately)
+0 percent. If the yen had instead appreciated by 10 percent against the US dollar, the
+total return of the ADR would be (approximately) 20 percent. Because the Japanese company returns 3% and the currency appreciates by 3% against the USD, then the total return is approximately 6%.
+
+Overview of Equity Securities
+compare the risk and return characteristics of different types of equity securities -->
+
+### Question 13 INCORRECT
+An investor sells a European put option with the following characteristics:
+
+Put price	$40
+Exercise price	$1,500
+If the price of the underlying at expiration is $1,550, the profit or loss for the seller is:
+
+A.–$10. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.$40.
+C.$50.
+
+Darrell's Reasoning: I already am aware that I don't understand how put prices are quoted. Not to mention, I keep forgetting put vs call, which one is bound by a floor verse a ceiling.... yeah honestly I just don't have much more than a elementary grasp of some derivative basics. I'll need to pay attention and review derivative terminology and formulas thoroughly. For now I'll just guess that the put price represents a spread of some kind, like a deviation from the exercise price. For some reason I feel like A is the right choice... almost like the price of this put option cost $40, and maybe the exercise price being $1,500 means the buyer reserved the right to buy at that price, shorting the asset. The buyer would have exercised the option at expiration, buying the asset for $1500 and selling it at the market order price of $1,550. The buyer profits $50, minutes the $40 expense to purchase the put option, netting $10. The SELLER profits $40 from the sale of the option, but absorbs a $50 relative expense when the option is exercised and he is forced to accept $50 less than the asset's market value at the time. The $40 option sale offsets the $50 loss in value but not entirely, resulting in -$10. AGAIN, I am using these terms but its mostly based off the vague impression I have surrounding some of these concepts. I'm really not sure I'm right at all, but I think it's at least possible that the definitions I have guessed at here are correct.
+<!-- Solution
+Incorrect because it represents the put price p0 less the difference between the exercise price X and the price of the underlying ST at expiration: 40 – (1,550 – 1,500) = –10. This would be the profit to the seller of a call option, Π = –Max(0,ST – X) + c0, with the same exercise price and the same selling price. By contrast, to the put seller, the profit is Π = –Max(0,X – ST) + p0. Therefore, Π = –Max(0,(1,500 – 1,550)) + 40 = 40.
+
+Correct because to the put seller, the profit is Π = –Max(0,X – ST) + p0, where X is the exercise price, ST is the price of the underlying at expiration, and p0 is the put price. Therefore, Π = –Max(0,(1,500 – 1,550)) + 40 = 40.
+
+Incorrect because it represents the payoff to the call buyer cT = Max(0,ST – X), where ST is the price of the underlying at expiration and X is the exercise price. Therefore, cT = Max(0,(1,550 –1,500)) = 50. By contrast, to the put seller, the profit is Π = –Max(0,X – ST) + p0, where p0 is the put price. Therefore, Π = –Max(0,(1,500 – 1,550)) + 40 = 40.
+
+Forward Commitment and Contingent Claim Features and Instruments
+determine the value at expiration and profit from a long or a short position in a call or put option -->
+
+### Question 14 INCORRECT
+A company just paid an annual dividend of €1.25 per share. If the required annual rate of return is 14% and dividends are expected to grow indefinitely at a constant rate of 8%, the company’s intrinsic value per share is closest to:
+
+A.€16.88.
+B.€20.83. (MY INITIAL ANSWER, CONFIDENCE LEVEL: High)
+C.€22.50.
+
+Darrell's Reasoning: Ok, this is another problem and formula that I've definitely seen before but simply don't remember without the formula sheet and an example problem in front of me. I'm fairly certain it involves a fraction, and/or subtracting the dividend growth rate from the annual rate of return... since I can't remember the formula, I'll just say that if a dividend grew by 8%, then D1 = 1.25 and D0 would be 1.15. From here I have to try and intuit how to back into the value per share... I guess the annual rate of return encompasses the divident paid + the appreciation of the stock... I'm struggling wondering if its appropriate to directly subtract the dividend yield from the total annual return of 14%. I'm concerned that this would disproportionately weight the contribution that 8% dividend growth represents relative to 14% growth of overall investment. I tried creating an algebraic expression where .14 = ((P1+1.25)-P0)/Po -> .14Po = P1 + 1.25 - Po -> 1.14 Po = P1 + 1.25. This is where I got stuck. If i was thinking more clearly I'd probably be able to incorporate the fact that Do = 1.15 is known, but I think I'm spending too much time trying to extrapolate solutions that I obviously need to memorize and practice applying at-speed. I looked up the formula I thought I was meant to use here. It's the Gordon Model where Po = D1/(r-g). I don't even remember which growth expectation is subbed in for r and g, but it's probably just the rate of return for r and dividend growth for g. so 1.25/.06, meaning the intrinsic value is 20.833. I'm going to select the correct answer in this instance because this whole process has pretty much ensured I will never forget this formula, but hopefully my commentary here serves to inform claude of conceptual knowledge gaps and mathematic fallacies I posses that I need to strengthen. Between all of session 1 and these first 14 questions in session 2, I think my commentary has been pretty extensive. Moving forward in the interest of time prioritization, I am going to reduce the detail of my annotations and simply identify key observations.
+<!-- Solution
+Incorrect because €16.88 is derived using the growth rate in the denominator of the formula instead of the difference between the required rate of return and the growth rate: V0 = €1.35 / 0.08 ≈ €16.88.
+
+Incorrect because €20.83 results from using D0 (instead of D1) as the next period dividend: V0 = €1.25 / 0.06 ≈ €20.83.
+
+Correct because the value of the shares can be estimated using the Gordon growth model: V0 = D0(1+g) / (r-g) = (€1.25 × 1.08) / (0.14 – 0.08) = €1.35 / 0.06 = €22.50.
+
+Equity Valuation: Concepts and Basic Tools
+explain the rationale for using present value models to value equity and describe the dividend discount and free-cash-flow-to-equity models -->
+
+### Question 15 INCORRECT
+Portfolio 1 has a lower standard deviation of returns than Portfolio 2. If both portfolios lie on the Markowitz efficient frontier, Portfolio 1 most likely has:
+
+A.a lower marginal return per unit of risk than Portfolio 2. 
+B.the same marginal return per unit of risk as Portfolio 2. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.a higher marginal return per unit of risk than Portfolio 2.
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are mostly unknown to me. I have stuided a little bit of efficient frontier but don't remember much, and I don't know who Markowitz is or if his efficient frontier is different from the one I only vaguely remember.
+<!-- Solution
+Incorrect because, on the Markowitz efficient frontier, as we move right from the global minimum-variance portfolio, there is an increase in risk with a concurrent increase in return. The increase in return with every unit increase in risk, however, keeps decreasing as we move from left to the right because the slope continues to decrease. Thus, investors obtain decreasing increases in returns as they assume more risk. Therefore, the marginal return per unit of risk will be higher for Portfolio 1 than for Portfolio 2.
+
+Incorrect because, on the Markowitz efficient frontier, as we move right from the global minimum-variance portfolio, there is an increase in risk with a concurrent increase in return. The increase in return with every unit increase in risk, however, keeps decreasing as we move from left to the right because the slope continues to decrease. Thus, investors obtain decreasing increases in returns as they assume more risk. Therefore, the marginal return per unit of risk will be higher for Portfolio 1 than for Portfolio 2.
+
+Correct because, on the Markowitz efficient frontier, as we move right from the global minimum-variance portfolio, there is an increase in risk with a concurrent increase in return. The increase in return with every unit increase in risk, however, keeps decreasing as we move from left to the right because the slope continues to decrease. Thus, investors obtain decreasing increases in returns as they assume more risk. Therefore, the marginal return per unit of risk will be higher for Portfolio 1 than for Portfolio 2.
+
+Portfolio Risk and Return: Part I
+describe and interpret the minimum-variance and efficient frontiers of risky assets and the global minimum-variance portfolio -->
+
+### Question 16 INCORRECT
+An investor holds a €100 million portfolio. If the portfolio has a one-day 5% value at risk (VaR) of €5 million, the maximum potential loss on a given trading day is:
+
+A.less than €5 million.
+B.€5 million. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.greater than €5 million.
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me. 
+<!-- Solution
+Incorrect because VaR does not tell the maximum loss. The maximum loss is the entire equity of an organization or the entire value of a portfolio.
+
+Incorrect because VaR does not tell the maximum loss. The maximum loss is the entire equity of an organization or the entire value of a portfolio.
+
+Correct because value at risk or VaR is a measure of the size of the tail of the distribution of profits on a portfolio or for an entity. VaR does not tell the maximum loss. The maximum loss is the entire equity of an organization or the entire value of a portfolio, which is €100 million in this case. A one-day VaR of €5 million with a 5% probability means that the portfolio can expect to lose at least €5 million on a single trading day 5% of the time.
+
+Introduction to Risk Management
+describe methods for measuring and modifying risk exposures and factors to consider in choosing among the methods -->
+
+### Question 17 INCORRECT
+A repo is best defined as a:
+
+A.publicly traded, collateralized short-term security. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.security that provides the holder the right to sell it back to the issuer at par.
+C.sale of a security with an agreement by the seller to buy it back at a specified p
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Incorrect because a repurchase agreement or repo is the sale of a security with a simultaneous agreement by the seller to buy the same security back from the purchaser at an agreed-on price and future date. It is a private transaction between parties and not publicly-traded.
+
+Incorrect because this describes a putable bond, not a repo transaction. A putable bond allows the investor to sell the bond back to the issuer prior to maturity, usually at par value.
+
+Correct because a repurchase agreement or repo is the sale of a security with a simultaneous agreement by the seller to buy the same security back from the purchaser at an agreed-on price and future date.
+
+Fixed-Income Markets for Corporate Issuers
+compare short-term funding alternatives available to corporations and financial institutions -->
+
+### Question 18 CORRECT 
+Two risk managers are discussing how an organization’s risk tolerance should be determined. The first manager says, “The risk tolerance must reflect the losses or shortfalls that will cause the organization to fail to meet critical objectives.” The second manager responds, “The risk tolerance must reflect the external forces that bring uncertainty to the organization.” Which of them is most likely correct?
+
+A.Both risk managers (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.The first risk manager
+C.The second risk manager
+
+Darrell's Reasoning: I don't know. This feels like its testing principles I am supposed to infer from their statements, but its just too vague for me and I'm tired. manager 1 might be referencing max drawdown, manager 2... the statement is a little weird, it's almost recursive. I'm tempted to just say manager one but I'll choose option A.
+<!-- Solution
+Correct because the risk tolerance of an organization should reflect both an “inside” view and an “outside” view. The inside view asks what level of loss will leave the organization unable to meet critical objectives. The outside view asks what sources of uncertainty or risk the organization faces.
+
+Incorrect because both an “inside” and “outside” view must be reflected.
+
+Incorrect because both an “inside” and “outside” view must be reflected.
+
+Introduction to Risk Management
+explain how risk tolerance affects risk management -->
+
+### Question 19 INCORRECT
+When evaluating hedge fund positions, internal valuation models are most likely used for:
+
+A.Level 1 assets. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.Level 2 assets.
+C.Level 3 assets.
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Incorrect because Level 1 assets have an exchange-traded, publicly traded price available that is mandated to be used for valuation purposes.
+
+Incorrect because Level 2 asset values use outside quotes from brokers when publicly traded (Level 1) prices are not available.
+
+Correct because Level 3 asset values are computed using only internal models when outsider broker (Level 2) quotes are not available or not reliable.
+
+Alternative Investment Performance and Returns
+describe the performance appraisal of alternative investments -->
+
+### Question 20 INCORRECT
+An investor gathers the following data.
+
+Year	Earnings per Share ($)	Dividends per Share ($)	ROE
+4	3.20	1.92	12%
+3	3.60	1.80	17%
+2	2.44	1.71	13%
+1	2.50	1.60	15%
+To estimate the stock’s justified forward P/E, the investor prefers to use the compounded annual earnings growth and the average of the payout ratios over the relevant period (i.e., Year 1 – Year 4).
+
+If the investor uses 11.5% as her required rate of return, the stock’s justified forward P/E is closest to:
+
+A.10.
+B.12.
+C.21
+
+Darrell's Reasoning: I haven't dealt with calculations that begin with per-share metrics very much, like EPS or Dividends per Share. I am unsure of whether or not ROE (return on equity, right?) includes either, or both, of EPS and DPS, so I don't know if 3.20+1.92=.12 in year 4, or if I should use other math. I'm confident I would probably need to discount each year using the investor's required rate of return, 11.5%, accounting for compounding periods. I'm pretty confused at why year 4 has an ROE of 12%, if the combined sum of the EPS and DPS is net negative compared to the prior years combined sum. Oh, and I just remember I have to account for the fact that the number we're calculating is P/E. I probably am supposed to combine EPS and DPS, set that sum equal to the given periods RoE multiplied by the unknown price, lets call it P4 for year 4. SO something like .12P4=5.12, and maybe price equals 42.6667. Using my financial calculator, that would end up as a PV of 27.61 discounted back 4 periods using 11.5% as the discount rate. I guess I could do that for each of the remaining 3 years, then take the arithmetic mean of the payout ratios (I don't know what that is, maybe its Dividends Per Share/that periods price? So 1.92/5.12 in Year 4, resulting in a payout ratio of 0.37? That could be it, but it feels like I should be using the price from the prior period instead, I don't know why). Either way ideally I should have memorized the TVM discount formula so I don't rely on a calculator, and once again I am reminded that I NEED to memorize compound growth formulas and their many analogs like annuity and perpetuity formulas that reflect compounding, discount formulas that do it, and tangentially related but still significant, the actual formula for geometric mean and harmonic mean. The formulas are one piece, and the definitions are another. I've never calculated a forward P/E, don't know if the Earnings in that ratio includes EPS AND the dividend payout or not, don't know how the payout ratio is calculated, or how ROE fits into the picture... I really need to clarify the map connecting these components. 
+<!-- Solution
+Incorrect because it uses dividend growth rate, not earnings growth rate.
+
+Dividend growth rate over the period = 1.92(1 + g)3 = 1.60; g = 6.3%
+
+P/E1 = p/(r – g); = 0.61/(0.124 – 0.063) = 0.61/0.061 = 10.0
+
+Incorrect because it uses n = 4, not 3, for computing earnings growth rate.
+
+Earnings growth rate = 2.50(1 + g)4 = 3.20; g = 6.4%
+
+P/E1 = p/(r – g); = 0.61/(0.115 – 0.064) = 0.61/0.051 = 12.0
+
+Correct because:
+
+P0/E1 = p/(r – g)
+
+Earnings growth rate (g) over the period of 2011–2014 = 2.50(1 + g)3 = 3.20; g = 8.6%.
+
+Payout ratio (p) computation: for example, Year 4: 1.92/3.20 = 0.60.
+
+Average payout ratio = (0.60 + 0.50 + 0.70 + 0.64)/4 = 0.61.
+
+P0/E1 = p/(r – g); = 0.61/(0.115 – 0.086) = 0.61/0.029 = 21.0.
+
+Equity Valuation: Concepts and Basic Tools
+calculate and interpret the following multiples: price to earnings, price to an estimate of operating cash flow, price to sales, and price to book value -->
+
+### Question 21 CORRECT
+Challenges in constructing fixed-income indexes most likely include that:
+
+A.there is a small number of securities.
+B.securities are relatively illiquid compared to equities. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.fixed-income markets are predominantly order-driven markets.
+
+Darrell's Reasoning: Guessing based off the most obvious facts.
+<!-- Solution
+Incorrect because the number of fixed-income securities is many times larger than the number of equity securities. To represent a specific fixed-income market or segment, indexes may include thousands of different securities. Over time, these fixed-income securities mature, and issuers offer new securities to meet their financing needs, leading to turnover in fixed-income indexes.
+
+Correct because in the fixed income market many securities do not trade frequently and, as a result, are relatively illiquid. As a result, index providers must contact dealers to obtain current prices on constituent securities to update the index or they must estimate the prices of constituent securities using the prices of traded fixed-income securities with similar characteristics.
+
+Incorrect because a challenge in index construction is that fixed-income markets are predominantly dealer markets.
+
+Security Market Indexes
+describe types of fixed-income indexes -->
+
+### Question 22 INCORRECT
+Which of the following investments most likely provides an investor with indirect equity exposure to real estate?
+
+A.Real estate investment trusts 
+B.Real estate limited partnerships
+C.Commercial mortgage-backed securities (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+
+Darrell's Reasoning: There is some degree of separation in both A and C, but C feels more direct as the underlying assets sound like they might just be anchored to the default risk of mortgages, or maybe collatoralized by them. I dont know for sure, REITS are the only thing on this list I'm familiar with, but C seems appropriate.
+<!-- Solution
+Correct because real estate investment trusts (REITs) provide investors with indirect equity real estate exposure. Real estate limited partnerships are a form of direct real estate equity investment. Commercial mortgage-backed securities (CMBS) provide investors with indirect debt investment opportunities in real estate.
+
+Incorrect because real estate limited partnerships are a form of direct real estate equity investment.
+
+Incorrect because commercial mortgage backed securities (CMBS) provide investors with indirect debt investment opportunities in real estate.
+
+Real Estate Infrastructure
+explain features and characteristics of real estate -->
+
+### Question 23 INCORRECT
+All else being equal, counterparty credit risk of a forward contract is:
+
+A.less than the counterparty credit risk of a futures contract. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.equal to the counterparty credit risk of a futures contract.
+C.greater than the counterparty credit risk of a futures contract.
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Incorrect because counterparty credit risk is greater for forward contracts because MTM is not settled until maturity, giving rise to counterparty credit risk over time since no cash is exchanged from inception of the contract to its maturity or expiration. Futures contract prices fluctuate daily based upon market changes. The daily settlement mechanism resets the futures MTM to zero, and variation margin is exchanged to settle the difference, reducing counterparty credit risk.
+
+Incorrect because counterparty credit risk is greater for forward contracts because the MTM is not settled until maturity, giving rise to counterparty credit risk over time since no cash is exchanged from inception of the contract to its maturity or expiration. Futures contract prices fluctuate daily and the daily settlement mechanism resets the futures MTM to zero, and variation margin is exchanged to settle the difference, reducing counterparty credit risk.
+
+Correct because counterparty credit risk for forward contracts is higher as the MTM is not settled until maturity, giving rise to counterparty credit risk over time since no cash is exchanged from inception of the contract to its maturity or expiration. Futures contract prices fluctuate daily based upon market changes. The daily settlement mechanism resets the futures MTM to zero, and variation margin is exchanged to settle the difference, reducing counterparty credit risk.
+
+Pricing and Valuation of Futures Contracts
+compare the value and price of forward and futures contracts -->
+
+### Question 24 INCORRECT
+With respect to index weighting methods, constituent securities with both small market capitalizations and low prices are most likely overrepresented in a(n):
+
+A.price-weighted index. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.equal-weighted index.
+C.market-capitalization-weighted index.
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Incorrect because in price weighting, the weight on each constituent security is determined by dividing its price by the sum of all the prices of the constituent securities. Therefore, securities with low prices are most likely a small part of a price-weighted index and as such are not likely overrepresented in a price-weighted index.
+
+Correct because securities that constitute a small fraction of the target market value are overrepresented. In this case, securities with small market caps and low prices constitute a small fraction of the target market value.
+
+Incorrect because in market-capitalization weighting, or value weighting, the weight on each constituent security is determined by dividing its market capitalization by the total market capitalization (the sum of the market capitalizations) of all securities in the index. Market capitalization or value is calculated by multiplying the number of shares outstanding by the market price per share. Therefore, securities with small market capitalizations are most likely a small part of a market-capitalization weighted index and as such are not likely overrepresented in such an index.
+
+Security Market Indexes
+compare the different weighting methods used in index construction -->
+
+### Question 25 INCORRECT
+A bond is selling for 98.2. It is estimated that the price will fall to 96.6 if yields rise 30 bps and that the price will rise to 100.1 if yields fall 30 bps. Based on these estimates, the effective duration of the bond is closest to:
+
+A.1.78. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.5.94.
+C.11.88.
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Incorrect because it uses a change of 1% (0.01) instead of 30 bps (0.003), as follows:
+
+100.1−96.62×98.2×0.01=1.78
+
+Correct because the effective duration of a bond is
+
+EffDur = (𝑃𝑉−)−(𝑃𝑉+)2×(𝛥Curve)×(𝑃𝑉0)
+ where PV–, PV0, and PV+ are the values of the bond when the yield falls, under the current yield, and when the yield rises, respectively, and ∆Curve is the change in the benchmark yield curve.
+
+EffDur = 100.1−96.62×98.2×0.003=5.94
+
+Incorrect because it does not include the 2 in the denominator, as follows:
+
+100.1−96.698.2×0.003=11.88
+
+Curve-Based and Empirical Fixed-Income Risk Measures
+explain why effective duration and effective convexity are the most appropriate measures of interest rate risk for bonds with embedded options -->
+
+### Question 26 CORRECT
+If a call option is underpriced relative to the binomial model, investors can earn a return in excess of the risk-free rate by buying the call and simultaneously:
+
+A.investing the present value of the strike price at the risk-free rate.
+B.selling short the underlying and investing the proceeds at the risk-free rate. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.buying the underlying and funding the transaction by borrowing at the risk-free rate.
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Incorrect because, as described in the rationale for the correct answer, the investor needs to buy a call, sell short the underlying, and invest the proceeds at the risk-free rate.
+
+Correct because if the option price is too low, buying the call, selling short the asset, and investing the proceeds in risk-free bonds will generate risk-free cash that will earn more than the risk-free rate. This is because a call option can be replicated by borrowing at the risk-free rate and buying the underlying. So, if the call option is underpriced, then investors can earn an excess return by buying the call option while doing the opposite of replicating a call option, which would be shorting the underlying and investing the proceeds at the risk-free rate.
+
+Incorrect because, as described in the rationale for the correct answer, the investor needs to buy a call, sell short the underlying, and invest the proceeds at the risk-free rate.
+
+Valuing a derivative using a one-period binomial model
+explain how to value a derivative using a one-period binomial model -->
+
+### Question 27 CORRECT
+In contrast with an IPO exit, a trade sale exit of a private equity investment most likely has:
+
+A.higher transaction costs. 
+B.higher levels of confidentiality. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.a larger universe of potential buyers.
+
+Darrell's Reasoning: This could be A or B, and definitely isn't C. B is the only one with a descriptive trait (confidentiality) that I immediately associate with PE. 
+<!-- Solution
+Incorrect because trade sales generally have lower instead of higher transaction costs than an IPO.
+
+Correct because a trade sale can be conducted by auction or by private negotiation. Benefits include lower levels of disclosure and higher confidentiality than for an IPO because private equity firms generally deal with only one other party.
+
+Incorrect because a trade sale has a smaller number of potential buyers compared to an IPO exit.
+
+Investments in Private Capital: Equity and Debt
+explain features of private equity and its investment characteristics -->
+
+### Question 28 CORRECT
+Which of the following most likely has the highest priority claim in the event of default?
+
+A.Secured debt (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.Unsecured debt 
+C.Subordinated debt
+
+Darrell's Reasoning: None provided, secured debt has collatoral and is not subordinate to anything, it has to be serviced first unless some other debt is explicitly stated to be senior.
+<!-- Solution
+Correct because secured debt is backed by assets or financial guarantees pledged to ensure repayment in the event of default. Therefore, secured debt has a priority claim over unsecured debt and subordinated debt.
+
+Incorrect because unsecured debt is paid after secured debt in the event of default.
+
+Incorrect because subordinated debt is a form of unsecured debt and it is paid after secured debt in the event of default.
+
+Fixed-Income Instrument Features
+describe the features of a fixed-income security -->
+
+### Question 29 CORRECT
+A multi-boutique asset manager firm is best described as a(n):
+
+A.asset management company that focuses on a specific asset class or style.
+B.asset management company that offers a wide variety of asset classes and styles.
+C.holding company which owns several asset management firms with specialized investment strategies (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Incorrect because these are specialist (not multi-boutique) asset management companies that focus on a specific asset class (e.g., emerging market equities) or style (e.g., quantitative investing). Another type of asset manager firm is a 'multi-boutique,' in which a holding company owns several asset management firms that typically have specialized investment strategies.
+
+Incorrect because these are full-service (not multi-boutique) asset management companies that offer a wide variety of asset classes and style. Another type of asset manager firm is a 'multi-boutique,' in which a holding company owns several asset management firms that typically have specialized investment strategies.
+
+Correct because multi-boutique is a type of asset manager firm in which a holding company owns several asset management firms that typically have specialized investment strategies.
+
+Portfolio Management: An Overview
+describe aspects of the asset management industry -->
+
+### Question 30 CORRECT
+In semi-strong-form efficient markets, the use of fundamental analysis most likely allows investors to:
+
+A.exploit patterns of prices.
+B.earn consistent abnormal returns.
+C.understand the value implications of information. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+
+Darrell's Reasoning: I think its C. Efficient markets price-in informational value accurately and immediately.
+<!-- Solution
+Incorrect because investors using technical analysis attempt to profit by looking at patterns of prices and trading volume. Although some price patterns persist, exploiting these patterns may be too costly and, hence, would not produce abnormal returns.
+
+Incorrect because in a semi-strong efficient market, prices adjust quickly and accurately to new information. Suppose a company announces earnings that are higher than expected. In a semi-strong efficient market, investors would not be able to act on this announcement and earn abnormal returns.
+
+Correct because fundamental analysis is necessary in a well-functioning market because this analysis helps the market participants understand the value implications of information. In other words, fundamental analysis facilitates a semi-strong efficient market by disseminating value relevant information. And, although fundamental analysis requires costly information, this analysis can be profitable in terms of generating abnormal returns if the analyst creates a comparative advantage with respect to this information.
+
+Market Efficiency
+explain the implications of each form of market efficiency for fundamental analysis, technical analysis, and the choice between active and passive portfolio management -->
+
+### Question 31 INCORRECT
+Knowledge about the degree of risk aversion of investors is most likely needed for:
+
+A.the pricing of assets, but not for the pricing of derivatives.
+B.the pricing of derivatives, but not for the pricing of assets.
+C.both the pricing of assets and the pricing of derivatives. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+
+Darrell's Reasoning: I would think that an investors risk aversion is materially important for essentially all investing activities and vehicles.
+<!-- Solution
+Correct because derivatives pricing makes use of the fact that arbitrage opportunities guarantee that a risk-free portfolio that combines the underlying with a derivative must earn the risk-free rate. As such, no knowledge about the degree of risk aversion of investors is needed. In contrast, the pricing of assets requires knowledge of the degree of risk aversion to adequately assess risk premia.
+
+Incorrect because no knowledge about the degree of risk aversion of investors is needed when pricing derivatives.
+
+Incorrect because no knowledge about the degree of risk aversion of investors is needed when pricing derivatives.
+
+Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives
+explain how the concepts of arbitrage and replication are used in pricing derivatives -->
+
+### Question 32 INCORRECT
+Which of the following is least likely a type of embedded option granted to bondholders of a bond issue? The right to:
+
+A.put the issue.
+B.call the issue.
+C.convert the issue. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Incorrect because this is a type of embedded option granted to bondholders.
+
+Correct because the right to call an issue is a type of embedded option granted to issuers, not bondholders.
+
+Incorrect because this is a type of embedded option granted to bondholders.
+
+Fixed-Income Cash Flows and Types
+describe common cash flow structures of fixed-income instruments and contrast cash flow contingency provisions that benefit issuers and investors -->
+
+### Question 33 INCORRECT
+Which of the following is not a credit enhancement in asset-backed securities?
+
+A.Credit tranching
+B.Overcollateralization (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.Representations and warranties
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Incorrect because credit tranching is a form of credit enhancement in ABS structures.
+
+It is common for securitizations to include a form of internal credit enhancement called subordination, also referred to as credit tranching.
+
+Incorrect because overcollateralization is a form of credit enhancement in ABS structures. Credit enhancements are provisions that are used to reduce the credit risk of a bond issue. They include (1) internal credit enhancements, such as subordination, overcollateralization, and reserve accounts, and (2) external credit enhancements, such as financial guarantees by banks or insurance companies, letters of credit, and cash collateral accounts.
+
+Correct because representations and warranties are only provisions in the legal documentation of an ABS, not a credit enhancement. An important legal document is the purchase agreement between the seller of the collateral and the SPE,
+
+which sets forth the representations and warranties that the seller makes about the assets sold. These representations and warranties assure investors about the quality of the assets, an important consideration when assessing the risks associated with the ABS.
+
+Asset-Backed Security (ABS) Instrument and Market Features
+describe typical credit enhancement structures used in securitizations -->
+
+### Question 34 INCORRECT
+An analyst gathers the following information (in $ millions) about three companies:
+Company 1	Company 2	Company 3
+Total Debt	1,125	1,360	1,562
+EBITDA	590	680	750
+Interest Expense	71	60	63
+Which company’s leverage contributes most adversely to its credit risk?
+
+A.Company 1 (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.Company 2 
+C.Company 3 
+
+Darrell's Reasoning: I put one here because i calculated a bunch of debt and interest ratios that i don't remember the name of nor do I understand precisely what makes them unique or more appropriate than other leverage ratios and consistently 1 looked the worst. I have to review all debt or leverage ratios.
+<!-- Solution
+Incorrect because Company 1 has a debt-to-EBITDA ratio of 1.9, which is lower than Company 3’s ratio of 2.08. A lower ratio indicates less leverage and less credit risk.
+
+Company 1: 1,125/590 = 1.9×
+
+Company 2: 1,360/680 = 2.0×
+
+Company 3: 1,562/750 = 2.08×
+
+Incorrect because Company 2 has a debt-to-EBITDA ratio of 2.0, which is slightly less than Company 3’s ratio of 2.08. A lower ratio indicates less leverage and less credit risk.
+
+Company 1: 1,125/590 = 1.9×
+
+Company 2: 1,360/680 = 2.0×
+
+Company 3: 1,562/750 = 2.08×
+
+Correct because the only leverage ratio that can be calculated given the data provided is the debt-to-EBITDA ratio. Company 3 has the highest debt-to-EBITDA ratio of the three companies presented. A higher ratio indicates more leverage and thus higher credit risk. Company 3 also has the highest coverage ratio (EBITDA/interest expense) of the three companies, which would indicate lower credit risk, but the question is confined to analyzing leverage ratios only.
+
+Company 1: 1,125/590 = 1.9×
+
+Company 2: 1,360/680 = 2.0×
+
+Company 3: 1,562/750 = 2.08×
+
+Credit Analysis for Corporate Issuers
+calculate and interpret financial ratios used in credit analysis -->
+
+### Question 35 INCORRECT
+A bond has a modified duration of 5 and a convexity statistic of 75. If the bond's yield-to-maturity decreases 50 bps, the expected percentage price change is closest to:
+
+A.2.41%.
+B.2.59%.
+C.2.69%.(MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Incorrect because it subtracts the second term instead of adding it:(−5×−0.005)−[12×75×(−0.005)2]
+ = 0.025 − 0.00094 = 0.02406 ~ 2.41%.
+
+Correct because: %△𝑃𝑉𝐹𝑢𝑙𝑙≈(𝐴𝑛𝑛𝑀𝑜𝑑𝐷𝑢𝑟×△𝑌𝑖𝑒𝑙𝑑)+[12×𝐴𝑛𝑛𝐶𝑜𝑛𝑣𝑒𝑥𝑖𝑡𝑦×(△𝑌𝑖𝑒𝑙𝑑)2]=
+ (−5×−0.005)−[12×75×(−0.005)2]
+ = 0.025 + 0.00094 = 0.02594 ~ 2.59%.
+
+Incorrect because it omits 0.5 from the calculation: (−5×−0.005)−[75×(−0.005)2]
+ = 0.025 + 0.001875 = 0.026875 ~ 2.69%.
+
+Yield-Based Bond Convexity and Portfolio Properties
+calculate the percentage price change of a bond for a specified change in yield, given the bond’s duration and convexity -->
+
+### Question 36 INCORRECT
+Which of the following institutional investors typically has the lowest tolerance for risk?
+
+A.University endowment funds
+B.Defined benefit pension plans (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.Property and casualty insurance companies
+
+Darrell's Reasoning: Guessing B because pension implies retirement base and the retirement base (particularly in later years) requries a level of defensive posturing that neither of the other options possess. Also, I don't really know what the hell and endowment fund actually is, just vague awareness of them.
+<!-- Solution
+Incorrect because the risk tolerance of university endowment funds is typically high.
+
+Incorrect because the risk tolerance of defined benefit pension plans is typically quite high.
+
+Correct because insurance companies' risk tolerance is typically quite low. Insurance companies receive premiums for the policies they write, and they need to invest these premiums in a manner that will allow them to pay claims. To pay claims to policyholders, regulatory guidelines maintain that an insurance company’s general account is typically invested conservatively in a diverse allocation of fixed- income securities.
+
+Portfolio Management: An Overview
+describe types of investors and distinctive characteristics and needs of each -->
+
+### Question 37 INCORRECT
+If yields decrease by 0.75%, the convexity adjustment for a bond with an annual convexity of 400 is:
+
+A.0.01125.
+B.0.02250.
+C.1.50000. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+
+Darrell's Reasoning: I HAVE NO CLUE HOW CONVEXITY OR ANY RELATED CONCEPTS WORK, NOR DO I EVEN UNDERSTAND HOW THEY ARE DEFINED. I DON't KNOW WHAT PEOPLE MEAN WHEN THEY REFER TO BEHAVIOR "AT THE LONG END OF THE CURVE" ETC ETC. Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Correct because the “second order” effect, is the convexity adjustment. The convexity adjustment is the annual convexity statistic, AnnConvexity, times one-half, multiplied by the change in the yield-to-maturity squared.
+
+Convexity adjustment = (0.5 × AnnConvexity × ΔYield2)
+
+= (0.5 × 400 × 0.00752) = 0.01125.
+
+Incorrect because the 0.5 is missing in the formula:
+
+Convexity adjustment ≠ (400 × 0.00752) = 0.02250
+
+Incorrect because the change in yield is not squared:
+
+Convexity adjustment ≠ (0.5 × 400 × 0.0075) = 1.50000.
+
+Yield-Based Bond Convexity and Portfolio Properties
+calculate and interpret convexity and describe the convexity adjustment -->
+
+### Question 38 INCORRECT
+All else being equal, the bond exposed to the greatest level of reinvestment risk is most likely the one selling at:
+
+A.par.
+B.a discount. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.a premium.
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Incorrect because, all else being equal, a bond selling at par has a lower coupon rate than a bond selling at a premium.
+
+Incorrect because, all else being equal, a bond selling at a discount has a lower coupon rate than a bond selling at a premium.
+
+Correct because a bond selling at a premium has a higher coupon rate and, all else being equal, bonds with higher coupon rates face higher reinvestment risk. The higher the coupon rate, the more dependent the bond’s total dollar return will be on the reinvestment of the coupon payments in order to produce the yield to maturity at the time of purchase.
+
+Interest Rate Risk and Return
+calculate and interpret the sources of return from investing in a fixed-rate bond; -->
+
+### Question 39 CORRECT
+An analyst gathers the following information about two similarly rated 8% semiannual coupon payment bonds:
+
+Bond 1	Bond 2
+Price	114.243	112.691
+Years to maturity	3	5
+Yield to maturity	3%	5%
+Using matrix pricing, the price per 100 of par value of a 4-year semiannual coupon payment bond with similar credit quality and a 7.6% annual coupon is closest to:
+
+A.113.07.
+B.113.19. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.113.47.
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me. No clue what matrix pricing is 
+<!-- Solution
+Incorrect because the frequency is assumed to be annual rather than semi-annual:
+
+Price of 4-year bond: PMT=7.6%; n=4; i = 4%; FV=100; calculate PV = 113.07.
+
+Correct because the price is calculated on the basis of an interpolated yield-to-maturity: (3% + 5%)/2 = 4%, or 2% per semi-annual period.
+
+Price of 4-year bond: PMT=3.8%; n=8; i = 2%; FV=100; calculate PV = 113.19.
+
+Incorrect because it is the mean of the given prices: (114.243 + 112.691)/2 = 113.47.
+
+Fixed-Income Bond Valuation: Prices and Yields
+describe matrix pricing -->
+
+### Question 40 CORRECT
+In the context of strategic asset allocation, adding asset classes with low correlation will most likely improve a portfolio’s risk–return trade-off as long as the stand-alone risk of the added asset class:
+
+A.does not exceed its diversification effect. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.equals its diversification effect.
+C.exceeds its diversification effect.
+
+Darrell's Reasoning: There may be some more sophisticated theory informing this question that I don't know. I need to improve my portfolio analysis skills. But this feels like it essentially is a CAPM question, or at least in principle it is similar, and so A seems logical as it recognizes that the diversification effect and standalone risk require separate consideration, and that the diversification effect's impact (btw I didnt know diversification EFFECT was an official term, is it?) is positive and must outweigh the other portion of risk (nondiversifiable), which cannot be eliminated and so must be weighted appropriately.
+<!-- Solution
+Correct because, in general, adding assets classes with low correlation improves the risk–return trade-off as long as the stand-alone risk of the added asset class does not exceed its diversification effect.
+
+Incorrect because adding assets classes with low correlation will only improve the risk–return trade-off if the stand-alone risk of the added asset class does not exceed its diversification effect.
+
+Incorrect because adding assets classes with low correlation will only improve the risk–return trade-off if the stand-alone risk of the added asset class does not exceed its diversification effect.
+
+Basics of Portfolio Planning and Construction
+explain the specification of asset classes in relation to asset allocation-->
+
+### Question 41 INCORRECT
+An analyst gathers the following information about a company:
+
+Earnings retention rate	55%
+ROE	20%
+If the required rate of return is 15%, the justified forward P/E of the company is closest to:
+
+A.7.5. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.11.3.
+
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me. P/E ratios, "justified forward p/e ratios" etc are a dangerous weakness in my knowledge base.
+<!-- Solution
+Incorrect because in this case the dividend payout ratio is used during the calculation of the dividend growth rate instead of the earnings retention rate. The justified forward P/E can be calculated as where p is the dividend payout ratio, r is the required rate of return and g is the dividend growth rate. By definition earnings retention rate = (1 – Dividend payout ratio). It follows that p = 1 – earnings retention rate = 1 – 0.55 = 0.45. The dividend growth rate is incorrectly calculated as: g = earnings retention rate × ROE = 0.45 × 0.2 = 0.09. Thus, the justified forward P/E is p / (r – g) = 0.45 / (0.15 – 0.09) = 7.5.
+
+Correct because the justified forward P/E can be calculated as where p is the dividend payout ratio, r is the required rate of return and g is the dividend growth rate. By definition earnings retention rate = (1 – Dividend payout ratio). It follows that p = 1 – earnings retention rate = 1 – 0.55 = 0.45. The dividend growth rate is: g = earnings retention rate × ROE = 0.55 × 0.2 = 0.11. Thus, the justified forward P/E is p / (r – g) = 0.45 / (0.15 – 0.11) = 11.25.
+
+Incorrect because in this case the earnings retention rate is used instead of the dividend payout ratio in the formula for the justified forward P/E, which is: where p is the dividend payout ratio, r is the required rate of return and g is the dividend growth rate. In this case we use p = 0.55 instead of p = 1 – 0.55 = 0.45. The dividend growth rate is: g = earnings retention rate × ROE = 0.55 × 0.2 = 0.11. Thus, the justified forward P/E is p / (r – g) = 0.55 / (0.15 – 0.11) = 13.75.
+
+Equity Valuation: Concepts and Basic Tools
+calculate and interpret the intrinsic value of an equity security based on the Gordon (constant) growth dividend discount model or a two-stage dividend discount model, as appropriate -->
+
+### Question 42 CORRECT
+With regard to commodities, it is most likely true that:
+
+A.exposure is most commonly achieved via commodity derivatives. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.their returns are based on an income stream such as interest or dividends.
+C.they are physical products so most investors prefer to trade the actual commodity.
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Correct because the majority of commodity investing is implemented through derivatives.
+
+Incorrect because commodities themselves do not generate cash flows but usually incur costs (cost of carry).
+
+Correct because the majority of commodity investing is implemented through derivatives (not physical commodities).
+
+Natural Resources
+describe features of commodities and their investment characteristics -->
+
+### Question 43 INCORRECT
+Which of the following statements about a forward rate agreement is accurate?
+
+A.The underlying is a currency exchange rate 
+B.The short position hedges against an increase in interest rates (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.The contract is closely tied to the term structure of interest rates
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+
+<!-- Solution
+Incorrect because forward contracts in which the underlying is an interest rate are called forward rate agreements, or FRAs. Therefore, the underlying is not a currency exchange rate but an interest rate.
+
+Incorrect because the FRA seller (the short side) is hedging against a decrease in interest rates. The short position does not hedge against an increase in interest rates.
+
+Correct because FRAs, and indeed all forward contracts relating to bonds and interest rates, are closely tied to the term structure of interest rates.
+
+Pricing and valuation of forward contracts and for an underlying with varying maturities
+explain how forward rates are determined for interest rate forward contracts and describe the uses of these forward rates. -->
+
+### Question 44 INCORRECT
+Assume the current dividend of a security is $9.50. The dividend is expected to grow by 12% each year for two years and then 3% afterwards. The required rate of return is 15%. The security’s value is closest to:
+
+A.$94.99.
+B.$95.58.
+C.$120.51. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+
+Darrell's Reasoning: I don't know what to do here. I tried applying what I THINK (emphasis: think, not know) the gordon formula is, something like D1/(r-g), but I dont know how I'm supposed to apply that to a multi-year timeline like this, let alone if the formula is correct. I was tempted to try to sum the PVs after using that formula but didn't because I couldnt quite tell if it would be double discounting or not. 
+<!-- Solution
+Incorrect because it takes the security value and adds dividend (D0): 85.49 + $9.50 = $94.99.
+
+Correct because, based on dividend discount model to a security with two stages of dividend growth, the value of the security is:
+
+V0 = ∑𝑛𝑡=1𝐷𝑡(1+𝑟)𝑡 + 𝑃𝑛(1+𝑟)𝑛
+
+where
+
+Dt = dividend at time = t
+
+Pn = Expected price of security at time n
+
+n = 2 (because the first stage of growth lasts for two years)
+
+The value of dividend over the next three years is:
+
+D0 = $9.50
+
+D1 = $9.50 × (1 + 0.12) = $10.64
+
+D2 = $9.50 × (1 + 0.12)2 = $11.92
+
+D3 = $9.50 × (1 + 0.12)2 × (1 + 0.03) = $12.27
+
+The expected price of the security at t=2 can be calculated based on Gordon growth model:
+
+P2 = D3÷(r-g) = $12.27÷(0.15-0.03) = $102.25
+
+Plugging in the numbers results in:
+
+𝑉0=$10.64(1+0.15)+$11.92(1+0.15)2+$102.25(1+0.15)2≅$95.58
+
+Incorrect because it takes the discounted values from V0 but doesn’t discount D3.
+
+𝑉0=$10.64(1+0.15)+$11.92(1+0.15)2+$102.25≅$120.51
+
+9.25 + 9.01 + $102.25 = $120.51
+
+Equity Valuation: Concepts and Basic Tools
+calculate and interpret the intrinsic value of an equity security based on the Gordon (constant) growth dividend discount model or a two-stage dividend discount model, as appropriate -->
+
+### Question 45 CORRECT
+An investor gathers the following information:
+
+Risk-free rate of return	4%
+Expected market return	12%
+Standard deviation of market returns	20%
+The expected return of a portfolio on the capital market line with a standard deviation of returns of 15% is closest to:
+
+A.6%.
+B.8%.
+C.10%. (MY INITIAL ANSWER, CONFIDENCE LEVEL: High)
+Darrell's Reasoning: I am not sure about the correct approach here because I can't remember with certainty whether or not the capital market line is just all potential expected returns for a security that adhere to CAPM. Aka, does the last sentence of this question essentially tell me to calculate Er using CAPM, by backing into any missing values with the info provided? My guess is yes. I don't know if this is right, but it seems reasonable to back into a Beta value by evaluating the ratio between the portfolio's std dev and the market's std dev. This gives me a beta of .75 and I now have all I need. Er = Rf + B(Rm - Rf) . The answer I got was 10%, option C. (NOTE FOR CLAUDE: THIS IS AN INSTANCE WHERE JUST BECAUSE I GOT THE QUESTION RIGHT, DOESN'T MEAN I NECESSARILY HAVE SUFFICIENT MASTERY OF THE CONTENT. IT IS YOUR JOB TO EVALUATE HOW I FOUND MY WAY TO THE RIGHT ANSWER DESPITE NOT KNOWING THE ESSENTIAL UNDERLYING CONCEPTS WITH CERTAINTY, SO THAT YOU CAN DETERMINE WHAT NEEDS TO BE ADDRESSED AND WHAT IS SUFFICIENT)
+<!-- Solution
+Incorrect because it forgets to add the risk-free rate in the correct calculation; E(Rp) = [(E(Rm) – Rf)/σm] × σp = [(12% – 4%)/20%] × 15% = 0.4 × 15% = 6%.
+
+Incorrect because it is the expected return of a portfolio on the capital market line with equal weights (rather than 25%/75% weights) in the risk-free asset and the market portfolio; E(Rp) = (0.5 × 12%) + (0.5 × 4%) = 8%. 8% is also equal to the market risk premium, E(Rm) – Rf = 12% – 4% = 8%, and it is the difference between the market's standard deviation and expected return, σm – E(Rm) = 20% – 12% = 8%.
+
+Correct because, according to capital market theory, all portfolios (p) on the capital market line (CML) have an expected return equal to E(Rp) = Rf + [(E(Rm) – Rf)/σm] × σp. Hence, for a portfolio with σp = 15%, we have E(Rp) = 4% + [(12% – 4%)/20%] × 15% = 4% + (0.4 × 15%) = 4% + 6% = 10%. Alternatively, it can be deduced from the standard deviation of the CML portfolio that it consists of 75% invested in the market portfolio and 25% invested in the risk-free asset. Specifically, σp = (1 – w1)σm, where w1 denotes the portfolio weight in the risk-free asset and (1 – w1) the portfolio weight in the market, and therefore (1 – w1) = σp/σm = 15%/20% = 0.75. The expected return on the portfolio is therefore: E(Rp) = (0.75 × 12%) + (0.25 × 4%) = 10%.
+
+Portfolio Risk and Return: Part II
+describe the implications of combining a risk-free asset with a portfolio of risky assets -->
+
+### Question 46 INCORRECT
+The value of a European put option is directly related to the:
+
+A.risk-free interest rate.
+B.value of the underlying. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.volatility of the underlying. 
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Incorrect because the value of a European put is inversely related to the risk-free interest rate.
+
+Incorrect because the value of a European put option is inversely related to the value of the underlying.
+
+Correct because the value of a European put is directly related to the volatility of the underlying.
+
+Pricing and Valuation of Options
+identify the factors that determine the value of an option and describe how each factor affects the value of an option-->
+
+### Question 47 CORRECT
+Which of the following reflects the right of limited partners to reclaim part of the general partner's performance fee?
+
+A.Soft hurdle rate
+B.Hard hurdle rate
+C.Clawback provision (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+
+Darrell's Reasoning: Please see my answer to question 55 below. The same principle is true for this question, its contents are entirely unknown to me.
+<!-- Solution
+Incorrect because the hurdle rate is a minimum rate of return, typically 8%, that the GP must exceed in order to earn the performance fee. GPs typically receive 20% of the total profit of the private equity fund net of any hard hurdle rate, in which case the GP earns fees on annual returns in excess of the hurdle rate, or net of the soft hurdle rate, in which case the fee is calculated on the entire annual gross return as long as the set hurdle is exceeded.
+
+Incorrect because the hurdle rate is a minimum rate of return, typically 8%, that the GP must exceed in order to earn the performance fee. GPs typically receive 20% of the total profit of the private equity fund net of any hard hurdle rate, in which case the GP earns fees on annual returns in excess of the hurdle rate, or net of the soft hurdle rate, in which case the fee is calculated on the entire annual gross return as long as the set hurdle is exceeded.
+
+Correct because a clawback provision reflects the right of LPs to reclaim part of the GP’s performance fee. Along either waterfall path, if a GP ever accrues (or actually pays itself) an incentive fee on gains that are not yet fully realized and then subsequently gives back these gains, an investor is typically able to claw back prior incentive fee accruals and payments. Clawback provisions are usually activated when a GP exits successful deals early on but incurs losses on deals later in the fund’s life.
+
+Alternative Investment Features, Methods, and Structures
+describe investment ownership and compensation structures commonly used in alternative investments -->
+
+### Question 48 CORRECT
+Hedge funds are least likely to have restrictions concerning:
+
+A.the use of derivatives. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.the withdrawal of invested funds.
+C.the number of investors in the fund. 
+
+Darrell's Reasoning: I don't know enough about the specifics of SOPs unique to Hedge Funds. I've never explicitly studied them. But considering their well known barriers to entry, and my general impression that their deployed capital is often held up in sticky and/or opaque positions that might benefit greatly from an enforced duration, my guess is option A. They don't want your money unless you have a boat load. Then they don't want to give it back unless they have to, and only if you wait patiently. But they'll definitely play with a toy as fun, misunderstood, and almost inentionally opaque as options. (I am mostly being facetious here, though there honestly might be some legitimacy to the implication that the way in which hedge funds weaponize exclusivity and lack of transparency are undesirable behaviors for an industry that affects human being's livelihoods in a very direct way)
+<!-- Solution
+Correct because the use of derivatives is a typical feature of contemporary hedge funds.
+
+Incorrect because hedge funds tend to impose restrictions on the withdrawal of funds.
+
+Incorrect because investing in hedge funds is open only to a limited number of investors.
+
+Hedge Funds
+explain investment features of hedge funds and contrast them with other asset classes -->
+
+### Question 49 CORRECT
+Which date in the chronology of a dividend payment is most likely determined by a security exchange?
+
+A.Declaration date
+B.Ex-dividend date (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.Holder-of-record date
+
+
+Darrell's Reasoning: See my reasoning for question #55 below. The same sentiment applies to the concepts covered by this question.
+<!-- Solution
+Incorrect because the declaration date is determined by the company.
+
+Correct because the ex-dividend date is normally determined by the security exchange on which the shares are listed. The corporation determines the holder-of-record date and declaration date.
+
+Incorrect because the holder-of-record date is determined by the company.
+
+Equity Valuation: Concepts and Basic Tools
+describe dividend payment chronology -->
+
+### Question 50 INCORRECT
+Consider a call option trading for $2.00 with an exercise price of $38.00. If the price of the underlying at expiration is $42.00, the payoff for the call option seller is:
+
+A.–$4.00.
+B.–$2.00. (MY INITIAL ANSWER, CONFIDENCE LEVEL: none)
+C.$4.00.
+
+Darrell's Reasoning: See my reasoning for question #55 below. The same sentiment applies to the concepts covered by this question. 
+<!-- Solution
+Correct because the call seller’s payoff as: –cT = –Max(0, ST – X) = –Max(0, $42.00 – $38.00) = –$4.00.
+
+Incorrect because the call seller’s profit (not payoff) is calculated as: –Max(0, ST – X) + c0 = –Max(0, $42.00 – $38.00) + $2.00 = –$2.00.
+
+Incorrect because the call buyer’s (not seller’s) payoff is calculated as: Max(0, ST – X) = Max(0, $42.00 – $38.00) = $4.00.
+
+Forward Commitment and Contingent Claim Features and Instruments
+determine the value at expiration and profit from a long or a short position in a call or put option -->
+
+### Question 51 Correct
+If an investor wants to protect a short position from adverse price movements while also providing the opportunity for gains in the future, the investor should most likely use a:
+
+A.stop order. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.limit order.
+C.market order.
+
+Darrell's Reasoning: See my reasoning for question #55 below. The same sentiment applies to the concepts covered by this question.
+<!-- Solution
+Correct because a stop order is an order in which a trader has specified a stop price condition. The stop order may not be filled until the stop price condition has been satisfied. Traders use them with the hope of stopping losses on positions that they have established. In the case of a short position, the investor places a stop buy order to protect paper gains. In the case of a short position, when the price rises above the stop price, the order becomes executable.
+
+Incorrect because a limit buy order will be executed whenever the current market price is at or below the limit price specified. Therefore, it cannot protect a short position from adverse price movement. Rather, it specifies a profit target for the position.
+
+Incorrect because a market order will be executed immediately and does not allow the investor any possibility for further gains.
+
+Market Organization and Structure
+compare execution, validity, and clearing instructions
+-->
+
+### Question 52 CORRECT
+During the lockout period for a non-amortizing asset-backed security, the principal payment of €100 million on a €1 billion face value issue will result in the security having a total face value of:
+
+A.€0.9 billion.
+B.€1.0 billion. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+C.€1.1 billion.
+
+Darrell's Reasoning: Basic econ classes always showed the Price vs Demand graph, with Price negatively sloped and demand positively sloped, illustrating that as demand decreases, demand increases. There are some unique types of goods that do not fit this pattern (I wish I could remember their names... essentially they are rare goods where the more expensive they are, the MORE they are in demand).
+<!-- Solution
+Incorrect because principal received during the lockout period is reinvested in additional loans, and not used to pay down the outstanding issuance.
+
+Correct because during the lockout period any principal received is reinvested to acquire additional loans with a principal equal to the total principal received from the cash flow keeping the face value of the issue at €1 billion.
+
+Incorrect because the payment of €100 million would not result in an increase in the face value of the issuance, regardless of whether the issue was inside or outside of the lockout period.
+
+Asset-Backed Security (ABS) Instrument and Market Features
+describe types and characteristics of non-mortgage asset-backed securities, including the cash flows and risks of each type -->
+
+### Question 53 CORRECT
+The decision to divest from fossil fuels in a portfolio is most consistent with which of the following approaches to ESG investing?
+
+A.ESG integration
+B.Impact investing
+C.Negative screening (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+
+Darrell's Reasoning: I have never studied ESG. I guessed C because it sounds like fossil fuels were screened out, and their definitely viewed negatively under ESG guiding principals. But yeah, I don't know this stuff. 
+<!-- Solution
+Incorrect because ESG integration refers to the integration of qualitative and quantitative ESG factors into traditional security and industry analysis.
+
+Incorrect because while exclusionary screening and best-in-class eliminate investment options, thematic investing and impact investing focus on investment in objectives, themes, and trends that relate positively to ESG issues. In impact investing, an investment is selected primarily on its expected social or environmental benefits with measurable investment returns. The divestment itself is a kind of elimination of investment options.
+
+Correct because negative screening refers to the practice of excluding certain sectors or excluding companies that deviate from accepted standards or norms. The example described in the stem is the practice of excluding the fossil fuels sector from investment options.
+
+Basics of Portfolio Planning and Construction
+describe how environmental, social, and governance (ESG) considerations may be integrated into portfolio planning and construction-->
+
+### Question 54 INCORRECT
+Which of the following transactions most likely represents a fair value hedge?
+
+A.Commodity futures to hedge inventory
+B.Currency forward to hedge forecasted sales
+C.Interest rate swap to a fixed rate for floating-rate debt (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+
+Darrell's Reasoning: Please see my answer to question 55 below, the same thing applies to the concepts covered in this question.
+<!-- Solution
+Correct because it is an example of a fair value hedge. A fair value hedge designation applies when a derivative is deemed to offset the fluctuation in fair value of an asset or liability. For example, a commodities producer might sell its inventory forward in anticipation of lower future prices.
+
+Incorrect because it is an example of a cash flow hedge. Derivatives designated as absorbing the variable cash flow of a floating-rate asset or liability such as foreign exchange, interest rates, or commodities are referred to as cash flow hedges. For instance, the FX forward to hedge forecasted sales constitutes an example of a cash flow hedge.
+
+Incorrect because it is an example of a cash flow hedge. Derivatives designated as absorbing the variable cash flow of a floating-rate asset or liability such as foreign exchange, interest rates, or commodities are referred to as cash flow hedges. A swap to a fixed rate for a floating-rate debt liability is another example of a cash flow hedge.
+
+Derivative Benefits, Risks, and Issuer and Investor Uses
+compare the use of derivatives among issuers and investors-->
+
+### Question 55 INCORRECT
+According to put–call–forward parity, the difference between the price of a put and the price of a call is most likely equal to the difference between:
+
+A.forward price and spot price discounted at the risk-free rate. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Low)
+B.spot price and exercise price discounted at the risk-free rate.
+C.exercise price and forward price discounted at the risk-free rate.
+
+Darrell's Reasoning: I do not understand what forward price, spot price, or put-call-forward parity really mean, nor do I understand how they are calculated. My grasp of derivatives already is not the best, and these added terms make this kind of question a roll of the dice. Perhaps just as important, I cannot intuit my way into a reasonable guess because I really don't have a strong sense of the relational dynamics that exist between these things. Since the risk free rate is mentioned, my guess is this question is aimed to test my functional understanding of these derivative concepts within the context of market dynamics and risk premiums. I can't do that, I don't know what I need to know.
+<!-- Solution
+Incorrect because neither put–call parity nor put–call–forward parity support this interpretation.
+
+Incorrect because neither put–call parity nor put–call–forward parity support this interpretation.
+
+Correct because put-call-forward parity can be written as:
+
+p0 – c0 = [X – F0(T)]/(1 + r)T
+
+This means that the difference between the price of a put and the price of a call is equal to the difference between exercise price and forward price discounted at the risk-free rate.
+
+Option Replication Using Put–Call Parity
+explain put–call forward parity for European options-->
+
+### Question 56 INCORRECT
+An analyst gathers the following information about a floating-rate note (FRN):
+
+Time to maturity	3 years
+Current price (per 100 of par value)	98
+Reference rate	1.5%
+Quoted margin	0.5%
+Payment basis	Quarterly
+Assuming evenly spaced periods, the discount margin of the FRN is closest to:
+
+A.0.69%.(MY INITIAL ANSWER, CONFIDENCE LEVEL: none)
+B.1.20%.
+C.3.23%.
+
+Darrell's Reasoning: I don't know anything about floating rates. This is totally new. Not going to bother trying to be clever and guess the right answer when the underlying concept is completely alien to me.
+calculate and interpret yield spread measures for floating-rate instruments
+<!-- Solution
+Incorrect because the reference rate is used without adding on the quoted margin:
+
+(Index × FV)/m = (0.015) × 100/4 = 0.375.
+
+The discount margin can be estimated by solving for DM in this equation:
+
+98 = 0.375/[1 + (0.015 + DM)/4] + 0.375/[1 + (0.015 + DM)/4]2 + ... + (0.375 + 100)/[1 + (0.015 + DM)/4]12
+
+Using a financial calculator: N = 12, PV = 98, PMT = 0.375, FV = 100 ⇒ r = 0.0054766.
+
+We can now solve for DM: 0.0054766 = (0.015 + DM)/4 ⇒ DM = 0.00691 ≈ 0.69%.
+
+Correct because the interest payment each period is 0.5 per 100 of par value:
+
+[(Index + QM) × FV]/m = (0.015 + 0.005) × 100/4 = 0.5 (where the index is also referred to as the market reference rate).
+
+The discount margin can be estimated by solving for DM in this equation:
+
+98 = 0.5/[1 + (0.015 + DM)/4] + 0.5/[1 + (0.015 + DM)/4]2 + ... + (0.5 + 100)/[1 + (0.015 + DM)/4]12
+
+Using a financial calculator: N = 12, PV = 98, PMT = 0.5, FV = 100 ⇒ r = 0.0067406.
+
+We can now solve for DM: 0.0067406 = (0.015 + DM)/4 ⇒ DM = 0.01196 ≈ 1.20%.
+
+Incorrect because an incorrect number of periods (3 instead of 12) is used to calculate the discount rate per period.
+
+By assumption, the interest payment each period is 0.5 per 100 of par value:
+
+[(Index + QM) × FV]/m = (0.015 + 0.005) × 100/4 = 0.5.
+
+The discount margin can be estimated by solving for DM in this equation:
+
+98 = 0.5/[1 + (0.015 + DM)/4] + 0.5/[1 + (0.015 + DM)/4]2 + (0.5 + 100)/[1 + (0.015 + DM)/4]3
+
+Using a financial calculator: N = 3, PV = 98, PMT = 0.5, FV = 100 ⇒ r = 0.01182.
+
+We can now solve for DM: 0.01182 = (0.015 + DM)/4 ⇒ DM = 0.03230 = 3.23%.
+
+Yield and Yield Spread Measures for Floating-Rate Instruments
+calculate and interpret yield spread measures for floating-rate instruments-->
+
+### Question 57 INCORRECT
+A company’s non-callable, non-convertible preferred stock that pays an annual dividend of $3.75 is currently selling at its par value of $50 per share. If the required rate of return increases by 75 bps, the preferred stock’s new price is closest to:
+
+A.$45.45.
+B.$49.50.
+C.$55.56.
+
+Darrell's Reasoning: Please see my answer to question 55 above, the same thing applies to the concepts covered in this question.
+<!-- Solution
+Correct because:
+
+Investors’ current required return = dividend/market price = $3.75/$50 = 7.50%
+
+New required return = 7.50% + 0.75% = 8.25%
+
+New market price = $3.75/0.0825 = $45.45
+
+Incorrect because the required return increase is incorrectly added to the current required return. Basis points are not correctly converted.
+
+Investors’ current required return = dividend/market price = $3.75/$50 = 7.50%
+
+New required return = 7.50% + 0.075 = 7.575%
+
+New market price = $3.75/0.07575 = $49.50
+
+Incorrect because it mistakenly subtracts the increase in the required return from the current required return to arrive at the new required return.
+
+Investors’ current required return = dividend/market price = $3.75/$50 = 7.50%
+
+New required return = 7.50% – 0.75% = 6.75%
+
+New market price = dividend / required return = $3.75/0.0675 = $55.56
+
+Equity Valuation: Concepts and Basic Tools
+calculate the intrinsic value of a non-callable, non-convertible preferred stock -->
+
+
+### Question 58 INCORRECT
+A 3-year, semiannual-pay bond with a $100 par value and a 5% coupon rate is purchased for $98. One year later, if the yield to maturity has decreased by 100 basis points, the change in the value of this bond is closest to:
+
+A.$2.50.
+B.$2.73.
+C.$5.98. (MY INITIAL ANSWER, CONFIDENCE LEVEL: High)
+
+
+Darrell's Reasoning: Used TVM keys on my financial calculator. Calculated YTM under initial conditions (after multiplying by two to account for the semiannual payout structure and its corresponding compound period --- by the way I know it is correct to do this, but I've always wondered if it's because the compounding affect is always applied in tandem with coupon payments. Is that true, or is there a more accurate way of understanding how compounding occurs. Wait, actually, I should be thinking of the time value in terms of discounted compounding rates, not compounding returns, shouldn't I? It's these small ideas that if resolved can lend greater depth to conceptual understanding, but can easily trip you up. As I think about it a little more, I think my lack of clarity around the nature of bond assessment resulted in me overcomplicating basic principals. The YTM, regardless of if we think of it in terms of discounting future value or compounding an ever decreasing present value, is assumed to be compounded annually just like we report it annually, but the fact that we always match this rate to the period means means that the compounding is consistent with the coupon payment frequency, which actually makes sense since those payments have the strongest impact on time-based value calculations outside of the YTM itself). After I found the annualized YTM of the initial conditions, I subtracted the basis points, divided by two to match the updated Time to Maturity + original frequency, similarly adjusted the number of periods N, and computed a new PV (FV and PMT remain constant). This evaluated to -92.02525567 (negative can be ignored). The difference in absolute value between the original PV and the revised PV equals option C, $5.98
+<!-- Solution
+Solution
+Correct because the value of the bond is found by the formula:
+
+PV =[PMT / (1 + r)1] + [PMT / (1 + r)2] + ...+ [(FV +PMT) / (1 + r)N]
+
+where:
+
+PV = present value, or the price of the bond
+PMT = coupon payment per period
+FV = future value paid at maturity, or the par value of the bond
+r = market discount rate, or required rate of return per period
+N = number of evenly spaced periods to maturity
+
+Alternatively, the change in value after one year can be calculated by solving for I and calculating the new value with a 100 basis point change in yield (I) with the following calculator inputs; N = (3 × 2) = 6, PMT = (5% / 2) × 100 = $2.50, FV = $100, PV = $98, Solve I, is equal to 2.8675%, or 2.868%. Annualized, I = 2.868 × 2 = 5.736%. If the yield to maturity drops by 100 bps, the new yield to maturity is equal to 5.736 – 1.00 = 4.736%, or 2.368% on a semi-annual basis.
+
+The price of the bond after one year and the new yield to maturity (or I) is computed using the following calculator inputs: N =(2 × 2)= 4, PMT = $2.50, FV = $100, I = (5.736% − 1%) / 2 = 2.368%. Solving for PV, the new value is equal to $100.498.
+
+Therefore, the change in value of the bond, on an absolute basis =│$98.00 − $100.498│= $2.498, rounded to $2.50.
+
+Incorrect because it fails to modify the term remaining to reflect the passage of one year, where the price of the bond after one year is computed as:
+PV =[PMT / (1 + r)1] + [PMT / (1 + r)2] + ...+ [(FV +PMT) / (1 + r)N]; where:
+
+PV = present value, or the price of the bond
+PMT = coupon payment per period
+FV = future value paid at maturity, or the par value of the bond
+r = market discount rate, or required rate of return per period
+N = number of evenly spaced periods to maturity
+
+The change in value after one year can be calculated by solving for I and calculating the new value with a 100 basis point change in yield (I) with the following calculator inputs; N = (3 × 2) = 6, PMT = (5% / 2) × 100 = $2.5, FV = $100, PV = $98, Solve for I is equal to 2.868%. Annualized, I = 2.868 × 2 = 5.736. If the yield to maturity drops by 100 bps, the new yield to maturity is equal to 5.736 – 1.00 = 4.736, or 2.368 on a semi-annual basis.
+
+The price of the bond with the new yield to maturity (or I), without adjusting the time period is computed using the following calculator inputs: N = 6, PMT = $2.5, FV = $100, I = (5.736% − 1%) / 2 = 2.368%. Solving for PV, the new value is equal to $100.73.
+
+Therefore, the change in value of the bond, on an absolute basis =│$98.00 − $100.73│= $2.73.
+
+Incorrect because it uses the annual interest rate and does not adjust back to semi-annual, where the price of the bond after one year is computed as: PV =[PMT ÷ (1 + r)1] + [PMT ÷ (1 + r)2] + ...+ [(FV +PMT) ÷ (1 + r)N]; where:
+
+PV = present value, or the price of the bond
+PMT = coupon payment per period
+FV = future value paid at maturity, or the par value of the bond
+r = market discount rate, or required rate of return per period
+N = number of evenly spaced periods to maturity
+
+The change in value after one year can be calculated by solving for I and calculating the new value with a 100 basis point change in yield (I) with the following calculator inputs; N = (3 × 2) = 6, PMT = (5% ÷ 2) × 100 = $2.5, FV = $100, PV = $98, Solve for I is equal to 2.868%. Annualized, I = 2.868 × 2 = 5.736 or 5.374%. If the yield to maturity drops by 100 bps, the new yield to maturity is equal to 5.74 – 1.00 = 4.74%.
+
+The the price of the bond using the annual rate of 4.736% after one year is computed using the following calculator inputs: N = 4, PMT = $2.5, FV = $100, I = (5.74% − 1%) = 4.74%. Solving for PV, the new value is equal to $92.01.
+
+Therefore, the change in value of the bond, on an absolute basis =│$98.00 − $92.02│= $5.98.
+
+Fixed-Income Bond Valuation: Prices and Yields
+calculate a bond’s price given a yield-to-maturity on or between coupon dates -->
+
+### Question 59 CORRECT
+A company has an issuer rating of B. Which of the following types of debt issued by this company is most likely to carry a rating of BB–?
+
+A.Subordinated debt
+B.Senior secured debt
+C.Senior unsecured debt
+
+Incorrect because for the rating agencies, likelihood of default—default risk—is the primary factor in assigning their ratings. However, there are secondary factors as well. These factors include the priority of payment in the event of a default (e.g., secured versus senior unsecured versus subordinated) as well as potential loss severity in the event of default. Recognizing these different payment priorities, and thus the potential for higher (or lower) loss severity in the event of default, the rating agencies have adopted a notching process whereby their credit ratings on issues can be moved up or down from the issuer rating, which is usually the rating applied to its senior unsecured debt. Given that subordinated debt ranks lower in the priority of claims than senior unsecured debt and thus potentially has higher loss severity in the event of default, the subordinated debt is most likely to carry a lower, not higher, rating than the issuer (senior unsecured) rating of B.
+
+Correct because for the rating agencies, likelihood of default—default risk—is the primary factor in assigning their ratings. However, there are secondary factors as well. These factors include the priority of payment in the event of a default (e.g., secured versus senior unsecured versus subordinated) as well as potential loss severity in the event of default. Recognizing these different payment priorities, and thus the potential for higher (or lower) loss severity in the event of default, the rating agencies have adopted a notching process whereby their credit ratings on issues can be moved up or down from the issuer rating, which is usually the rating applied to its senior unsecured debt. Given that senior secured debt ranks higher in the priority of claims than senior unsecured debt and thus potentially has lower loss severity in the event of default, the senior secured debt is most likely to carry a BB- rating (which is higher than the issuer rating by 2 notches).
+
+Incorrect because issuer rating is usually the rating applied to its senior unsecured debt. In this case, senior unsecured debt would most likely carry the same rating as the issuer rating, i.e. B, and not a lower rating.
+
+Credit Analysis for Corporate Issuers
+describe the seniority rankings of debt, secured versus unsecured debt and the priority of claims in bankruptcy, and their impact on credit ratings
+<!-- Solution
+Incorrect because for the rating agencies, likelihood of default—default risk—is the primary factor in assigning their ratings. However, there are secondary factors as well. These factors include the priority of payment in the event of a default (e.g., secured versus senior unsecured versus subordinated) as well as potential loss severity in the event of default. Recognizing these different payment priorities, and thus the potential for higher (or lower) loss severity in the event of default, the rating agencies have adopted a notching process whereby their credit ratings on issues can be moved up or down from the issuer rating, which is usually the rating applied to its senior unsecured debt. Given that subordinated debt ranks lower in the priority of claims than senior unsecured debt and thus potentially has higher loss severity in the event of default, the subordinated debt is most likely to carry a lower, not higher, rating than the issuer (senior unsecured) rating of B.
+
+Correct because for the rating agencies, likelihood of default—default risk—is the primary factor in assigning their ratings. However, there are secondary factors as well. These factors include the priority of payment in the event of a default (e.g., secured versus senior unsecured versus subordinated) as well as potential loss severity in the event of default. Recognizing these different payment priorities, and thus the potential for higher (or lower) loss severity in the event of default, the rating agencies have adopted a notching process whereby their credit ratings on issues can be moved up or down from the issuer rating, which is usually the rating applied to its senior unsecured debt. Given that senior secured debt ranks higher in the priority of claims than senior unsecured debt and thus potentially has lower loss severity in the event of default, the senior secured debt is most likely to carry a BB- rating (which is higher than the issuer rating by 2 notches).
+
+Incorrect because issuer rating is usually the rating applied to its senior unsecured debt. In this case, senior unsecured debt would most likely carry the same rating as the issuer rating, i.e. B, and not a lower rating.
+
+Credit Analysis for Corporate Issuers
+describe the seniority rankings of debt, secured versus unsecured debt and the priority of claims in bankruptcy, and their impact on credit ratings -->
+
+### Question 60 CORRECT 
+
+An overreaction in the financial markets causes a security’s price to experience a significant loss during a short period. If this overreaction is caused by investors that sell because other investors are selling, the behavior is best described as:
+
+    A.herding. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Medium)
+    B.loss aversion. 
+C   .overconfidence.
+
+Darrell's Reasoning: 
+I could see the answer being loss aversion if the question had instead said "other investors see the price drop and sell" but it specifically says to presuppose that the overreaction is caused by the influence of one cohort of sellers on another. I think it has to be herding. I've never actually studied these terms, there must be some logical fallacy or behavioral finance section that I'm unaware of, but these specific behaviors are self-descriptive.
+<!-- Solution
+Correct because herding occurs when investors trade on the same side of the market in the same securities, or when investors ignore their own private information and/or analysis and act as other investors do. Herding behavior has been advanced as a possible explanation of under-reaction and over-reaction in financial markets.
+
+Incorrect because loss aversion refers to the tendency of people to dislike losses more than they like comparable gains. This results in a strong preference for avoiding losses as opposed to achieving gains.
+
+Incorrect because if investors are overconfident, they overestimate their own ability to process and interpret information about a security.
+
+Market Efficiency
+describe behavioral finance and its potential relevance to understanding market anomalies -->
+
+### Question 61 INCORRECT
+According to the CAPM, the priced risk of an individual security is:
+
+A.measured by the security's standard deviation of returns.
+B.determined primarily by the security's nonsystematic risk. (MY INITIAL ANSWER, CONFIDENCE LEVEL: Medium)
+C.affected by holding the security in a well-diversified portfolio
+
+Darrell's Reasoning:
+So this is a question where some of the options can be misleading. My knee-jerk response was B, because it mentions nonsystematic risk, and I believe nonsystematic risk is essentially the only attribute of an asset that is directly baked into the expected return, and thereby the price, under the CAPM theory. But depending on the precise meaning of some ambiguity in the language here, it could definitely be something else. For example the question is specifically asking for the "priced risk" of an individual security.... what exactly does it mean by that? I'm noticing that on similar questions the CFA seems like it enjoys occasionally posing a question that is "mostly" true across the answer choice group, but only "absolutely" true in one answer. So in these three options, which contains the unequivocal claim? Option A is not even mostly true, I think. I really need to review and memorize the formulas and applications tied to statistical measures of volatility because seeing mention of standard deviations, variance etc seems to throw me off. But whether or not a calculation that explicitly measures priced risk in terms of std. dev of returns (I should probably know if there is such a calculation, another thing that my guided study of the CFA material needs to cover), CAPM definitely does not hinge on the std. deviation of the security in question alone. CAPM frames the security's expected return as a function of the amount of nonsystematic (undiversifiable) risk the asset holds, applied as a weight to the market risk premium after accounting for the risk free rate. That is where this gets tricky. The security's expected return is absolutely determined (to a degree) by the asset's inherent nonsystematic risk - that weighting is pivotal. But I'm not sure that it's true to suggest the Beta is the primary factor. I think in terms of scale, Beta's will generally (not always) fall within the range of -2 to 2, perhaps most commonly being some decimal value between 0 and 1. Alone, that would definitely not constitute a primary driver for the function. But then that factor is multiplied with the market risk premium, which could easily translate to the Beta's multiplicative impact ultimately generating the most influence on expected return. The thing is... this would not always result in the greatest influence. The risk free rate is quite influential too, as it is given double representation in the formula as both an unaltered static value, as well as a component value rolling up into the market risk premium (it doesn't matter that rf is subtracted instead of added in the MRP calculation, I think. We probably only care about absolute values when we consider impact / weighted representation of factors. This sort of analysis should be agnostic to signage). I could explore this further, but want to give answer option C some attention. Is it ALWAYS true that the priced risk of an individual security is affected by sufficient diversification? Hmmm..... if the question said the expected return of a security instead of the priced risk, I would just choose C now and be done with it. It's this "priced risk" phrasing giving me pause. My concern is that yes, CAPM isolates the security's non systematic risk and uses this factor as an anchor its return estimation. But this question isn't really asking about the final output of Er. It's asking specifically about the portion of risk that is priced. Does the pricing of that portion get affected by diversification? I don't think it does.... I am pretty sure the impact of diversification, or a lack thereof, determines a binomial event that exclusively impacts the non-diversifiable portion of risk, elminating it entirely or failing to affect its value in any material sense. Maybe I'm wrong here, I need this chain of thought to be assessed so I can get some feedback. For now, given the phrasing of the question, I think I have no choice but to stick with Option B.
+<!-- Solution
+Incorrect because according to modern portfolio theory, the risk captured by an asset's standard deviation overstates the risk of that asset's returns in the context of a diversified portfolio. Investors can easily diversify their holdings, thereby eliminating a portion of the risk in their portfolios by diversifying away the security-specific risk. As a result, most financial valuation theories assert that the ability of investors to eliminate security-specific risk, or non-systematic risk, means that investors should not expect to earn a premium to compensate them for the assumption of this risk.
+
+Incorrect because according to capital market theory, the priced risk of an individual security is affected by holding it in a well-diversified portfolio. An asset's risk should be measured in relation to the remaining systematic or non-diversifiable risk, which should be the only risk that affects the asset's price. Systematic or non-diversifiable risk is priced and investors are compensated for holding assets or portfolios based only on that investment's systematic risk. Investors do not receive any return for accepting nonsystematic or diversifiable risk.
+
+Correct because according to capital market theory, the priced risk of an individual security is affected by holding it in a well-diversified portfolio. The early research provided the insight that an asset's risk should be measured in relation to the remaining systematic or non-diversifiable risk, which should be the only risk that affects the asset's price. This view of risk is the basis of the capital asset pricing model, or CAPM.
+
+Portfolio Management: An Overview
+describe the portfolio approach to investing -->
+
+### Question 62 INCORRECT
+A trader enters into the following margin transaction:
+
+Purchase price, per share	€100
+Initial margin posted as equity	45%
+Holding period	1 year
+Unleveraged security return during the period	15%
+Call money rate, one year	4%
+If there are no dividends or commissions, and interest on the margin loan is paid at the end of the period, the trader's rate of return on the margin transaction is closest to:
+
+A.27.3%.
+B.28.4%.
+C.29.3%. (MY INITIAL ANSWER, CONFIDENCE LEVEL: High)
+
+Darrell's Reasoning: So I'm feeling weak on my conviction about the meaning of the term "unleveraged security return" here. 1, outside the scope of just this question, can I reliably claim that "unleveraged" anything, and "unlevered" anything are literally the same thing? Probably... 2, I think this question is trying to trick me. I am not totally certain, but I am fairly confident that the unleveraged return mentioned in the question has already been adjusted to represent solely the amount of the total return that derived solely from equity's weight in the capital structure of the margin account. I don't even know if I need to, but I can just try and ensure I have full picture by backing into the total leveraged return. (0.15) = 0.45(P1-100)/100. 15 = 0.45(P1-100). P1 = 133.3333. So the total levered return was around 33.333%. This roughly aligns with my understanding of the amplification effect leverage provides (it increased the return this trader would otherwise have received by just over 2x). Of course, that effect could have generated an equal but opposite (detrimental) impact on the trader's asset base if the assets price moved in the other direction. (CLAUDE: I ALMOST CARRIED ON AND CALCULATED A NEW UNLEVERAGED SECURITY RETURN HERE, FORGETTING IT WAS ALREADY PROVIDED. IT WOULD HAVE QUADRUPLED THE RATE. I DID THIS IN PART BECAUSE I WAS A LITTLE THROWN BY THIS CALL MONEY RATE, WHICH IS NOT A FACTOR I HAD TO ACCOUNT FOR WHEN ORIGINALLY LEARNING ABOUT MARGIN ACCOUNT BASICS. I MAY NEED TO LEVEL UP THE SOPHISTICATION OF MY UNDERSTANDING OF MARGIN TRADING AND ITS REAL WORLD CONSIDERATIONS AND APPLICATIONS). Right, after a bit of mental agility I've circled back and realized that this is very simple. I think I can just directly subtract the call money rate (again, I am only assuming it is the cost of debt) directly from the total leveraged return, and I will have my traders rate of return net of debt service (that's an appropriate usage of the term debt service right? or should I have called it debt coverage? Interest coverage? I need to firm up my understanding of how these terms are similar but distinct). ANYWAYYYYY, the answer is option C, 29.3%.
+<!-- Solution
+Incorrect because it is the unleveraged return divided by 1 – the margin requirement = 0.15 / (1 – 0.45) = 0.2727 ≈ 27.3%.
+
+Correct because the initial margin requirement is the minimum fraction of the purchase price that must be trader's equity. With the purchase price = $100, initial investment = purchase price × initial margin requirement = €100 × 45% = €45.00; trading gains/losses = purchase price × unleveraged security return = €100 × 15% = €15.00; margin interest paid = purchase price × (1−initial margin requirement) × call money rate = $100 × (1−45%) × 4% = €2.20. Remaining equity = initial investment + trading gains/losses – margin interest paid. Substituting, remaining equity = €45.00 + €15.00 − €2.20 = €57.80. Rate of return = (remaining equity − initial investment) / initial investment. Substituting, rate of return = (€57.80 − €45.00) / €45.00 = 0.2844 or 28.4%.
+
+Incorrect because margin interest paid is calculated based on the initial investment. Margin interest paid = initial investment × call money rate = €45.00 × 4% = €1.80. Remaining equity = €45.00 + €15.00 − €1.80 = €58.20. Rate of return = (€58.20 − €45.00) / €45.00 = 0.2933 ≈ 29.3%.
+
+Market Organization and Structure
+calculate and interpret the leverage ratio, the rate of return on a margin transaction, and the security price at which the investor would receive a margin call -->
+
+### Question 63 INCORRECT
+An analyst gathers the following information about a hedge fund:
+
+Beginning-of-year assets under management (AUM)	$350 million
+Management fee, based on year-end AUM before fees	2%
+Incentive fee	20%
+Hard hurdle rate	5%
+Annual return before fees	10%
+If the incentive fee is based on returns net of management fees, the incentive fee (in $ millions) is:
+
+A.1.96.
+B.5.46. (MY INITIAL ANSWER, CONFIDENCE LEVEL: High)
+C.7.00.
+
+Darrell's Reasoning: This is the second time I've faced a incentive fee and management fee question. This time, simply applying the incentive fee rate to the dollar value of the net increase over the period (less the 2% management fee), I was able to find what I believe is the right answer. I swear I tried this earlier... maybe I was tired and had a typo, or I misunderstood how I should handle the year 2 on that other question, entirely discounting it due to a minsconception about what a high-water mark is.
+<!-- Solution
+Correct because the hurdle rate is a minimum rate of return, typically 8%, that the GP must exceed in order to earn the performance fee. GPs typically receive 20% of the total profit of the private equity fund net of any hard hurdle rate, in which case the GP earns fees on annual returns in excess of the hurdle rate, or net of the soft hurdle rate, in which case the fee is calculated on the entire annual gross return as long as the set hurdle is exceeded.
+
+Management Fee = $350 × 1.10 × 0.02 = $7.7
+
+Hurdle Rate (in $) = $350 × 0.05 = $17.5
+
+Profit on Hedge Fund = $350 × 0.10 = $35
+
+Incentive Fee = ($35 – $7.7 – $17.5) × 0.20 = $1.96.
+
+Incorrect because the hurdle rate is not accounted for in the incentive fee calculation.
+
+Profit on Hedge Fund = $350 × 0.10 = $35
+
+Management Fee = $350 × 1.10 × 0.02 = $7.7
+
+Incentive Fee = ($35 – $7.7) × 0.20 = $5.46.
+
+Incorrect because neither the management fee nor the hurdle rate are accounted for in the incentive fee calculation.
+
+Profit on Hedge Fund = $350 × 0.10 = $35
+
+Incentive Fee = $35 × 0.20 = $7.00.
+
+Alternative Investment Performance and Returns
+calculate and interpret alternative investment returns both before and after fees -->
+
+### Question 64 INCORRECT
+Compared to the total return version of an index, the value of the price version of the index at inception is:
+
+A.less than the value of the total return version. 
+B.equal to the value of the total return version. 
+C.greater than the value of the total return version. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+
+
+Darrell's Reasoning: I don't know what a "price version" is. Genuinely no clue, unless it literally just means "the price of an index" and wants me to compare it to the total return of the index at time zero. If it does, the answer is obviously C, and I would also question whether or not these two things are actually different "versions." I'll guess C anyway.
+<!-- Solution
+Incorrect because at inception, the values of the price and total return versions of an index are equal. As time passes, however, the value of the total return index will exceed the value of the price return index.
+
+Correct because at inception, the values of the price and total return versions of an index are equal. As time passes, however, the value of the total return index will exceed the value of the price return index.
+
+Incorrect because at inception, the values of the price and total return versions of an index are equal. As time passes, however, the value of the total return index will exceed the value of the price return index.
+
+Security Market Indexes
+calculate and interpret the value, price return, and total return of an index -->
+
+### Question 65 INCORRECT
+An asset-based valuation model is most applicable for a company with significant:
+
+A.intangible assets.
+B.property, plant, and equipment.(MY INITIAL ANSWER, CONFIDENCE LEVEL: High)
+C.proportions of current assets and current liabilities and few intangible assets.
+
+Darrell's Reasoning: When it comes to valuation I feel like I've been exposed to DCFs and comps a lot (though I really have to brush up on the application of the theory in those methods. I've been too pampered by dynamic models that cover-up conceptual gaps), but I don't know if I've ever even worked with a prebuilt model for asset-based valuation... I certainly don't know what the specific correct procedure is. In this case it's not a big deal - B is clearly the correct answer, because PP&E is the only long-term tangible asset mentioned in any of the three options. B is definitely the right answer, but as a thought exercise: if I were forced to approximate an asset-based valuation applying only my current understanding, I would probably try to obtain some sort of registry detailing all assets owned by the business. I assume that only the assets that retain a portion of useful life and continue to hold positive market value are eligible to be part of the equation. I'd have to spend more time thinking about how market value vs book value should be treated in this kind of a situation... I really don't know, I need to develop a better standard of when either kind of value is commonly applied. My guess is that, as is often the case with valuation, whichever number is higher ends up being used. In this case that probably doesn't matter though - I imagine the market value of the assets with remaining useful life will almost always exceed the book value, which is systematically depreciated and expensed on the P&L. This reveals some gaps in my knowledge: I bet there is a term for an asset that has been fully depreciated and holds a book value of 0, but still has a positive market value. There's probably a few terms related to that kind of situation. Either way, I think depreciation is even more important than I initially thought... first, conceptually depreciation almost functions like a DCF's discount rate in terms of its recurring impact on the value of an asset. Except I think depreciation is usually straight-line and therefore doesn't capture the compounding affect that discount/return rates exhibit. It's also different in that there is no cash flow associated with the recurring value adjustment (I continue to wonder: I bet that in practice, an asset's rate of convergence to zero book value virtually never matches the rate of change displayed by its market value. There's got to be more to learn here. I know one is an accounting calculation and not "real" in the way that market value is, but I think the difference between the two figures in this sort of situation likely results in some very sophisticated practices that I'm not thinking of). Continuing my consideration of depreciation, I think it actually DOES have an indirect impact on cash flow. I might be misremembering because I frequently mix up income measurements (EBIT, EBITDA, EBT etc)... but I'm pretty sure since tax burdens are assesed against EBT (a post-depreciation representation of income), the fact that depreciation is a non-cash expense ends up producing a reduced tax burden exactly equivalent to the annual depreciation expense... the reduced tax burden means a reduced cash outflow, which ultimately positively impacts working capital (as I've said many times - don't know if I should say WC or NWC here, or which formulas for either metric would be most appropriate in an asset-based valuation, I need help cementing my understanding). As I talk my way through this I think asset-based valuations may be more sophisticated than I had realized. There's probably implications of this relationship between accounting measures and realized market values that end up significantly altering the final deal price. That depreciation-based tax shield means that assets with the majority of their useful life intact are more valuable then I might originally assume... I wonder how the market value measures up against the implied value of the asset as a result of it's remaining useful life in cash flow/tax shield terms. I have no clue, but its probably one of those situations where they're "supposed" to equal each other, except they never do because truly efficient markets don't exist. I guess I'll have to start here, but its an interesting topic. Finance professionals always treat DCFs as the sexy methodology, but I think asset-based valuation might be more colorful than it appears on the surface.
+<!-- Solution
+Incorrect because when a company has significant intangibles, the analyst should prefer a forward-looking cash flow valuation to an asset-based valuation model.
+
+Incorrect because companies with assets that do not have easily determinable market (fair) values—such as those with significant property, plant, and equipment—are very difficult to analyze using asset-based valuation methods.
+
+Correct because asset-based valuations work well for companies that do not have a high proportion of intangible or “off the books” assets and that do have a high proportion of current assets and current liabilities.
+
+Equity Valuation: Concepts and Basic Tools
+describe asset-based valuation models and their use in estimating equity value -->
+
+### Question 66 CORRECT
+An analyst gathers the following information about three securities:
+
+Total Variance
+of Returns	Nonsystematic Variance of Returns
+Security 1	0.20	0.05
+Security 2	0.30	0.25
+Security 3	0.35	0.22
+According to capital market theory, which security has the highest expected return?
+
+A.Security 1 (MY INITIAL ANSWER, CONFIDENCE LEVEL: High)
+B.Security 2
+C.Security 3
+
+Darrell's Reasoning: Once again, not remembering equations and definitions for variance and related concepts is hurting me. Just financial ratios in and statistical/quantitative values and methods feel like something I need help drilling into my long-term memory. In this case I once again will rely on my intuition. This one seems possible, at least. increases in expected return are accompanied by (maybe its more accurate to say: "the result of") additional risk carried by an investment. So this question probably wants me to find the riskiest security, given total variance of returns and nonsystematic variance of returns. The question mentions capital market theory, which I'm guessing just means Capital Asset Pricing Theory... not sure if the concepts are one and the same or a slight variation... probably just nomanclature quirks. CAPM dictates that the expected return of an asset is a function of the risk free rate (a static value, the y intercept graphically) summed together with the product of the Beta and the market risk premium (NOTE TO CLAUDE: AT FIRST I TYPED THIS AND MISTAKENLY THOUGHT BETA WAS THE STATIC VALUE, I'LL NEED TO REVIEW CAPM TOO. THIS IS A GOOD EXAMPLE OF A PRINCIPLE THAT I CONCEPTUALLY UNDERSTAND, BUT NEED TO PRACTICE APPLYING TO REAL PROBLEMS TO DEVELOP LONG TERM RETENTION, AND SECOND-ORDER FUNCTIONAL FLUENCY). I believe that CAPM's key idea, in terms of this problem, is that the the function of an assets return is dependent on the amount of systematic risk exhibited by the asset in relation to market behavior. This problem provides nonsytematic variance... which is the component of risk that does not demand a premium under CAPM, because sufficient diversification nullifies any nonsystematic factors. Here we likely need to simply isolate the portion of total risk that we are unable to eliminate through strategic capital allocation. In the problem Total Variance and Nonsystematic Variance are given, which have the same dimensionality. I just have to subtract the component factor (nonsystematic variance) from the total factor (total variance). Whichever security exhibits the largest difference is the riskiest security. In this case, it's Option 1 (.15) > Option 3 (.13) > Option 2 (0.05), so Option 1 is the correct answer. 
+<!-- Solution
+Correct because according to the capital market theory investors should not be compensated for taking on nonsystematic risk. In contrast, investors must be compensated for accepting systematic risk because that risk cannot be diversified away. In summary, systematic or non-diversifiable risk is priced and investors are compensated for holding assets or portfolios based only on that investment's systematic risk. Also, Total variance = Systematic variance + Nonsystematic variance. Thus,
+
+Security 1 has systematic variance = 0.20 – 0.05 = 0.15;
+
+Security 2 has systematic variance = 0.30 – 0.25 = 0.05;
+
+Security 3 has systematic variance = 0.35 – 0.22 = 0.13.
+
+Since only systematic variance (risk) is compensated with a higher expected return, Security 1 has the highest expected return.
+
+Incorrect because Security 2 has the highest nonsystematic variance (risk) but the lowest systematic variance (risk), and investors should not be compensated for taking on nonsystematic risk. Since only systematic variance (risk) is compensated with a higher expected return, Security 2 has the lowest expected return.
+
+Incorrect because Security 3 has the highest total variance (risk) but not the highest systematic variance (risk), and investors should not be compensated for taking on nonsystematic risk. Since only systematic risk is compensated with a higher expected return, Security 3 does not have the highest expected return.
+
+Portfolio Risk and Return: Part II
+explain systematic and nonsystematic risk, including why an investor should not expect to receive additional return for bearing nonsystematic risk -->
+
+### Question 67 INCORRECT
+An analyst gathers the following information:
+
+Standard Deviation of Returns	Beta
+Portfolio	10%	0.5
+Market	20%	1.0
+The covariance between the returns of the portfolio and the market is closest to:
+
+A.0.005. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+B.0.010.
+C.0.020.
+Darrell's Reasoning: Forced to make a blind guess here. I tried to intuit things... I recognize that the Beta is a crucial variable, because it directly speaks to some level of correlation or reciprocity exhibited by the observed behavior of the Portfolio relative to market performance. Covariance is a concept I learned long ago and have now basically forgotten. I think it essentially indicates how much of the variation displayed by two related parties can be explained by their combined influence on one another. I wish I could remember the equation for covariance, as well as the accompanying equations like standard deviation, variance... there's some squared values that can be useful in backing into other metrics there, and I think I remember a way in which the equation for standard deviation or some related concept was refactored, producing an incredibly useful expression that succeeding at isolating one of these terms (maybe it was covariance? idk). In any case, I have to guess option A, because even if 50% of the portfolio's returns can be explained by market movement, the MARKET's behavioral response to Portfolio behaviors is so miniscule that it the covariance between the two seems like it HAS to be extremely small.
+<!-- Solution
+Incorrect because it mistakes the market variance for the portfolio variance in the correct calculation; βp × σp2 = 0.5 × 0.12 = 0.005. Alternatively, calculating βp × σp = 0.5 × 0.1 = 0.050 and making a decimal mistake also results in selection of this answer.
+
+Incorrect because it multiplies beta by both the market standard deviation and the portfolio standard deviation; βp × σm × σp = 0.5 × 0.2 × 0.1 = 0.010. Alternatively, calculating βp × σm = 0.5 × 0.2 = 0.1 or βm × σp = 1.0 × 0.1 = 0.1 and making a decimal mistake also results in selection of this answer.
+
+Correct because the portfolio's beta is calculated as βp = Cov(Rp,Rm)/σm2, where Cov(Rp,Rm) is the covariance between the returns of portfolio p and the market index m, and σm2 is the market's variance of returns. Therefore, Cov(Rp,Rm) = βp × σm2 = 0.5 × 0.22 = 0.020.
+
+Portfolio Risk and Return: Part II
+calculate and interpret beta -->
+
+### Question 68 CORRECT
+An analyst gathers the following information about a semiannual pay bond:
+
+Price	102
+Years to maturity	3
+Yield to maturity (semiannual basis)	5.27%
+Coupon	6.00%
+The annual yield to maturity based on quarterly compounding is closest to:
+
+A.5.24%. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+B.5.33%.
+C.5.96%
+
+Darrell's Reasoning: I tried finding this by using the TVM keys on my calculator but dividing the coupon by 4, the YTM by 2, and multiplying the period (n) by 4, equalling 12. The number this gave me was roughly in-between option A and B, but closer to A (I think it was around 5.27), so I chose A.
+<!-- Solution
+Correct because a general formula to convert an annual percentage rate for m periods per year, denoted APRm, to an annual percentage rate for n periods per year, APRn, is (1 + APRm / m)m = (1 + APRn / n)n . Solving provides (1 + .0527/2)2 = (1 + APR4/4)4. 1.05339 = (1 + APR4/4)4 . APR4/4 = 0.013. and 0.01309 × 4 = 0.05235 ≈ 5.24%.
+
+Incorrect because this answer uses an incomplete formula. A general formula to convert an annual percentage rate for m periods per year, denoted APRm, to an annual percentage rate for n periods per year, APRn, is (1 + APRm / m)m = (1 + APRn / n)n . Here the answer only calculates the first half of the equation (1 + 0.0527/2)2 = 1.0533. 1.0533 – 1 = 0.0533 or ≈ 5.33%.
+
+Incorrect because this answer uses the semi-annual coupon payment instead of the yield in the numerator. A general formula to convert an annual percentage rate for m periods per year, denoted APRm, to an annual percentage rate for n periods per year, APRn, is (1 + APRm / m)m = (1 + APRn / n)n . Here the answer is derived from this incorrect setup (1 + 0.06/2)2 = (1 + APR4/4)4. 1.0609 = (1 + APR4/4)4 . APR4/4 = 0.0149. and 0.0149 × 4 = 0.0596 ≈ 5.96%.
+
+Yield and Yield Spread Measures for Fixed-Rate Bonds
+calculate annual yield on a bond for varying compounding periods in a year -->
+
+### Question 69 CORRECT
+Investors in alternative assets who seek liquidity are most likely to invest in:
+
+A.hedge funds. 
+B.private equity.
+C.real estate investment trusts. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+
+Darrell's Reasoning: My best guess is REIT. Even though real estate is in the name, I believe REITs are essentially just ETFs composed of diversified real estate positions as an underlying asset. That degree of separation is responsible for the liquidity investors are seeking, since otherwise there are very few ways to gain exposure to the real estate sector without sacrificing a significant liquidity factor. Unless I'm mistaken, I think hedge funds are actually effectively similar to private equity in terms of liquidity. Both of these investment opportunities (opportunities? pools? domains? Asset class is too specific... idk) are somewhat illiquid relative to more mainstream public investment vehicles due to the significant barrier to entry required for investors to be granted access to their markets, alongside the nature of some of their underlying assets. Hedge Funds and PE are both highly selective with strict invitation-only criteria and high minimum capital contributions (I think I'm using the right terms here but I'm not 100%, the idea is clear enough I guess). Outside of the nature of the underlying assets themselves, these vehicles often require minimum duration commitments on top of the initial contribution requirements. REITs are represented in these markets too, but they're just an asset class and are readily available in public markets to retail investors, thus they are the most liquid of these options.
+<!-- Solution
+Incorrect because investors in modern hedge funds are subject to extended holding periods (known as lockup periods) and subsequent notice periods before an investment redemption is possible.
+
+Incorrect because private equity funds may have long lockup periods. Typically, a private equity fund has an investment period of approximately five years and a subsequent harvesting period when exit occurs and the valuation environment becomes more relevant. Moreover, private equity fund investments are not made in one single payment but are spread over time using committed capital over several years.
+
+Correct because real estate investment trusts are publicly traded and thus provide liquidity.
+
+Alternative Investment Features, Methods, and Structures
+describe features and categories of alternative investments -->
+
+### Question 70 CORRECT
+Which of the following is a characteristic of a well-functioning financial system?
+
+A.Bid-ask spreads are high
+B.Prices reflect fundamental values (MY INITIAL ANSWER, CONFIDENCE LEVEL: Medium)
+C.Prices vary primarily in response to demands for liquidity made by traders
+
+Darrell's Reasoning: I don't know what a bid-ask spread is. I know every word in option C, and yet don't understand the idea it is communicating. How would traders demand liquidity? By selling their positions to free up cash? Or is liquidity referring to a different concept than the traders personal tied up funds? Either way, I don't know that a market which bends to the will of traders could ever be considered well-functioning. Maybe if we decided that well-functioning is something other than competitive integrity for market participants... I think B makes the most sense. A well-functioning market is, in my perspective, a market that is accurate and responsive in the value associated to fundamental characteristics of an asset. In such a market, fundemantal analysis, DCFs and the like become entirely insensitive to false assumptions, because uncertainty has been perfectly quantified and adjusted for, and the relative value of any given trait is objective. (this is all just my description, but it makes sense to me)
+<!-- Solution
+Incorrect because well-functioning financial systems are characterized by liquid markets in which the costs of trading—commissions, bid–ask spreads, and order price impacts—are low (operationally efficient markets).
+
+Correct because well-functioning financial systems are characterized by prices that
+
+reflect fundamental values so that prices vary primarily in response to changes in fundamental
+
+values and not to demands for liquidity made by uninformed traders (informationally efficient
+
+markets).
+
+Incorrect because well-functioning financial systems are characterized by prices that
+
+reflect fundamental values so that prices vary primarily in response to changes in fundamental
+
+values and not to demands for liquidity made by uninformed traders (informationally efficient
+
+markets). Therefore the prices vary primarily due to fundamentals and not liquidity demands.
+
+Market Organization and Structure
+describe characteristics of a well-functioning financial system -->
+
+### Question 71 INCORRECT
+If the minimum margin requirement is 45%, the maximum leverage ratio is closest to:
+
+A.1.45.
+B.1.82. (MY INITIAL ANSWER, CONFIDENCE LEVEL: High)
+C.2.22.
+
+Darrell's Reasoning: I have been taught the basics of margin accounts, though there's a lot I don't know outside of the fundamentals. minimum margin requirement I think is sometimes called initial margin amount. margin "amount" (here, requirement) is often expressed as a percentage of the overall value of the margin account, such that the margin amount contributed by the client represents equity, total account value = assets, and the difference = liabilities (here, leverage). Margin accounts generally have a margin call (I think its "call", at least), which is the threshold at which the traders equity weight has become too diluted relative to the total value of the account. The trader's ability to transact is frozen, and sometimes even their collateral (capital or securities) seized, until the trader has contributed the additional capital necessary to surpass the minimum threshold. The minimum margin requirement (that threshold I just mentioned) is triggered at the same time that the leverage ratio is maximized, since the maximum liability and miminum margin requirement are different expressions of the same core symptom: a specific equity/leverage target weighting has been breached. Mathing this out, the answer is B. NOTE: I was able to intuit the likely formula for leverage ratio here based on context, but I really don't know how leverage ratios are more commonly calculated in other areas of finance. I don't know if there is a standard formula, either. Leverage is a critical aspect of financial strength, and there are loads of ratios that speak to the impact of debt on a company's cash flows, profits, growth etc... I know this concept, but I am concerned that I haven't taken the time to memorize many of these ratios. I probably need to be guided through internalizing the high value ones.
+<!-- Solution
+Incorrect because the maximum leverage ratio associated with a position
+financed by the minimum margin requirement is one divided by the minimum margin
+requirement. However, the value of the position (100%) is added to, not divided by, the minimum margin requirement (45%); 100% + 45% = 145% or 1.45.
+
+Incorrect because the maximum leverage ratio associated with a position
+financed by the minimum margin requirement is one divided by the minimum margin
+requirement. However, the value of the position (100%) is divided by one minus the minimum margin requirement (100% - 45%) instead of only dividing by the minimum margin requirement; 100% / 100 - 45% = 100% / 55% = 1.82.
+
+Correct because the maximum leverage ratio associated with a position
+financed by the minimum margin requirement is one divided by the minimum margin
+requirement. Hence, the value of the position (100%) is divided by the minimum margin requirement (45%); 100% / 45% = 2.22.
+
+Market Organization and Structure
+calculate and interpret the leverage ratio, the rate of return on a margin transaction, and the security price at which the investor would receive a margin call -->
+
+### Question 72 CORRECT
+Preference shares most likely rank above common shares with respect to:
+
+A.voting rights.
+B.the payment of dividends. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+C.sharing in the operating performance of the company.
+
+Darrell's Reasoning: I definitely have heard about how preference shares (I think they were called preferred? Is there a difference?) differ from common stock in that afforded certain unique benefits, while losing the right to other benefits that common stock enjoys. I don't remember what the differing benefits were... but I'm pretty sure it's either voting rights or payment of dividends. I am leaning towards dividends, option B. The nature of equity and its various forms on financial statements may be my weakest FSA area, there's a lot of confusing terminology with convoluted implications. Still, if I remember correctly, preferred (preference?) shares are usually awarded in special circumstances, often early in the life cycle of a business, or as a non-standard compensation addition for special individuals and employees tied to the business (I think?). Since voting rights, as far as I can tell, are a fundamental principle directly tied to issues shares (isn't this basically the entire value prop of a public market?), it seems unreasonable to think that the integrity of the share weight/voting influence principle could be violated due to such an obscure and rare equity category. Dividends, though, are very discretionary and seeem like a good avenue by which businesses can selectively reward individuals under the right circumstance (they're very rarely guaranteed, right?)
+<!-- Solution
+Incorrect because preference shares do not have any voting rights, unless explicitly allowed for at issuance.
+
+Correct because preference shares (or preferred stock) rank above common shares with respect to the payment of dividends and the distribution of the company’s net assets upon liquidation.
+
+Incorrect because preference shareholders generally do not share in the operating performance of the company.
+
+Overview of Equity Securities
+describe differences in voting rights and other ownership characteristics among different equity classes -->
+
+### Question 73 CORRECT
+Investing in private debt most likely is:
+
+A.less risky than investing in traditional bonds.
+B.equally risky to investing in traditional bonds.
+C.more risky than investing in traditional bonds. (MY INITIAL ANSWER, CONFIDENCE LEVEL: High)
+
+Darrell's Reasoning: I feel like the answer must be C, it is the only one even remotely reasonable given  my current understanding. I know there are premiums tied to various types of risk (CFA names five total, I can't remember them all.... liquidity, default, etc. I need to go back and actually memorize these), and investing in private debt, compared to traditional bonds, requires compensation for multiple risk factors. There are probably more than I even realize, but the obvious one is debt vs bonds as an asset class, which requires a default premium because the future cash flows are significantly more uncertain than the FCFs of fixed-income instruments (by the way, what are other fixed income "instruments"? I always hear this term and even use it myself, but I think I don't understand the various layers of the word in this context). The default premium on its own makes me confident C is correct, but the added element of private markets which are less regulated than publics, illustrates yet another obvious risk factor which demands increased compensation to account for all this extra uncertainty. Hell, depending on the nature of the private debt investment you may even require a liquidity premium... I don't know much about the private markets - it's a rapidly evolving space shrouded in obscurity - but I do know that private investments are generally less liquid than public assets, in large part due to the lack of widely accessible exchanges and trade volumes that public assets benefit from, not to mention the fact that the terms of the debt could easily include a schedule that is even longer than some short-term or medium-term bonds.
+
+<!-- Solution
+Incorrect because investing in private debt is riskier than investing in traditional bonds. Investors should be aware of these risks, including illiquidity and heightened default risk when loans are extended to riskier entities or borrowers in riskier situations.
+
+Incorrect because investing in private debt is riskier than investing in traditional bonds. Investors should be aware of these risks, including illiquidity and heightened default risk when loans are extended to riskier entities or borrowers in riskier situations.
+
+Correct because investing in private debt is riskier than investing in traditional bonds. Investors should be aware of these risks, including illiquidity and heightened default risk when loans are extended to riskier entities or borrowers in riskier situations.
+
+Investments in Private Capital: Equity and Debt
+explain features of private debt and its investment characteristics -->
+
+### Question 74 INCORRECT
+In a credit default swap, the party that receives a series of cash payments in return for promising to pay compensation for credit losses resulting from a third party’s default is most likely the:
+
+A.clearinghouse.
+B.seller of the swap.
+C.buyer of the swap. (MY INITIAL ANSWER, CONFIDENCE LEVEL: High)
+
+Darrell's Reasoning: I have heard the term credit default swap, as well as many references to "swaps" in finance multiple times. I have never understood this term, and always been really curious what exactly swaps are in the finance realm, especially if there's a few different meanings tied to the term. Based on the description here: it sounds like a credit default swap is the equivalent of a business (more often, lender) that has a client with an outstanding balance, and sells the right to collect on that balance to a debt collection agency, offloading the loss from their books and buffering loss allowances. Collection agencies are the BUYER of this debt, and frequently work out payment plans with the party that defaulted. This closely mirrors the description of this question, I'm going with C. 
+<!-- Solution
+Incorrect because a credit default swap is a derivatives contract between a credit protection buyer and a credit protection seller in which the seller (not the clearinghouse) receives a series of cash payments from the buyer in return for a promise of compensation for credit losses resulting from a third party’s default.
+
+Correct because a credit default swap is a derivatives contract between a credit protection buyer and a credit protection seller in which the seller receives a series of cash payments from the buyer in return for a promise of compensation for credit losses resulting from a third party’s default.
+
+Incorrect because a credit default swap is a derivatives contract between a credit protection buyer and a credit protection seller in which the seller (not the buyer) receives a series of cash payments from the buyer in return for a promise of compensation for credit losses resulting from a third party’s default.
+
+Forward Commitment and Contingent Claim Features and Instruments
+define forward contracts, futures contracts, swaps, options (calls and puts), and credit derivatives and compare their basic characteristics -->
+
+### Question 75 CORRECT
+A non-recourse residential mortgage loan:
+
+A.does not allow the lender to recover the outstanding mortgage balance.
+B.only allows the lender to use the property to recover the outstanding mortgage balance. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+C.permits the lender to seek recovery of the outstanding mortgage balance from the borrower’s other assets.
+
+Darrell's Reasoning: I don't know what non-recourse is, but I understand most of the other terms here, though perhaps not in this specific combination. Non-recourse does sound as though it suggests one party (lender or buyer), has had their ability to respond (recourse) limited in the event of some kind of adverse outcome. In terms of exposure, the lender is the most reasonable party at risk of being negatively impacted by unexpected adverse events, the primary and obvious example being the buyer defaults on the loan. This would mean A or B is correct, but pragmatically I just have a hard time understanding how a lender could possibly find themself in a position where unsecured mortgages are extended to residential clients, facilitating an asset purchase which likely eclipses the clients net worth.... no way there is truly "no recourse" here, it probably just is limited recourse. I'm going with B.
+<!-- Solution
+Incorrect because in a non-recourse loan, the lender does not have such a claim and thus can look only to the property to recover the outstanding mortgage balance.
+
+Correct because in a non-recourse loan, the lender can look only to the property to recover the outstanding mortgage balance.
+
+Incorrect because in a recourse loan (not a non-recourse loan), the lender has a claim against the borrower for the shortfall between the amount of the outstanding mortgage balance and the proceeds received from the sale of the property.
+
+Mortgage-Backed Security (MBS) Instrument and Market Features
+describe fundamental features of residential mortgage loans that are securitized -->
+
+### Question 76 CORRECT
+The modified duration of an option-free corporate bond best estimates the percentage price change due to changes in the:
+
+A.horizon yield.
+B.yield-to-maturity. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+C.benchmark yield curve.
+
+Darrell's Reasoning: I had to guess on this one, and chose B because modified duration intuitively seems like it is tied to YTM in some way, even though I can't remember what mod duration actually represents, or how to calculate it. As I mention in other questions, I understand the fundamentals of fixed-income and can use a financial calculator to find par (PV), PMT, YTM (I/Y), and N... I also generally recognize when those inputs need to be adjusted in order to ensure they are consistent with the period length, e.g. semiannual vs annual, quarterly etc. But beyond that, the crucial analytical concepts like benchmark yield curves, horizon yields, modified durations, relationships between bond price and other market conditions, interventions, or hypothetical changes... these are the sorts of things I may have been exposed to briefly, but have certainly not retained. I'll probably internalize them quickly this time but I need to be carefully guided through their definitions, formulas, significance, and most importantly, how it all fits together. 
+<!-- Solution
+Incorrect because a horizon yield is the internal rate of return between the total return (the sum of reinvested coupon payments and the sale price or redemption amount) and the purchase price of the bond. The horizon yield on a bond investment is the annualized holding-period rate of return. The horizon yield is a historical measure of yield for an investor's holding period, and not an estimate of future bond price changes.
+
+Correct because modified duration provides an estimate of the percentage price change for a bond given a change in its yield-to-maturity.
+
+Incorrect because modified duration is a yield duration statistic in that it measures interest rate risk in terms of a change in the bond's own yield-to-maturity whereas, effective duration of a bond is the sensitivity of the bond's price to a change in a benchmark yield curve.
+
+Yield-Based Bond Duration Measures and Properties
+define, calculate, and interpret modified duration, money duration, and the price value of a basis point (PVBP) -->
+
+### Question 77 INCORRECT
+Which of the following is not an element of industry and competitive analysis?
+
+A.Judgment on substitute products
+B.Determination of business model
+C.Analysis of environmental influences (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+
+Darrell's Reasoning: This is a tough one that feels like it can easily mislead. I am guessing C, because as far as industry and competitive analysis is concerned, substitute products and business model represent active participation in the market competition, but environmental influences do not necessarily do the same. They could very well represent externalities that all market players face and therefore have no material impact on competitive advantage.
+<!-- Solution
+Incorrect because judgment on substitute products is part of the define industry step of the industry and competitive analysis.
+
+Correct because determination of business model is not an element of industry and competitive analysis but instead of company analysis.
+
+Incorrect because analysis of environmental influences is part of the external influences step of industry and competitive analysis.
+
+Industry and Competitive Analysis
+describe the purposes of, and steps involved in, industry and competitive analysis -->
+
+### Question 78 INCORRECT
+The lead underwriter in an IPO most likely:
+
+A.acts as the book builder for the offering.
+B.is not responsible for making a market in the securities. (MY INITIAL ANSWER, CONFIDENCE LEVEL: medium)
+C.is prohibited from providing an opinion about the issue to their clients. 
+
+Darrell's Reasoning: Answer was originally C, I changed it to B as I typed the following: I believe underwriters must maintain neutrality and objectivity as they assess risk, or risk-adjusted value. Given this assumption, it seems option C is best, as it appropriately reflects this boundary. I am not sure what a book builder is, but for some reason I feel like it could be similar to the datarooms I occasionally look at for privately held companies currently for sale. Maybe the "book" is the larger version of this required for a company to go public. I probably need to learn what is typically contained in the book, if so. Assuming this comparison has SOME merit, then I'd think that the book builder is roughly analagous to the "broker" who helps the business owner assemble a data room, just probably more involved.
+
+Damn, as I read through these options again, B is beginning to seem more correct... I am not comfortable with whatever the standard definition of "making a market" means, but maybe that is closer to the broker analogy, someone who connects buyers with sellers.... if that's the case, then the underwriter most definitely is not responsible for marketing or selling in any form. That fact is probably more certain than my point about the importance of objectivity in the underwriting process. I will change my answer to B.
+<!-- Solution
+Incorrect because judgment on substitute products is part of the define industry step of the industry and competitive analysis.
+
+Correct because determination of business model is not an element of industry and competitive analysis but instead of company analysis.
+
+Incorrect because analysis of environmental influences is part of the external influences step of industry and competitive analysis.
+
+Industry and Competitive Analysis
+describe the purposes of, and steps involved in, industry and competitive analysis -->
+
+### Question 79 CORRECT
+Which of the following measures is the slope of the capital allocation line?
+
+A.Sharpe ratio (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+B.Treynor ratio 
+C.Jensen’s alpha
+
+Darrell's Reasoning: I initially put sharpe ratio, so I'm leaving it, but I think it's might be option B: treynor since now that I think about it, I believe the sharpe ratio is more about rewards per unit of risk? I'm not positive but I think Treynor might somehow represent the outer boundary of returns,std dev pairs within the asset universe... maybe I'm confusing the capital allocation line with a different line, but my current belief is that its that outermost line with a linear, positive slope, that shares a point of tangency with the efficient frontier. It's interesting. I rememeber disjointed but highly specific aspects of some of these things, but don't truly remember their conceptual foundation, significance, formulas and calculations, or relationship to the complimentary concepts that accompany them. And even now as I'm typing this I realize that the description I just gave about Treynor ratio is actually what I think Sortino ratios are. So, clearly, these risk ratios are important areas for me to review.
+<!-- Solution
+Correct because the Sharpe ratio, also called the reward-to-variability ratio, is simply the slope of the capital allocation line equal to [E(Rp) – Rf] / σp.
+
+Incorrect because the Treynor ratio is the additional return required for every increment of systematic risk, equal to [E(Rp) – Rf] / βp. The slope of the capital allocation line is the additional return required for every increment of total risk, equal to [E(Rp) – Rf] / σp.
+
+Incorrect because Jensen’s alpha is the vertical distance from the SML measuring the excess return for the same risk as that of the market and is given by αp = Rp – {Rf + βp[E(Rm) – Rf]}. The slope of the capital allocation line is the additional return required for every increment of total risk, equal to [E(Rp) – Rf] / σp.
+
+Portfolio Risk and Return: Part II
+calculate and interpret the Sharpe ratio, Treynor ratio, M2, and Jensen’s alpha -->
+
+### Question 80 CORRECT
+An investor wants to achieve a portfolio return within 5% of a benchmark index return. Which of the following best measures this risk objective?
+
+A.Beta risk
+B.Value at risk 
+C.Tracking risk (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+
+Darrell's Reasoning: I know what Beta is, but is Beta risk different? I hear VaR alot but don't really know what it means or how its calculated. Same goes for tracking risk. 
+<!-- Solution
+Incorrect because beta risk is the systematic risk of an asset or portfolio and represents risk that cannot be avoided and is inherent in the overall market. Beta risk as measured by beta is a measure of how sensitive an asset's return is to the market as a whole, but it does not measure an investor's relative risk objective of achieving a portfolio return within a certain percentage of a benchmark index return.
+
+Incorrect because achieving a portfolio return within 5% of a benchmark index return is a relative risk objective. However, value at risk measures absolute risk objectives, not relative risk objectives.
+
+Correct because some clients may choose to express relative risk objectives, which relate risk relative to one or more benchmarks perceived to represent appropriate risk standards. Therefore, achieving a portfolio return within 5% of a benchmark index return is a relative risk objective. For risk relative to a benchmark, the relevant measure is tracking risk, which is defined as the standard deviation of the differences between a portfolio's returns and its benchmark's returns.
+
+Basics of Portfolio Planning and Construction
+describe risk and return objectives and how they may be developed for a client -->
+
+### Question 81 INCORRECT
+The forward price of an asset with benefits and costs is the spot price:
+
+A.discounted at the risk-free rate over the life of the contract minus the present value of those benefits and costs. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+B.compounded at the risk-free rate over the life of the contract minus the present value of those benefits and costs.
+C.compounded at the risk-free rate over the life of the contract minus the future value of those benefits and costs.
+
+Darrell's Reasoning: I don't know what a forward price or spot price is. I don't know how to calculate it, or why whatever contract is being referred to even has a "life"
+<!-- Solution
+Incorrect because the forward price of an asset with benefits and/or costs is the spot price compounded at the risk-free rate over the life of the contract minus the future value of those benefits and costs.
+
+Incorrect because the forward price of an asset with benefits and/or costs is the spot price compounded at the risk-free rate over the life of the contract minus the future value of those benefits and costs.
+
+Correct because the forward price of an asset with benefits and/or costs is the spot price compounded at the risk-free rate over the life of the contract minus the future value of those benefits and costs.
+
+Pricing and valuation of forward contracts and for an underlying with varying maturities
+explain how the value and price of a forward contract are determined at initiation, during the life of the contract, and at expiration -->
+
+### Question 82 INCORRECT
+An investor with a 7-year investment horizon purchases an option-free fixed-rate bond with modified duration of 7. In a positive yield environment, the investor's duration gap is:
+
+A.negative. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+B.zero.
+C.positive. 
+
+Darrell's Reasoning: I don't understand the definition or calculation "modified duration", so I certainly don't know its relationship with environmental conditions. I also don't understand the different types of yield environments really, what their characteristics are. Important to note, I also don't know what a duration gap is.
+<!-- Solution
+Incorrect because the difference between the Macaulay duration of a bond and the investment horizon is called the duration gap. The duration gap is a bond's Macaulay duration minus the investment horizon. If duration gap is erroneously defined as the difference between the investment horizon and the Macaulay duration, it will lead to an incorrect assumption that the duration gap is negative rather than positive.
+
+Incorrect because it incorrectly assumes that since the modified duration is equal to the investment horizon, the duration gap equals zero. In fact, the determination of the duration gap is one of the applications for duration in which years is meaningful and in which Macaulay duration is used rather than modified duration.
+
+Correct because modified duration is the Macaulay duration statistic divided by one plus the yield per period. Thus in a positive yield environment, Macaulay duration is greater than modified duration; in this case greater than 7.
+
+An important property of Macaulay duration is that it indicates the investment horizon for which coupon reinvestment risk and market price risk offset each other. The difference between the Macaulay duration of a bond and the investment horizon is called the duration gap. The duration gap is a bond's Macaulay duration minus the investment horizon. Here, since the Macaulay duration is greater than the investment horizon of seven years, the duration gap is positive.
+
+Interest Rate Risk and Return
+describe the relationships among a bond’s holding period return, its Macaulay duration, and the investment horizon; -->
+
+### Question 83 INCORRECT
+An analyst gathers the following information about forward rates:
+
+Time Period	Forward Rate
+0y1y	2.31%
+1y1y	2.82%
+2y1y	2.97%
+The 2-year implied spot rate is closest to:
+
+A.2.56%.
+B.2.82%.
+C.2.89%. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+
+Darrell's Reasoning: Don't know what forward rates are. Don't know how to calculate them. No clue whatsoever what a spot rate is. Nor do I understand the relationship between these things. For all I know, I don't even know if the word implied here is included in this specific terminology, or if its just being used to suggest that the spot rate had to be inferred. 
+
+<!-- Solution
+Correct because the spot curve can be calculated as the geometric average of the forward rates. Here, the two-year implied spot rate is: (1.0231 × 1.0282) = (1 + z2)2, z2 = 0.0256 = 2.56%.
+
+Incorrect because this 2.82% is simply the one-year forward rate one year from now.
+
+Incorrect because the incorrect forward rates are used: (1.0282 × 1.0297) = (1 + z2)2, z2 = 0.0289 = 2.89%.
+
+The Term Structure of Interest Rates: Spot, Par, and Forward Curves
+define par and forward rates, and calculate par rates, forward rates from spot rates, spot rates from forward rates, and the price of a bond using forward rates -->
+
+### Question 84 CORRECT
+When making investment decisions, which of the following best describes a way to correct a behavioral bias caused by a cognitive error?
+
+A.Obtain better investment information (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+B.Rely on intuition when making investments
+C.Evaluate investments based on past gains and losses
+
+Darrell's Reasoning: I haven't studied the specific list of biases the CFA has (I assume it has one). But B and C are obviously mistakes, so A is my choice. Makes sense - quality of data is positively correlated with quality of analysis. 
+<!-- Solution
+Correct because cognitive errors can often be corrected or eliminated through better information, education, and advice. Emotional biases, on the other hand, are harder to correct because they stem from impulses and intuitions.
+
+Incorrect because this is a description of emotional biases rather than a correction for a behavioral bias.
+
+Incorrect because this describes an emotional bias, loss aversion, rather than a correction for a behavioral bias.
+
+The Behavioral Biases of Individuals
+compare and contrast cognitive errors and emotional biases -->
+
+### Question 85 CORRECT
+The price sensitivity of a bond to a change in the benchmark yield curve is the:
+
+A.effective duration. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+B.modified duration. 
+C.Macaulay duration. 
+
+Darrell's Reasoning: no clue what a benchmark yield is, and no clue what any of the answer option durations are.
+<!-- Solution
+Correct because an approach to assess the interest rate risk of a bond is to estimate the percentage change in price given a change in benchmark yield curve - for example, the government par curve. This estimate, which is very similar to the formula for approximate modified duration, is called the effective duration. The effective duration of a bond is the sensitivity of the bond's price to a change in a benchmark yield curve. Effective duration is essential to the measurement of the interest rate risk of a complex bond, such as a bond that contains an embedded call option. Therefore, effective duration is the best duration measure of the change to a bond's price given a change in a benchmark yield curve.
+
+Incorrect because the calculation of the modified duration (ModDur) statistic of a bond requires a simple adjustment to Macaulay duration. It is the Macaulay duration statistic divided by one plus the yield per period. Although modified duration might seem to be just a Macaulay duration with minor adjustments, it has an important application in risk management: Modified duration provides an estimate of the percentage price change for a bond given a change in its yield-to-maturity. Effective duration is the best duration measure for a given change in benchmark yield and not modified duration which is the best measure for a given change in a bond's yield-to-maturity.
+
+Incorrect because Macaulay duration is a weighted average of the time to receipt of the bonds promised payments, where the weights are the shares of the full price that correspond to each of the bond's promised payments.
+
+Curve-Based and Empirical Fixed-Income Risk Measures
+explain why effective duration and effective convexity are the most appropriate measures of interest rate risk for bonds with embedded options -->
+
+### Question 86 CORRECT
+Key rate duration:
+
+A.requires the shape of the benchmark yield curve to stay constant.
+B.measures a bond's sensitivity to a change in the benchmark yield at a specific maturity. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+C.indicates the same interest rate sensitivity as effective duration for non-parallel shifts in the yield curve.
+
+Darrell's Reasoning: Fixed-income becomes a major weakness of mine the second I move beyond PV/TVM keys on my financial calculator. I've never herad of Key rate duration, and briefly heard the term mod duration and Macaulay duration in the past but never knew how they were calculated. Any of these key indicators that have specific relationships to yields are total foreign to me. I still don't really get what the yield curve is, or what people mean when they frequently refer to the long end of the curve, or say that the curve is flattening etc. I don't know what effective duration is. I don't know what the typical benchmark would be for a given maturity. This is a major weakspot for me.
+<!-- Solution
+Incorrect because key rate duration assumes non-parallel shifts in the benchmark yield curve. Key rate duration provides insight into a bond’s sensitivity to non-parallel benchmark yield curve changes.
+
+Correct because a key rate duration (or partial duration) is a measure of a bond’s sensitivity to a change in the benchmark yield at a specific maturity.
+
+Incorrect because effective and key rate durations indicate the same sensitivity to interest rate changes when all yields change by the same amount. Effective duration measures a bond’s sensitivity to changes in the benchmark yield curve if all yields change by the same amount. Key rate duration provides further insight into a bond’s sensitivity to non-parallel benchmark yield curve changes. Key rate duration (or partial duration) is a measure of a bond’s sensitivity to a change in the benchmark yield at a specific maturity. Key rate durations define a security’s price sensitivity over a set of maturities along the yield curve, with the sum of key rate durations being equal to the effective duration when yields are shifted by the same amount.
+
+Curve-Based and Empirical Fixed-Income Risk Measures
+define key rate duration and describe its use to measure price sensitivity of fixed-income instruments to benchmark yield curve changes -->
+
+### Question 87 INCORRECT
+The process of representing ownership rights to physical assets on a distributed ledger best describes:
+
+A.tokenization.
+B.a blockchain. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+C.a permissioned network.
+
+Darrell's Reasoning: I have heard the term tokenzation many times but still don't know what it means. I don't really know what a permissioned network is - maybe a network requiring all connected terminals are granted specific permissions? Distributed ledger does sound like blockchain, though... wasn't the original hype surrounding crypto was that it was difficult to trace, because it required all individuals (ports? terminals? users? Don't know the name) on the ledger to collectively verify the owner of any portion of that ledger's finite assets?
+<!-- Solution
+Correct because tokenization is the process of representing ownership rights to physical assets on a blockchain or distributed ledger.
+
+Incorrect because blockchain is a type of digital ledger in which information, such as changes in ownership, is recorded sequentially within blocks that are then linked or “chained” together and secured using cryptographic methods. Each block contains a grouping of transactions (or entries) and a secure link (known as a hash) to the previous block. New transactions are inserted into the chain only after validation via a consensus mechanism in which authorized members agree on the transaction and the preceding order, or history, in which previous transactions have occurred.
+
+Incorrect because in permissioned networks, network members may be restricted from participating in certain network activities. Controls, or permissions, may be used to allow varying levels of access to the ledger, from adding transactions (e.g., a participant) to viewing transactions only (e.g., a regulator) to viewing selective details of the transactions but not the full record. 
+
+Introduction to Digital Assets
+describe financial applications of distributed ledger technology -->
+
+### Question 88 INCORRECT
+The concept of put–call parity best demonstrates the equivalence of:
+
+A.puts and calls.
+B.a covered call and a protective put. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+C.a fiduciary call and a protective put
+
+Darrell's Reasoning: I keep forgetting the difference between puts and calls, which one gives the buyer the power to excersize vs which one gives the sller the power to do so. My guess for this one is B, because covered call and protective put both sound like options contracts that have been hedged to protect downside risk.
+<!-- Solution
+Incorrect because even though the word 'parity' means 'equivalence,' puts and calls are not equivalent. There is, however, a relationship between the call price and the price of its corresponding put, which we refer to as put–call parity. Therefore, the concept of put-call parity does not demonstrate the equivalence of puts and calls.
+
+Incorrect because a covered call is a position in which you own the underlying and sell a call. But the concept of put-call parity shows that a protective put and a fiduciary call produce the same result, not a protective put and a covered call.
+
+Correct because put-call parity shows that a protective put and a fiduciary call produce the same result. That is, c0 + X ∕ (1 + r)T = p0 + S0, where c0 = long call, X ∕ (1 + r)T = discounted value of long bond, p0 = long put, S0 = long underlying asset. A fiduciary call is strategy where the investor buys a call option on this asset with an exercise price of X that expires at T and a risk-free zero-coupon bond with a face value of X that matures at T. The call costs c0, and the bond costs the present value of X, which is X/(1 + r)T. On the other hand, holding an asset and a put on the asset is a strategy known as a protective put, where the put costs p0 and the stock's value is S0.
+
+Option Replication Using Put–Call Parity
+explain put–call parity for European options -->
+
+### Question 89 INCORRECT
+In futures markets, contract performance is most likely guaranteed by:
+
+A.clearing houses.
+B.regulatory agencies.
+C.the futures exchanges. (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+
+Darrell's Reasoning: I don't know much at all about futures markets. I guessed C but I really don't know. Maybe not B, because derivatives are so speculative and outside the Fed's wheelhouse? I don't even know what a clearing house is, even though I hear that name all the time...
+<!-- Solution
+Correct because clearing houses arrange for financial settlement of trades. In futures markets, they guarantee contract performance.
+
+Incorrect because regulatory agencies do not guarantee contract performance in futures markets.
+
+Incorrect because the futures exchange facilitates transactions but it does not guarantee contract performance.
+
+Market Organization and Structure
+describe types of financial intermediaries and services that they provide -->
+
+### Question 90 INCORRECT
+Which of the following investors is least likely to be concerned about liquidity risk?
+
+A.A manager of a fixed-income mutual fund
+B.An individual investor intending to hold a bond to maturity 
+C.An investor using repurchase agreements to purchase bonds (MY INITIAL ANSWER, CONFIDENCE LEVEL: low)
+
+Darrell's Reasoning: Not concerned about liquidity risk = not sensitive to longer-term or fixed-term investments, could be B, but C seems best because we don't know how exactly how long is left until B's bond matures, but we know that C is actively seeking to enter into a brand new fixed duration investment. I don't know what a repurchase agreement is or how it impacts our evaluation of investor C, though.
+<!-- Solution
+Incorrect because the fund manager should be aware of liquidity risk associated with trading bonds. Liquidity risk refers to the transaction costs associated with selling a bond. More specifically, market liquidity risk refers to the risk that the price at which investors can actually transact may differ from the price indicated in the market.
+
+Correct because the liquidity risk refers to the transaction costs associated with selling a bond. More specifically, market liquidity risk refers to the risk that the price at which investors can actually transact may differ from the price indicated in the market. An investor who plans to hold the bond to maturity most likely would not be concerned with liquidity risk as it does not intend to sell the bond.
+
+Incorrect because while the repo market represents a more stable funding source than short-term unsecured financing, both the uncommitted nature of repo markets and their very short (mostly overnight) maturity give rise to significant rollover and liquidity risks under adverse market conditions.
+
+Credit Risk
+describe macroeconomic, market, and issuer-specific factors that influence the level and volatility of yield spreads -->
+
+
+
+
+
+## CATEGORY SCORES BREAKDOWN SESSION 2:
+Category Name
+Complete
+% Correct
+Equity Investments
+23 of 23
+43%
+Market Organization and Structure
+6 of 6
+33%
+Security Market Indexes
+3 of 3
+33%
+Market Efficiency
+3 of 3
+100%
+Overview of Equity Securities
+2 of 2
+100%
+Industry and Competitive Analysis
+1 of 1
+0%
+Company Analysis: Forecasting
+1 of 1
+100%
+Equity Valuation: Concepts and Basic Tools
+7 of 7
+14%
+Fixed Income
+22 of 22
+41%
+Fixed-Income Instrument Features
+1 of 1
+100%
+Fixed-Income Cash Flows and Types
+1 of 1
+0%
+Fixed Income Markets for Corporate Issuers
+1 of 1
+0%
+Fixed Income Bond Valuation: Prices and Yields
+2 of 2
+50%
+Yield and Yield Spread Measures for Fixed Rate Bonds
+1 of 1
+100%
+Yield and Yield Spread Measures for Floating Rate Instruments
+1 of 1
+0%
+The Term Structure of Interest Rates Spot Par and Forward Curves
+1 of 1
+0%
+Interest Rate Risk and Returns
+2 of 2
+0%
+Yield Based Bond Duration Measures and Properties
+1 of 1
+100%
+Yield Based Bond Convexity and Portfolio Properties
+2 of 2
+0%
+Curve Based and Empirical Fixed Income Risk Measures
+3 of 3
+67%
+Credit Risk
+1 of 1
+0%
+Credit Analysis for Corporate Issuers
+2 of 2
+50%
+Asset Backed Security (ABS) Instrument and Market Features
+2 of 2
+50%
+Mortgage Backed Security (MBS) Instrument and Market Features
+1 of 1
+100%
+Derivatives
+14 of 14
+14%
+Derivative Instrument And Derivative Market Features
+1 of 1
+100%
+Forward Commitment And Contingent Claim Features And Instruments
+3 of 3
+0%
+Derivative Benefits Risks And Issuer And Investor Uses
+1 of 1
+0%
+Pricing And Valuation Of Forward Contracts and for an Underlying With Varying Maturities
+2 of 2
+0%
+Pricing And Valuation Of Futures Contracts
+1 of 1
+0%
+Pricing And Valuation Of Options
+2 of 2
+0%
+Option Replication Using Put Call Parity
+2 of 2
+0%
+Valuing A Derivative Using A One Period Binomial Model
+1 of 1
+100%
+Arbitrage, Replication, and the Cost of Carry in Pricing Derivatives
+1 of 1
+0%
+Alternative Investments
+13 of 13
+46%
+Alternative Investment Performance and Returns
+3 of 3
+0%
+Alternative Investment Features, Methods, and Structures
+3 of 3
+67%
+Investments in Private Capital: Equity and Debt
+2 of 2
+100%
+Real Estate Infrastructure
+2 of 2
+0%
+Natural Resources
+1 of 1
+100%
+Hedge Funds
+1 of 1
+100%
+Introduction to Digital Assets
+1 of 1
+0%
+Portfolio Management
+18 of 18
+67%
+Portfolio Risk and Return Part I
+3 of 3
+33%
+Portfolio Risk and Return Part II
+5 of 5
+80%
+Portfolio Management: An Overview
+3 of 3
+33%
+Basics of Portfolio Planning and Construction
+4 of 4
+100%
+The Behavioral Biases of Individuals
+1 of 1
+100%
+Introduction to Risk Management
+2 of 2
+50%

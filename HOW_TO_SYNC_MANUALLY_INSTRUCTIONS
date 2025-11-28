@@ -1,0 +1,36 @@
+✅ **Auto-sync stopped. Scheduled task disabled.**
+
+---
+
+## **Manual Sync Punch List**
+
+### When You Need to Sync:
+
+**Option 1: Quick Sync (Recommended)**
+1. Navigate to: `C:\Users\Darrell\LifeOS\00_System\LLM_Operating_Manual`
+2. Double-click: `START_SYNC.bat`
+3. Wait for "✓ Context sync monitor started" message
+4. Close window after 3 seconds
+
+**Option 2: Push to GitHub Only**
+1. Navigate to same folder
+2. Double-click: `PUSH_TO_GITHUB.bat`
+3. Commits and pushes current state
+
+**Option 3: PowerShell Manual**
+```powershell
+cd "C:\Users\Darrell\LifeOS\00_System\LLM_Operating_Manual"
+python scripts\unified_export.py
+git add .
+git commit -m "Manual sync"
+git push
+```
+
+### Recommended Sync Schedule:
+- **Morning:** Before starting work
+- **Evening:** After significant changes
+- **Weekly:** Sunday night full sync
+
+---
+
+Your network should stabilize within 5-10 minutes.

@@ -1,0 +1,33 @@
+{
+  "platform": "chatgpt",
+  "version": "2025-11-14T00:00:00Z_v1.0",
+  "hash": "47af92bd62c84f8c9c7e1ec1b0a21f93",
+  "last_sync_utc": "2025-11-14T00:00:00Z",
+  "files": [
+    {
+      "path": "..\\common\\DDAY_Voice_v3.3.md",
+      "hash": "a1b2c3d4e5f6",
+      "last_modified_utc": "2025-11-14T00:00:00Z"
+    },
+    {
+      "path": "..\\common\\protocol_unified.md",
+      "hash": "b2c3d4e5f6a1",
+      "last_modified_utc": "2025-11-14T00:00:00Z"
+    },
+    {
+      "path": "..\\common\\command_reference.md",
+      "hash": "c3d4e5f6a1b2",
+      "last_modified_utc": "2025-11-14T00:00:00Z"
+    },
+    {
+      "path": "commands_chatgpt.json",
+      "hash": "d4e5f6a1b2c3",
+      "last_modified_utc": "2025-11-14T00:00:00Z"
+    },
+    {
+      "path": "platform_profile_chatgpt.json",
+      "hash": "e5f6a1b2c3d4",
+      "last_modified_utc": "2025-11-14T00:00:00Z"
+    }
+  ]
+}

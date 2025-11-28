@@ -290,6 +290,7 @@ function Test-BrowserIntegration {
         "Arc" = "$BrowserSyncDir\arc\arc_ai_context.json"
         "Comet" = "$BrowserSyncDir\comet\comet_ai_context.json"
         "Perplexity" = "$BrowserSyncDir\perplexity\perplexity_voice_context.json"
+        "ChatGPT" = "$BrowserSyncDir\chatgpt\sync_metadata.json"
     }
     
     if ($configPaths.ContainsKey($Browser)) {
@@ -327,6 +328,7 @@ try {
         "Arc" = "$BrowserSyncDir\arc\arc_ai_context.json"
         "Comet" = "$BrowserSyncDir\comet\comet_ai_context.json"
         "Perplexity" = "$BrowserSyncDir\perplexity\perplexity_voice_context.json"
+        "ChatGPT" = "$BrowserSyncDir\chatgpt\sync_metadata.json"
     }
     
     foreach ($browser in $browsers.Keys) {
